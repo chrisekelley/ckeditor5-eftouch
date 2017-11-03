@@ -61850,7 +61850,6 @@ class EftouchWidget extends __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_cor
     schema.allow( { name: '$inline', inside: 'acasi' } );
     schema.objects.add( 'acasi' );
 
-
     // Build converter from model to view for editing pipeline.
     Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( data.modelToView, editing.modelToView )
       .fromElement( 'acasi' )

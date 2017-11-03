@@ -53,7 +53,6 @@ export default class EftouchWidget extends Plugin {
     schema.allow( { name: '$inline', inside: 'acasi' } );
     schema.objects.add( 'acasi' );
 
-
     // Build converter from model to view for editing pipeline.
     buildModelConverter().for( data.modelToView, editing.modelToView )
       .fromElement( 'acasi' )
