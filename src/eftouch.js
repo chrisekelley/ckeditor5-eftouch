@@ -8,6 +8,15 @@ import imageIcon from '@ckeditor/ckeditor5-core/theme/icons/picker.svg';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
 import EftouchEngine from './eftouchengine';
+import ViewAttributeElement from '@ckeditor/ckeditor5-engine/src/view/attributeelement';
+import ViewEmptyElement from '@ckeditor/ckeditor5-engine/src/view/emptyelement';
+import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
+import ViewContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
+import Widget from '@ckeditor/ckeditor5-widget/src/widget';
+import { toWidget } from '@ckeditor/ckeditor5-widget/src/utils'
+
+const EFTOUCH = 'eftouch';
+
 /**
  * The image plugin.
  *
@@ -21,7 +30,7 @@ export default class Eftouch extends Plugin {
    * @inheritDoc
    */
   static get requires() {
-    return [ EftouchEngine ];
+    return [ EftouchEngine, Widget ];
   }
 
   static get pluginName() {
@@ -33,165 +42,77 @@ export default class Eftouch extends Plugin {
     const editor = this.editor;
     const doc = editor.document;
     const viewDocument = editor.editing.view;
-    const schema = document.schema;
+    const schema = doc.schema;
     const data = editor.data;
     const editing = editor.editing;
     const t = editor.t;
 
-    // // Schema.
-    // doc.schema.registerItem( 'eftouch', '$block' );
-    // doc.schema.objects.add( 'eftouch' );
-    // // doc.schema.registerItem( 'paragraph', '$block' );
-    // // doc.schema.registerItem( 'inline', '$inline' );
-    // doc.schema.objects.add( 'inline' );
-    // doc.schema.registerItem( 'nested' );
-    // doc.schema.limits.add( 'nested' );
-    // doc.schema.allow( { name: '$inline', inside: 'nested' } );
-    // doc.schema.allow( { name: 'nested', inside: 'eftouch' } );
-    // doc.schema.registerItem( 'editable' );
-    // doc.schema.allow( { name: '$inline', inside: 'editable' } );
-    // doc.schema.allow( { name: 'editable', inside: 'eftouch' } );
-    // doc.schema.allow( { name: 'editable', inside: '$root' } );
-    //
-    // // // Image feature.
-    // // // doc.schema.registerItem( 'image' );
-    // doc.schema.allow( { name: 'image', inside: '$root' } );
-    // doc.schema.objects.add( 'image' );
-    // //
-    // // // Block-quote feature.
-    // doc.schema.registerItem( 'blockQuote' );
-    // doc.schema.allow( { name: 'blockQuote', inside: '$root' } );
-    // doc.schema.allow( { name: '$block', inside: 'blockQuote' } );
-    // //
-    // // // Div element which helps nesting elements.
-    // doc.schema.registerItem( 'div' );
-    // doc.schema.allow( { name: 'div', inside: 'blockQuote' } );
-    // doc.schema.allow( { name: 'div', inside: 'div' } );
-    // doc.schema.allow( { name: 'paragraph', inside: 'div' } );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'paragraph' )
-    //   .toElement( 'p' );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'eftouch' )
-    //   .toElement( () => {
-    //     const b = new AttributeContainer( 'b' );
-    //     const div = new ViewContainer( 'div', null, b );
-    //
-    //     return toWidget( div, { label: 'element label' } );
-    //   } );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'inline' )
-    //   .toElement( 'figure' );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'nested' )
-    //   .toElement( () => new ViewEditable( 'figcaption', { contenteditable: true } ) );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'editable' )
-    //   .toElement( () => new ViewEditable( 'figcaption', { contenteditable: true } ) );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'image' )
-    //   .toElement( 'img' );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'blockQuote' )
-    //   .toElement( 'blockquote' );
-    //
-    // buildModelConverter().for( editor.editing.modelToView )
-    //   .fromElement( 'div' )
-    //   .toElement( 'div' );
+    schema.registerItem( 'eftouch' );
+    schema.allow( { name: 'eftouch', inside: '$root' } );
+    // schema.allow( { name: '$block', inside: 'eftouch' } );
+    // schema.allow( { name: 'image', inside: 'eftouch' } );
+    schema.objects.add( 'eftouch' );
 
-    this._addButton( 'insertEftouch', t( 'Eftouch' ), imageIcon );
+    const command = editor.commands.get( 'eftouch' );
+    const keystroke = 'CTRL+E';
 
-    // Overwrite default Enter key behavior.
-    // If Enter key is pressed with selection collapsed in empty list item, outdent it instead of breaking it.
-    this.listenTo( this.editor.editing.view, 'enter', ( evt, data ) => {
-      const doc = this.editor.document;
-      const positionParent = doc.selection.getLastPosition().parent;
+    // Add eftouch button to feature components.
+    editor.ui.componentFactory.add( 'eftouch', locale => {
+      const view = new ButtonView( locale );
 
-      if ( doc.selection.isCollapsed && positionParent.name == 'listItem' && positionParent.isEmpty ) {
-        this.editor.execute( 'outdentList' );
+      view.set( {
+        label: t( 'Eftouch' ),
+        icon: imageIcon,
+        keystroke,
+        tooltip: true
+      } );
 
-        data.preventDefault();
-        evt.stop();
-      }
+      view.bind( 'isOn', 'isEnabled' ).to( command, 'value', 'isEnabled' );
+
+      // Execute command.
+      this.listenTo( view, 'execute', () => {
+        const imageUrl = prompt( 'Sound URL' );
+        const modelItem = data.item;
+        // editor.data.addProp()
+
+        // const blocks = Array.from( doc.selection.getSelectedBlocks() )
+        //   // .filter( block => checkCanBecomeListItem( block, document.schema ) );
+        // const batch = doc.batch();
+        //
+        // for ( const element of blocks.reverse() ) {
+        //   console.log("element.name: " + element.name)
+        //   batch.setAttribute(element, 'imageUrl', imageUrl)
+        //     // .rename(element, 'eftouch');
+        // }
+        // const imageUrl = "hey"
+        const attrs = { 'intro-src': imageUrl, class: 'image'}
+        // const element = new ViewContainerElement( 'eftouch', attrs );
+        // const element = new ViewAttributeElement( 'eftouch', attrs );
+        // const element = new ViewAttributeElement( 'figure', attrs, new ViewEmptyElement( 'img' ) );
+        const element = new ViewContainerElement( 'figure', { class: 'eftouch' }, new ViewText( 'widget' ) );
+
+        // Build converter from model to view for data and editing pipelines.
+        // buildModelConverter().for( data.modelToView, editing.modelToView )
+        buildModelConverter().for( editing.modelToView )
+          .fromAttribute( EFTOUCH )
+          // .toElement( 'eftouch' );
+          // .toElement( element );
+          // .toElement( 'blockquote' );
+          .toElement( () => {
+            return toWidget( element );
+          });
+
+        // Build converter from view to model for data pipeline.
+        // .fromElement( 'eftouch' )
+        // .toAttribute( EFTOUCH, true );
+        buildViewConverter().for( data.viewToModel )
+          .fromElement( 'figure' )
+          .toElement( () => new ModelElement( 'eftouch' ) );
+        editor.execute( 'eftouch' )
+      } );
+
+      return view;
     } );
-
-    // const getCommandExecuter = commandName => {
-    //   return ( data, cancel ) => {
-    //     const command = this.editor.commands.get( commandName );
-    //
-    //     if ( command.isEnabled ) {
-    //       this.editor.execute( commandName );
-    //       cancel();
-    //     }
-    //   };
-    // };
-    //
-    // this.editor.keystrokes.set( 'Tab', getCommandExecuter( 'indentList' ) );
-    // this.editor.keystrokes.set( 'Shift+Tab', getCommandExecuter( 'outdentList' ) );
-
-    // editor.ui.componentFactory.add( 'insertEftouch', locale => {
-    //   const view = new ButtonView( locale );
-    //
-    //   view.set( {
-    //     label: 'EFTouch',
-    //     icon: imageIcon,
-    //     tooltip: true
-    //   } );
-    //
-    //   view.on( 'execute', () => {
-    //     const introSrc = prompt( 'Path to Intro mp3:' );
-    //
-    //     editor.document.enqueueChanges( () => {
-    //
-    //       // const imageElement = new ModelElement( 'image', {
-    //       //   src: imageUrl
-    //       // } );
-    //       // editor.data.insertContent( imageElement, editor.document.selection );
-    //
-    //       const tangyElement = new ModelElement( 'eftouch', {
-    //         introSrc: introSrc
-    //       } );
-    //       editor.data.insertContent( tangyElement, editor.document.selection );
-    //
-    //       let htmlText = Tangy.editor.getData();
-    //       console.log("tangyElement: " + htmlText)
-    //       console.log("tangyElement ")
-    //
-    //     } );
-    //   } );
-    //
-    //   return view;
-    // } );
-
-    // editor.editing.view.addObserver( ClickObserver );
-    //
-    // /**
-    //  * The form view displayed inside the balloon.
-    //  *
-    //  * @member {module:link/ui/linkformview~LinkFormView}
-    //  */
-    // this.formView = this._createForm();
-    //
-    // /**
-    //  * The contextual balloon plugin instance.
-    //  *
-    //  * @private
-    //  * @member {module:ui/panel/balloon/contextualballoon~ContextualBalloon}
-    //  */
-    // this._balloon = editor.plugins.get( ContextualBalloon );
-    //
-    // // Create toolbar buttons.
-    // this._createToolbarLinkButton();
-    //
-    // // Attach lifecycle actions to the the balloon.
-    // this._attachActions();
   }
 
 
