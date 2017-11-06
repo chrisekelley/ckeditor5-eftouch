@@ -61403,43 +61403,76 @@ class EftouchWidget extends __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_cor
     const t = editor.t;
 
     // Configure schema.
+    schema.allow( { name: '$inline', inside: '$root' } );
+
+    schema.registerItem( 'paper-radio-button' );
+    schema.allow( { name: 'paper-radio-button', attributes: [ 'name', 'value' ], inside: 'acasi' } );
+    // schema.allow( { name: 'paper-radio-button', inside: '$root' } );
+    schema.allow( { name: '$inline', inside: 'paper-radio-button' } );
+    schema.allow( { name: 'image', inside: 'paper-radio-button' } );
+    schema.objects.add( 'paper-radio-button' );
+
     schema.registerItem( 'acasi' );
     schema.allow( { name: 'acasi', attributes: [ 'intro-src' ], inside: '$root' } );
-    schema.allow( { name: 'acasi', inside: '$root' } );
-    schema.allow( { name: '$inline', inside: '$root' } );
+    // schema.allow( { name: 'acasi', inside: '$root' } );
     schema.allow( { name: '$inline', inside: 'acasi' } );
     schema.allow( { name: 'image', inside: 'acasi' } );
+    schema.allow( { name: 'paper-radio-button', inside: 'acasi' } );
     schema.objects.add( 'acasi' );
 
+    // Build converter from model element to view element is used to render the getData output for the widget when you create new Elements in the editor.
     Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( data.modelToView )
       .fromElement( 'acasi' )
       // .toElement( 'acasi');
-      .toElement( () => {
+      .toElement( (element) => {
+        const introSrc = element.item.getAttribute('intro-src')
         // return new ViewContainerElement( 'acasi', { class: 'acasi' }, [new ViewEmptyElement( 'img' ), new ViewEmptyElement( 'img' ), new ViewEmptyElement( 'img' ), new ViewEmptyElement( 'img' )] );
-        return new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'acasi' );
+        let container = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'acasi', {'intro-src': introSrc} );
+        return container
       })
-
+    Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( data.modelToView )
+      .fromElement( 'paper-radio-button' )
+      .toElement( (element) => {
+        const name = element.item.getAttribute('name')
+        const value = element.item.getAttribute('value')
+        // return new ViewContainerElement( 'acasi', { class: 'acasi' }, [new ViewEmptyElement( 'img' ), new ViewEmptyElement( 'img' ), new ViewEmptyElement( 'img' ), new ViewEmptyElement( 'img' )] );
+        let container = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'paper-radio-button', {'name': name, 'value': value} );
+        return container
+      })
 
     //  Build converter from model element to view element for editing view pipeline. This affects how this element is rendered in the editor.
     Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( editing.modelToView )
       .fromElement( 'acasi' )
-      .toElement( () => {
+      .toElement( (element) => {
         // const imageContainer = createImageViewElement();
-        const imageContainer1 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'image' }, new __WEBPACK_IMPORTED_MODULE_24__ckeditor_ckeditor5_engine_src_view_emptyelement__["a" /* default */]( 'img' ) );
-        const imageContainer2 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'image' }, new __WEBPACK_IMPORTED_MODULE_24__ckeditor_ckeditor5_engine_src_view_emptyelement__["a" /* default */]( 'img' ) );
-        const imageContainer3 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'image' }, new __WEBPACK_IMPORTED_MODULE_24__ckeditor_ckeditor5_engine_src_view_emptyelement__["a" /* default */]( 'img' ) );
-        const imageContainer4 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'image' }, new __WEBPACK_IMPORTED_MODULE_24__ckeditor_ckeditor5_engine_src_view_emptyelement__["a" /* default */]( 'img' ) );
-        // const imageContainer = new ViewContainerElement( 'figure', { class: 'image' }, [imageElement]);
-        // const widgetElement = new ViewContainerElement( 'figure', { class: 'fancy-widget', contenteditable: 'true' }, [new ViewText( 'ACASI' )] );
-        // const widgetContainer = new ViewContainerElement( 'figure', { class: 'fancy-widget', contenteditable: 'true' },
+        console.log("acasi element")
+        const figureContainer1 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'acasi' });
+        const figureContainer2 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'acasi' });
+        const figureContainer3 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'acasi' });
+        const figureContainer4 = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'acasi' });
         const widgetContainer = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { contenteditable: 'true' },
-          [Object(__WEBPACK_IMPORTED_MODULE_25__ckeditor_ckeditor5_image_src_image_utils__["c" /* toImageWidget */])(imageContainer1), Object(__WEBPACK_IMPORTED_MODULE_25__ckeditor_ckeditor5_image_src_image_utils__["c" /* toImageWidget */])(imageContainer2), Object(__WEBPACK_IMPORTED_MODULE_25__ckeditor_ckeditor5_image_src_image_utils__["c" /* toImageWidget */])(imageContainer3), Object(__WEBPACK_IMPORTED_MODULE_25__ckeditor_ckeditor5_image_src_image_utils__["c" /* toImageWidget */])(imageContainer4)] );
+          [figureContainer1, figureContainer2, figureContainer3, figureContainer4] );
         const widget = Object(__WEBPACK_IMPORTED_MODULE_18__ckeditor_ckeditor5_widget_src_utils__["d" /* toWidget */])( widgetContainer );
         widget.setAttribute( 'contenteditable', true );
         return widget;
       } );
 
-    // Build converter from view element to model element for data pipeline.
+
+    //  Build converter from model element to view element for editing view pipeline. This affects how this element is rendered in the editor.
+    // It is not necessary to render this element.
+    // todo: nest this inside acasi.
+    Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( editing.modelToView )
+      .fromElement( 'paper-radio-button' )
+      .toElement( (element) => {
+        console.log("paper-radio-button element")
+        const imageContainer = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'radio', { class: 'paper-radio-button' }, Object(__WEBPACK_IMPORTED_MODULE_25__ckeditor_ckeditor5_image_src_image_utils__["c" /* toImageWidget */])(new __WEBPACK_IMPORTED_MODULE_24__ckeditor_ckeditor5_engine_src_view_emptyelement__["a" /* default */]( 'img' )) );
+        const widget = Object(__WEBPACK_IMPORTED_MODULE_18__ckeditor_ckeditor5_widget_src_utils__["d" /* toWidget */])( imageContainer );
+        widget.setAttribute( 'contenteditable', true );
+        return widget;
+      } );
+
+    // Build converter from view element to model element for data pipeline. When the editor is consuming html,
+    // recognize your widget and put it in the model so that editing.modelToView can then render it in the editing view
     Object(__WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__["a" /* default */])().for( data.viewToModel )
       .fromElement( 'acasi' )
       .toElement( () => {
@@ -61447,13 +61480,16 @@ class EftouchWidget extends __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_cor
         const imageElement = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', {
           src: imageUrl
         });
-        new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'acasi' ), {'intro-src':'assets/sounds/5.mp3'}, [imageElement]
+        new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'acasi' ), {'intro-src':'assets/sounds/1.mp3'}, [imageElement]
       });
 
-    // Build converter for view img element to model image element.
-    Object(__WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__["a" /* default */])().for( data.viewToModel )
-      .from( { name: 'acasi', attribute: { 'intro-src': /./ } } )
-      .toElement( viewImage => new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { 'intro-src': viewImage.getAttribute( 'intro-src' ) } ) );
+    // // Build converter for view img element to model image element.
+    // buildViewConverter().for( data.viewToModel )
+    //   .from( { name: 'acasi', attribute: { 'intro-src': /./ } } )
+    //   .toElement( (viewImage) =>  {
+    //     console.log("getting intro-src")
+    //     new ModelElement( 'image', { 'intro-src': viewImage.getAttribute( 'intro-src' ) } )
+    //   } );
 
     // createImageAttributeConverter( [ editing.modelToView, data.modelToView ], 'src' );
 
@@ -61471,17 +61507,29 @@ class EftouchWidget extends __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_cor
       // Execute command.
       view.on( 'execute', () => {
       // this.listenTo( view, 'execute', () => {
-        const imageUrl = prompt( 'Sound URL' );
+        let url = prompt( 'Sound URL' );
+        if (url == "") {
+          url = '../src/assets/1.mp3'
+        }
+
+        let urlArray = url.split('/')
+        let filename = urlArray.slice(-1)[0]
+        let name = 't_' + filename;
 
         editor.document.enqueueChanges( () => {
-          const imageElement1 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/once.png'});
-          const imageElement2 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/few.png'});
-          const imageElement3 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/many.png'});
-          const imageElement4 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/never.png'});
+          const imageElement1 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/images/never.png'});
+          const imageElement2 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/images/once.png'});
+          const imageElement3 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/images/few.png'});
+          const imageElement4 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', { src: '../src/assets/images/many.png'});
+
+          const prb1 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'paper-radio-button', {'name':name, 'value': 'never'}, [imageElement1])
+          const prb2 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'paper-radio-button', {'name':name, 'value': 'once'}, [imageElement2])
+          const prb3 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'paper-radio-button', {'name':name, 'value': 'few'}, [imageElement3])
+          const prb4 = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'paper-radio-button', {'name':name, 'value': 'many'}, [imageElement4])
 
           // // const widgetElement = new ModelElement('figure', { class: 'fancy-widget' },imageElement)
           // editor.data.insertContent( imageElement, editor.document.selection );
-          const acasi = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'acasi', {'intro-src':'assets/sounds/5.mp3'}, [imageElement1, imageElement2, imageElement3, imageElement4])
+          const acasi = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'acasi', {'intro-src':url}, [prb1, prb2, prb3, prb4])
           // const acasi = new ModelElement( 'acasi', { src: imageUrl });
           editor.data.insertContent( acasi, editor.document.selection );
         } );
