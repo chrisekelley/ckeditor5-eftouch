@@ -5,30 +5,16 @@
 
 /* global console, window, document */
 
-import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-import Enter from '@ckeditor/ckeditor5-enter/src/enter';
-import Typing from '@ckeditor/ckeditor5-typing/src/typing';
-import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import Undo from '@ckeditor/ckeditor5-undo/src/undo';
-import Heading from '@ckeditor/ckeditor5-heading/src/heading';
-import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
-import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
-import List from '@ckeditor/ckeditor5-list/src/list';
-import global from '@ckeditor/ckeditor5-utils/src/dom/global';
+
 import buildModelConverter from '@ckeditor/ckeditor5-engine/src/conversion/buildmodelconverter';
 import buildViewConverter from '@ckeditor/ckeditor5-engine/src/conversion/buildviewconverter';
-import ModelRange from '@ckeditor/ckeditor5-engine/src/model/range';
 import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
 import ViewContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
-import ViewText from '@ckeditor/ckeditor5-engine/src/view/text';
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import Widget from '@ckeditor/ckeditor5-widget/src/widget';
 import { toWidget } from '@ckeditor/ckeditor5-widget/src/utils';
-import Eftouch from './eftouch.js'
 import imageIcon from '@ckeditor/ckeditor5-core/theme/icons/picker.svg';
-import htmlIcon from '@ckeditor/ckeditor5-core/theme/icons/source.svg';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
-import AttributeCommand from '@ckeditor/ckeditor5-basic-styles/src/attributecommand';
 import ViewEmptyElement from '@ckeditor/ckeditor5-engine/src/view/emptyelement';
 import { toImageWidget } from '@ckeditor/ckeditor5-image/src/image/utils';
 
