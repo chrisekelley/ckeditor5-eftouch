@@ -53,8 +53,11 @@ export default class EftouchWidget extends Plugin {
     schema.allow( { name: '$inline', inside: 'acasi' } );
     schema.objects.add( 'acasi' );
 
-    // Build converter from model to view for editing pipeline.
-    buildModelConverter().for( data.modelToView, editing.modelToView )
+    buildModelConverter().for( data.modelToView )
+      .fromElement( 'acasi' )
+      .toElement( 'acasi');
+
+    buildModelConverter().for( editing.modelToView )
       .fromElement( 'acasi' )
       .toElement( () => {
         const widgetElement = new ViewContainerElement( 'figure', { class: 'fancy-widget', contenteditable: 'true' }, new ViewText( 'ACASI' ) );
@@ -84,12 +87,14 @@ export default class EftouchWidget extends Plugin {
         const imageUrl = prompt( 'Sound URL' );
 
         editor.document.enqueueChanges( () => {
-          const imageUrl = 'babycat.jpg';
-          const imageElement = new ModelElement( 'image', {
-            src: imageUrl
-          } );
-          const widgetElement = new ModelElement('figure', { class: 'fancy-widget' },imageElement)
-          editor.data.insertContent( widgetElement, editor.document.selection );
+          // const imageUrl = 'babycat.jpg';
+          // const imageElement = new ModelElement( 'image', {
+          //   src: imageUrl
+          // } );
+          // // const widgetElement = new ModelElement('figure', { class: 'fancy-widget' },imageElement)
+          // editor.data.insertContent( imageElement, editor.document.selection );
+          const acasi = new ModelElement( 'acasi' );
+          editor.data.insertContent( acasi, editor.document.selection );
         } );
       });
       return view;

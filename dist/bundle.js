@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 274);
+/******/ 	return __webpack_require__(__webpack_require__.s = 276);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2392,8 +2392,8 @@ function normalize( nodes ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__view__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__viewcollection__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_lib_lodash_cloneDeepWith__ = __webpack_require__(429);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__viewcollection__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_lib_lodash_cloneDeepWith__ = __webpack_require__(431);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_lib_lodash_isObject__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_log__ = __webpack_require__(26);
 /**
@@ -4137,7 +4137,7 @@ function shouldExtend( attrName ) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__apply__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__apply__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toInteger__ = __webpack_require__(11);
 
 
@@ -4211,11 +4211,11 @@ function rest(func, start) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__viewcollection__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__viewcollection__ = __webpack_require__(154);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__template__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_dom_emittermixin__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_dom_emittermixin__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_collection__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_collection__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
 /**
@@ -4729,9 +4729,9 @@ Object(__WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 /* harmony export (immutable) */ __webpack_exports__["a"] = _getEmitterListenedTo;
 /* harmony export (immutable) */ __webpack_exports__["b"] = _setEmitterId;
 /* unused harmony export _getEmitterId */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__eventinfo__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__eventinfo__ = __webpack_require__(285);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__uid__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__priorities__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__priorities__ = __webpack_require__(287);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -5338,11 +5338,11 @@ function fireDelegatedEvents( destinations, eventInfo, fireArgs ) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseMatches__ = __webpack_require__(367);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseMatchesProperty__ = __webpack_require__(374);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseMatches__ = __webpack_require__(369);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseMatchesProperty__ = __webpack_require__(376);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identity__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isArray__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__property__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__property__ = __webpack_require__(384);
 
 
 
@@ -5381,7 +5381,7 @@ function baseIteratee(value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toFinite__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toFinite__ = __webpack_require__(291);
 
 
 /**
@@ -6314,100 +6314,8 @@ function last(array) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node__ = __webpack_require__(84);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module engine/view/text
- */
-
-
-
-/**
- * Tree view text node.
- *
- * @extends module:engine/view/node~Node
- */
-class Text extends __WEBPACK_IMPORTED_MODULE_0__node__["a" /* default */] {
-	/**
-	 * Creates a tree view text node.
-	 *
-	 * @param {String} data Text.
-	 */
-	constructor( data ) {
-		super();
-
-		/**
-		 * The text content.
-		 *
-		 * Setting the data fires the {@link module:engine/view/node~Node#event:change:text change event}.
-		 *
-		 * @private
-		 * @member {String} module:engine/view/text~Text#_data
-		 */
-		this._data = data;
-	}
-
-	/**
-	 * Clones this node.
-	 *
-	 * @returns {module:engine/view/text~Text} Text node that is a clone of this node.
-	 */
-	clone() {
-		return new Text( this.data );
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	is( type ) {
-		return type == 'text';
-	}
-
-	/**
-	 * The text content.
-	 *
-	 * Setting the data fires the {@link module:engine/view/node~Node#event:change:text change event}.
-	 */
-	get data() {
-		return this._data;
-	}
-
-	set data( data ) {
-		this._fireChange( 'text', this );
-
-		this._data = data;
-	}
-
-	/**
-	 * Checks if this text node is similar to other text node.
-	 * Both nodes should have the same data to be considered as similar.
-	 *
-	 * @param {module:engine/view/text~Text} otherNode Node to check if it is same as this node.
-	 * @returns {Boolean}
-	 */
-	isSimilar( otherNode ) {
-		if ( !( otherNode instanceof Text ) ) {
-			return false;
-		}
-
-		return this === otherNode || this.data === otherNode.data;
-	}
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = Text;
-
-
-
-/***/ }),
-/* 18 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__operation_operationfactory__ = __webpack_require__(354);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__operation_operationfactory__ = __webpack_require__(356);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -6485,7 +6393,7 @@ class DeltaFactory {
 
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6651,7 +6559,7 @@ function register( name, creator ) {
 
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7069,16 +6977,1238 @@ class Position {
 
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_objecttomap__ = __webpack_require__(167);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module engine/view/text
+ */
+
+
+
+/**
+ * Tree view text node.
+ *
+ * @extends module:engine/view/node~Node
+ */
+class Text extends __WEBPACK_IMPORTED_MODULE_0__node__["a" /* default */] {
+	/**
+	 * Creates a tree view text node.
+	 *
+	 * @param {String} data Text.
+	 */
+	constructor( data ) {
+		super();
+
+		/**
+		 * The text content.
+		 *
+		 * Setting the data fires the {@link module:engine/view/node~Node#event:change:text change event}.
+		 *
+		 * @private
+		 * @member {String} module:engine/view/text~Text#_data
+		 */
+		this._data = data;
+	}
+
+	/**
+	 * Clones this node.
+	 *
+	 * @returns {module:engine/view/text~Text} Text node that is a clone of this node.
+	 */
+	clone() {
+		return new Text( this.data );
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	is( type ) {
+		return type == 'text';
+	}
+
+	/**
+	 * The text content.
+	 *
+	 * Setting the data fires the {@link module:engine/view/node~Node#event:change:text change event}.
+	 */
+	get data() {
+		return this._data;
+	}
+
+	set data( data ) {
+		this._fireChange( 'text', this );
+
+		this._data = data;
+	}
+
+	/**
+	 * Checks if this text node is similar to other text node.
+	 * Both nodes should have the same data to be considered as similar.
+	 *
+	 * @param {module:engine/view/text~Text} otherNode Node to check if it is same as this node.
+	 * @returns {Boolean}
+	 */
+	isSimilar( otherNode ) {
+		if ( !( otherNode instanceof Text ) ) {
+			return false;
+		}
+
+		return this === otherNode || this.data === otherNode.data;
+	}
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Text;
+
+
+
+/***/ }),
+/* 21 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = insert;
+/* harmony export (immutable) */ __webpack_exports__["d"] = remove;
+/* unused harmony export move */
+/* unused harmony export setAttribute */
+/* unused harmony export removeAttribute */
+/* harmony export (immutable) */ __webpack_exports__["c"] = normalizeNodes;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__textproxy__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__range__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__documentfragment__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__nodelist__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module engine/model/writer
+ */
+
+
+
+
+
+
+
+
+
+/**
+ * Contains functions used for composing model tree, grouped together under "model writer" name. Those functions
+ * are built on top of {@link module:engine/model/node~Node node}, and it's child classes', APIs.
+ *
+ * Model writer API has multiple advantages and it is highly recommended to use it when changing model tree and nodes:
+ * * model writer API {@link module:engine/model/writer~writer.normalizeNodes normalizes inserted nodes}, which means that you can insert
+ * not only {@link module:engine/model/node~Node nodes}, but also `String`s, {@link module:engine/model/textproxy~TextProxy text proxies}
+ * and
+ * {@link module:engine/model/documentfragment~DocumentFragment document fragments},
+ * * model writer API operates on {@link module:engine/model/position~Position positions}, which means that you have
+ * better control over manipulating model tree as positions operate on offsets rather than indexes,
+ * * model writer API automatically merges {@link module:engine/model/text~Text text nodes} with same attributes, which means
+ * lower memory usage and better efficiency.
+ *
+ * @namespace writer
+ */
+const writer = {
+	insert,
+	remove,
+	move,
+	setAttribute,
+	removeAttribute,
+	normalizeNodes
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (writer);
+
+/**
+ * Inserts given nodes at given position.
+ *
+ * @function module:engine/model/writer~writer.insert
+ * @param {module:engine/model/position~Position} position Position at which nodes should be inserted.
+ * @param {module:engine/model/node~NodeSet} nodes Nodes to insert.
+ * @returns {module:engine/model/range~Range} Range spanning over inserted elements.
+ */
+function insert( position, nodes ) {
+	nodes = normalizeNodes( nodes );
+
+	// We have to count offset before inserting nodes because they can get merged and we would get wrong offsets.
+	const offset = nodes.reduce( ( sum, node ) => sum + node.offsetSize, 0 );
+	const parent = position.parent;
+
+	// Insertion might be in a text node, we should split it if that's the case.
+	_splitNodeAtPosition( position );
+	const index = position.index;
+
+	// Insert nodes at given index. After splitting we have a proper index and insertion is between nodes,
+	// using basic `Element` API.
+	parent.insertChildren( index, nodes );
+
+	// Merge text nodes, if possible. Merging is needed only at points where inserted nodes "touch" "old" nodes.
+	_mergeNodesAtIndex( parent, index + nodes.length );
+	_mergeNodesAtIndex( parent, index );
+
+	return new __WEBPACK_IMPORTED_MODULE_3__range__["a" /* default */]( position, position.getShiftedBy( offset ) );
+}
+
+/**
+ * Removed nodes in given range. Only {@link module:engine/model/range~Range#isFlat flat} ranges are accepted.
+ *
+ * @function module:engine/model/writer~writer.remove
+ * @param {module:engine/model/range~Range} range Range containing nodes to remove.
+ * @returns {Array.<module:engine/model/node~Node>}
+ */
+function remove( range ) {
+	if ( !range.isFlat ) {
+		/**
+		 * Trying to remove a range which starts and ends in different element.
+		 *
+		 * @error model-writer-remove-range-not-flat
+		 */
+		throw new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__["b" /* default */]( 'model-writer-remove-range-not-flat: ' +
+			'Trying to remove a range which starts and ends in different element.' );
+	}
+
+	const parent = range.start.parent;
+
+	// Range may be inside text nodes, we have to split them if that's the case.
+	_splitNodeAtPosition( range.start );
+	_splitNodeAtPosition( range.end );
+
+	// Remove the text nodes using basic `Element` API.
+	const removed = parent.removeChildren( range.start.index, range.end.index - range.start.index );
+
+	// Merge text nodes, if possible. After some nodes were removed, node before and after removed range will be
+	// touching at the position equal to the removed range beginning. We check merging possibility there.
+	_mergeNodesAtIndex( parent, range.start.index );
+
+	return removed;
+}
+
+/**
+ * Moves nodes in given range to given target position. Only {@link module:engine/model/range~Range#isFlat flat} ranges are accepted.
+ *
+ * @param {module:engine/model/range~Range} sourceRange Range containing nodes to move.
+ * @param {module:engine/model/position~Position} targetPosition Position to which nodes should be moved.
+ * @returns {module:engine/model/range~Range} Range containing moved nodes.
+ */
+function move( sourceRange, targetPosition ) {
+	if ( !sourceRange.isFlat ) {
+		/**
+		 * Trying to move a range which starts and ends in different element.
+		 *
+		 * @error model-writer-move-range-not-flat
+		 */
+		throw new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__["b" /* default */]( 'model-writer-move-range-not-flat: ' +
+			'Trying to move a range which starts and ends in different element.' );
+	}
+
+	const nodes = this.remove( sourceRange );
+
+	// We have to fix `targetPosition` because model changed after nodes from `sourceRange` got removed and
+	// that change might have an impact on `targetPosition`.
+	targetPosition = targetPosition._getTransformedByDeletion( sourceRange.start, sourceRange.end.offset - sourceRange.start.offset );
+
+	return this.insert( targetPosition, nodes );
+}
+
+/**
+ * Sets given attribute on nodes in given range.
+ *
+ * @param {module:engine/model/range~Range} range Range containing nodes that should have the attribute set.
+ * @param {String} key Key of attribute to set.
+ * @param {*} value Attribute value.
+ */
+function setAttribute( range, key, value ) {
+	// Range might start or end in text nodes, so we have to split them.
+	_splitNodeAtPosition( range.start );
+	_splitNodeAtPosition( range.end );
+
+	// Iterate over all items in the range.
+	for ( const item of range.getItems() ) {
+		// Iterator will return `TextProxy` instances but we know that those text proxies will
+		// always represent full text nodes (this is guaranteed thanks to splitting we did before).
+		// So, we can operate on those text proxies' text nodes.
+		const node = item.is( 'textProxy' ) ? item.textNode : item;
+
+		if ( value !== null ) {
+			node.setAttribute( key, value );
+		} else {
+			node.removeAttribute( key );
+		}
+
+		// After attributes changing it may happen that some text nodes can be merged. Try to merge with previous node.
+		_mergeNodesAtIndex( node.parent, node.index );
+	}
+
+	// Try to merge last changed node with it's previous sibling (not covered by the loop above).
+	_mergeNodesAtIndex( range.end.parent, range.end.index );
+}
+
+/**
+ * Removes given attribute from nodes in given range.
+ *
+ * @param {module:engine/model/range~Range} range Range containing nodes that should have the attribute removed.
+ * @param {String} key Key of attribute to remove.
+ */
+function removeAttribute( range, key ) {
+	this.setAttribute( range, key, null );
+}
+
+/**
+ * Normalizes given object or an array of objects to an array of {@link module:engine/model/node~Node nodes}. See
+ * {@link module:engine/model/node~NodeSet NodeSet} for details on how normalization is performed.
+ *
+ * @param {module:engine/model/node~NodeSet} nodes Objects to normalize.
+ * @returns {Array.<module:engine/model/node~Node>} Normalized nodes.
+ */
+function normalizeNodes( nodes ) {
+	const normalized = [];
+
+	if ( !( nodes instanceof Array ) ) {
+		nodes = [ nodes ];
+	}
+
+	// Convert instances of classes other than Node.
+	for ( let i = 0; i < nodes.length; i++ ) {
+		if ( typeof nodes[ i ] == 'string' ) {
+			normalized.push( new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( nodes[ i ] ) );
+		} else if ( nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_2__textproxy__["a" /* default */] ) {
+			normalized.push( new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( nodes[ i ].data, nodes[ i ].getAttributes() ) );
+		} else if ( nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_4__documentfragment__["a" /* default */] || nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_5__nodelist__["a" /* default */] ) {
+			for ( const child of nodes[ i ] ) {
+				normalized.push( child );
+			}
+		} else if ( nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_0__node__["a" /* default */] ) {
+			normalized.push( nodes[ i ] );
+		}
+		// Skip unrecognized type.
+	}
+
+	// Merge text nodes.
+	for ( let i = 1; i < normalized.length; i++ ) {
+		const node = normalized[ i ];
+		const prev = normalized[ i - 1 ];
+
+		if ( node instanceof __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */] && prev instanceof __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */] && _haveSameAttributes( node, prev ) ) {
+			// Doing this instead changing prev.data because .data is readonly.
+			normalized.splice( i - 1, 2, new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( prev.data + node.data, prev.getAttributes() ) );
+			i--;
+		}
+	}
+
+	return normalized;
+}
+
+/**
+ * Checks if nodes before and after given index in given element are {@link module:engine/model/text~Text text nodes} and
+ * merges them into one node if they have same attributes.
+ *
+ * Merging is done by removing two text nodes and inserting a new text node containing data from both merged text nodes.
+ *
+ * @ignore
+ * @private
+ * @param {module:engine/model/element~Element} element Parent element of nodes to merge.
+ * @param {Number} index Index between nodes to merge.
+ */
+function _mergeNodesAtIndex( element, index ) {
+	const nodeBefore = element.getChild( index - 1 );
+	const nodeAfter = element.getChild( index );
+
+	// Check if both of those nodes are text objects with same attributes.
+	if ( nodeBefore && nodeAfter && nodeBefore.is( 'text' ) && nodeAfter.is( 'text' ) && _haveSameAttributes( nodeBefore, nodeAfter ) ) {
+		// Append text of text node after index to the before one.
+		const mergedNode = new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( nodeBefore.data + nodeAfter.data, nodeBefore.getAttributes() );
+
+		// Remove separate text nodes.
+		element.removeChildren( index - 1, 2 );
+
+		// Insert merged text node.
+		element.insertChildren( index - 1, mergedNode );
+	}
+}
+
+/**
+ * Checks if given position is in a text node, and if so, splits the text node in two text nodes, each of them
+ * containing a part of original text node.
+ *
+ * @ignore
+ * @private
+ * @param {module:engine/model/position~Position} position Position at which node should be split.
+ */
+function _splitNodeAtPosition( position ) {
+	const textNode = position.textNode;
+	const element = position.parent;
+
+	if ( textNode ) {
+		const offsetDiff = position.offset - textNode.startOffset;
+		const index = textNode.index;
+
+		element.removeChildren( index, 1 );
+
+		const firstPart = new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( textNode.data.substr( 0, offsetDiff ), textNode.getAttributes() );
+		const secondPart = new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( textNode.data.substr( offsetDiff ), textNode.getAttributes() );
+
+		element.insertChildren( index, [ firstPart, secondPart ] );
+	}
+}
+
+/**
+ * Checks whether two given nodes have same attributes.
+ *
+ * @ignore
+ * @private
+ * @param {module:engine/model/node~Node} nodeA Node to check.
+ * @param {module:engine/model/node~Node} nodeB Node to check.
+ * @returns {Boolean} `true` if nodes have same attributes, `false` otherwise.
+ */
+function _haveSameAttributes( nodeA, nodeB ) {
+	const iteratorA = nodeA.getAttributes();
+	const iteratorB = nodeB.getAttributes();
+
+	for ( const attr of iteratorA ) {
+		if ( attr[ 1 ] !== nodeB.getAttribute( attr[ 0 ] ) ) {
+			return false;
+		}
+
+		iteratorB.next();
+	}
+
+	return iteratorB.next().done;
+}
+
+/**
+ * Value that can be normalized to an array of {@link module:engine/model/node~Node nodes}.
+ *
+ * Non-arrays are normalized as follows:
+ * * {@link module:engine/model/node~Node Node} is left as is,
+ * * {@link module:engine/model/textproxy~TextProxy TextProxy} and `String` are normalized to {@link module:engine/model/text~Text Text},
+ * * {@link module:engine/model/nodelist~NodeList NodeList} is normalized to an array containing all nodes that are in that node list,
+ * * {@link module:engine/model/documentfragment~DocumentFragment DocumentFragment} is normalized to an array containing all of it's
+ * * children.
+ *
+ * Arrays are processed item by item like non-array values and flattened to one array. Normalization always results in
+ * a flat array of {@link module:engine/model/node~Node nodes}. Consecutive text nodes (or items normalized to text nodes) will be
+ * merged if they have same attributes.
+ *
+ * @typedef {module:engine/model/node~Node|module:engine/model/textproxy~TextProxy|String|
+ * module:engine/model/nodelist~NodeList|module:engine/model/documentfragment~DocumentFragment|Iterable}
+ * module:engine/model/node~NodeSet
+ */
+
+
+/***/ }),
+/* 22 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_lib_lodash_clone__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module engine/model/delta/delta
+ */
+
+
+
+
+/**
+ * Base class for all deltas.
+ *
+ * Delta is a single, from the user action point of view, change in the editable document, like insert, split or
+ * rename element. Delta is composed of operations, which are unit changes needed to be done to execute user action.
+ *
+ * Multiple deltas are grouped into a single {@link module:engine/model/batch~Batch}.
+ */
+class Delta {
+	/**
+	 * Creates a delta instance.
+	 */
+	constructor() {
+		/**
+		 * {@link module:engine/model/batch~Batch} which delta is a part of. This property is null by default and set by the
+		 * {@link module:engine/model/batch~Batch#addDelta} method.
+		 *
+		 * @readonly
+		 * @member {module:engine/model/batch~Batch} module:engine/model/delta/delta~Delta#batch
+		 */
+		this.batch = null;
+
+		/**
+		 * Array of operations which compose delta.
+		 *
+		 * @readonly
+		 * @member {module:engine/model/operation/operation~Operation[]} module:engine/model/delta/delta~Delta#operations
+		 */
+		this.operations = [];
+	}
+
+	/**
+	 * Returns delta base version which is equal to the base version of the first operation in delta. If there
+	 * are no operations in delta, returns `null`.
+	 *
+	 * @see module:engine/model/document~Document
+	 * @type {Number|null}
+	 */
+	get baseVersion() {
+		if ( this.operations.length > 0 ) {
+			return this.operations[ 0 ].baseVersion;
+		}
+
+		return null;
+	}
+
+	/**
+	 * @param {Number} baseVersion
+	 */
+	set baseVersion( baseVersion ) {
+		for ( const operation of this.operations ) {
+			operation.baseVersion = baseVersion++;
+		}
+	}
+
+	/**
+	 * A class that will be used when creating reversed delta.
+	 *
+	 * @private
+	 * @type {Function}
+	 */
+	get _reverseDeltaClass() {
+		return Delta;
+	}
+
+	/**
+	 * Delta type.
+	 *
+	 * @readonly
+	 * @member {String} #type
+	 */
+
+	/**
+	 * Add operation to the delta.
+	 *
+	 * @param {module:engine/model/operation/operation~Operation} operation Operation instance.
+	 */
+	addOperation( operation ) {
+		operation.delta = this;
+		this.operations.push( operation );
+
+		return operation;
+	}
+
+	/**
+	 * Creates and returns a delta that has the same parameters as this delta.
+	 *
+	 * @returns {module:engine/model/delta/delta~Delta} Clone of this delta.
+	 */
+	clone() {
+		const delta = new this.constructor();
+
+		for ( const op of this.operations ) {
+			delta.addOperation( op.clone() );
+		}
+
+		return delta;
+	}
+
+	/**
+	 * Creates and returns a reverse delta. Reverse delta when executed right after the original delta will bring back
+	 * tree model state to the point before the original delta execution. In other words, it reverses changes done
+	 * by the original delta.
+	 *
+	 * Keep in mind that tree model state may change since executing the original delta, so reverse delta may be "outdated".
+	 * In that case you will need to {@link module:engine/model/delta/transform~transform} it by all deltas that were executed after
+	 * the original delta.
+	 *
+	 * @returns {module:engine/model/delta/delta~Delta} Reversed delta.
+	 */
+	getReversed() {
+		const delta = new this._reverseDeltaClass();
+
+		for ( const op of this.operations ) {
+			delta.addOperation( op.getReversed() );
+		}
+
+		delta.operations.reverse();
+
+		for ( let i = 0; i < delta.operations.length; i++ ) {
+			delta.operations[ i ].baseVersion = this.operations[ this.operations.length - 1 ].baseVersion + i + 1;
+		}
+
+		return delta;
+	}
+
+	/**
+	 * Custom toJSON method to make deltas serializable.
+	 *
+	 * @returns {Object} Clone of this delta with added class name.
+	 */
+	toJSON() {
+		const json = Object(__WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_lib_lodash_clone__["a" /* default */])( this );
+
+		json.__className = this.constructor.className;
+
+		// Remove parent batch to avoid circular dependencies.
+		delete json.batch;
+
+		return json;
+	}
+
+	/**
+	 * Delta class name. Used by {@link #toJSON} method for serialization and
+	 * {@link module:engine/model/delta/deltafactory~DeltaFactory.fromJSON} during deserialization.
+	 *
+	 * @type {String}
+	 * @readonly
+	 */
+	static get className() {
+		return 'engine.model.delta.Delta';
+	}
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Delta;
+
+
+__WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( Delta );
+
+
+/***/ }),
+/* 23 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayPush__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isFlattenable__ = __webpack_require__(368);
+
+
+
+/**
+ * The base implementation of `_.flatten` with support for restricting flattening.
+ *
+ * @private
+ * @param {Array} array The array to flatten.
+ * @param {number} depth The maximum recursion depth.
+ * @param {boolean} [predicate=isFlattenable] The function invoked per iteration.
+ * @param {boolean} [isStrict] Restrict to values that pass `predicate` checks.
+ * @param {Array} [result=[]] The initial result value.
+ * @returns {Array} Returns the new flattened array.
+ */
+function baseFlatten(array, depth, predicate, isStrict, result) {
+  var index = -1,
+      length = array.length;
+
+  predicate || (predicate = __WEBPACK_IMPORTED_MODULE_1__isFlattenable__["a" /* default */]);
+  result || (result = []);
+
+  while (++index < length) {
+    var value = array[index];
+    if (depth > 0 && predicate(value)) {
+      if (depth > 1) {
+        // Recursively flatten arrays (susceptible to call stack limits).
+        baseFlatten(value, depth - 1, predicate, isStrict, result);
+      } else {
+        Object(__WEBPACK_IMPORTED_MODULE_0__arrayPush__["a" /* default */])(result, value);
+      }
+    } else if (!isStrict) {
+      result[result.length] = value;
+    }
+  }
+  return result;
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (baseFlatten);
+
+
+/***/ }),
+/* 24 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module core/command
+ */
+
+
+
+
+/**
+ * The base class for CKEditor commands.
+ *
+ * Commands are the main way to manipulate editor contents and state. They are mostly used by UI elements (or by other
+ * commands) to make changes in the model. Commands are available in every part of code that has access to
+ * the {@link module:core/editor/editor~Editor editor} instance.
+ *
+ * Instances of registered commands can be retrieved from {@link module:core/editor/editor~Editor#commands}.
+ * The easiest way to execute a command is through {@link module:core/editor/editor~Editor#execute}.
+ *
+ * By default commands are disabled when the editor is in {@link module:core/editor/editor~Editor#isReadOnly read-only} mode.
+ *
+ * @mixes module:utils/observablemixin~ObservableMixin
+ */
+class Command {
+	/**
+	 * Creates a new `Command` instance.
+	 *
+	 * @param {module:core/editor/editor~Editor} editor Editor on which this command will be used.
+	 */
+	constructor( editor ) {
+		/**
+		 * The editor on which this command will be used.
+		 *
+		 * @readonly
+		 * @member {module:core/editor/editor~Editor}
+		 */
+		this.editor = editor;
+
+		/**
+		 * The value of a command. Concrete command class should define what it represents.
+		 *
+		 * For example, the `bold` command's value is whether the selection starts in a bolded text.
+		 * And the value of the `link` command may be an object with links details.
+		 *
+		 * It's possible for a command to have no value (e.g. for stateless actions such as `uploadImage`).
+		 *
+		 * @observable
+		 * @readonly
+		 * @member #value
+		 */
+		this.set( 'value', undefined );
+
+		/**
+		 * Flag indicating whether a command is enabled or disabled.
+		 * A disabled command should do nothing when executed.
+		 *
+		 * @observable
+		 * @readonly
+		 * @member {Boolean} #isEnabled
+		 */
+		this.set( 'isEnabled', false );
+
+		this.decorate( 'execute' );
+
+		// By default every command is refreshed when changes are applied to the model.
+		this.listenTo( this.editor.document, 'changesDone', () => {
+			this.refresh();
+		} );
+
+		this.on( 'execute', evt => {
+			if ( !this.isEnabled ) {
+				evt.stop();
+			}
+		}, { priority: 'high' } );
+
+		// By default commands are disabled when the editor is in read-only mode.
+		this.listenTo( editor, 'change:isReadOnly', ( evt, name, value ) => {
+			if ( value ) {
+				// See a ticket about overriding observable properties
+				// https://github.com/ckeditor/ckeditor5-utils/issues/171.
+				this.on( 'change:isEnabled', forceDisable, { priority: 'lowest' } );
+				this.isEnabled = false;
+			} else {
+				this.off( 'change:isEnabled', forceDisable );
+				this.refresh();
+			}
+		} );
+
+		function forceDisable() {
+			this.isEnabled = false;
+		}
+	}
+
+	/**
+	 * Refreshes the command. The command should update its {@link #isEnabled} and {@link #value} property
+	 * in this method.
+	 *
+	 * This method is automatically called when
+	 * {@link module:engine/model/document~Document#event:changesDone any changes are applied to the model}.
+	 */
+	refresh() {
+		this.isEnabled = true;
+	}
+
+	/**
+	 * Executes the command.
+	 *
+	 * A command may accept parameters. They will be passed from {@link module:core/editor/editor~Editor#execute}
+	 * to the command.
+	 *
+	 * The `execute()` method will automatically abort when the command is disabled ({@link #isEnabled} is `false`).
+	 * This behavior is implemented by a high priority listener to the {@link #event:execute} event.
+	 *
+	 * @fires execute
+	 */
+	execute() {}
+
+	/**
+	 * Destroys the command.
+	 */
+	destroy() {
+		this.stopListening();
+	}
+
+	/**
+	 * Event fired by the {@link #execute} method. The command action is a listener to this event so it's
+	 * possible to change/cancel the behavior of the command by listening to this event.
+	 *
+	 * See {@link module:utils/observablemixin~ObservableMixin.decorate} for more information and samples.
+	 *
+	 * **Note:** This event is fired even if command is disabled. However, it is automatically blocked
+	 * by a high priority listener in order to prevent command execution.
+	 *
+	 * @event execute
+	 */
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = Command;
+
+
+Object(__WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__["a" /* default */])( Command, __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_observablemixin__["a" /* default */] );
+
+
+/***/ }),
+/* 25 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__template__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__icon_iconview__ = __webpack_require__(459);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tooltip_tooltipview__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module ui/button/buttonview
+ */
+
+
+
+
+
+
+
+
+/**
+ * The button view class.
+ *
+ *		const view = new ButtonView();
+ *
+ *		view.set( {
+ *			label: 'A button',
+ *			keystroke: 'Ctrl+B',
+ *			tooltip: true,
+ *			withText: true
+ *		} );
+ *
+ *		view.init();
+ *
+ *		document.body.append( view.element );
+ *
+ * @extends module:ui/view~View
+ */
+class ButtonView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */] {
+	/**
+	 * @inheritDoc
+	 */
+	constructor( locale ) {
+		super( locale );
+
+		/**
+		 * The label of the button view visible to the user when {@link #withText} is `true`.
+		 * It can also be used to create a {@link #tooltip}.
+		 *
+		 * @observable
+		 * @member {String} #label
+		 */
+		this.set( 'label' );
+
+		/**
+		 * (Optional) The keystroke associated with the button, i.e. <kbd>CTRL+B</kbd>,
+		 * in the string format compatible with {@link module:utils/keyboard}.
+		 *
+		 * @observable
+		 * @member {Boolean} #keystroke
+		 */
+		this.set( 'keystroke' );
+
+		/**
+		 * (Optional) Tooltip of the button, i.e. displayed when hovering the button with the mouse cursor.
+		 *
+		 * * If defined as a `Boolean` (e.g. `true`), then combination of `label` and `keystroke` will be set as a tooltip.
+		 * * If defined as a `String`, tooltip will equal the exact text of that `String`.
+		 * * If defined as a `Function`, `label` and `keystroke` will be passed to that function, which is to return
+		 * a string with the tooltip text.
+		 *
+		 *		const view = new ButtonView( locale );
+		 *		view.tooltip = ( label, keystroke ) => `A tooltip for ${ label } and ${ keystroke }.`
+		 *
+		 * @observable
+		 * @default false
+		 * @member {Boolean|String|Function} #tooltip
+		 */
+		this.set( 'tooltip' );
+
+		/**
+		 * (Optional) The position of the tooltip. See {@link module:ui/tooltip/tooltipview~TooltipView#position}
+		 * to learn more about the available position values.
+		 *
+		 * **Note:** It makes sense only when the {@link #tooltip `tooltip` attribute} is defined.
+		 *
+		 * @observable
+		 * @default 's'
+		 * @member {'s'|'n'} #position
+		 */
+		this.set( 'tooltipPosition', 's' );
+
+		/**
+		 * The HTML type of the button. Default `button`.
+		 *
+		 * @observable
+		 * @member {'button'|'submit'|'reset'|'menu'} #type
+		 */
+		this.set( 'type', 'button' );
+
+		/**
+		 * Controls whether the button view is "on". It makes sense when a feature it represents
+		 * is currently active, e.g. a bold button is "on" when the selection is in the bold text.
+		 *
+		 * To disable the button, use {@link #isEnabled} instead.
+		 *
+		 * @observable
+		 * @member {Boolean} #isOn
+		 */
+		this.set( 'isOn', false );
+
+		/**
+		 * Controls whether the button view is enabled, i.e. it can be clicked and execute an action.
+		 *
+		 * To change the "on" state of the button, use {@link #isOn} instead.
+		 *
+		 * @observable
+		 * @member {Boolean} #isEnabled
+		 */
+		this.set( 'isEnabled', true );
+
+		/**
+		 * Controls whether the button view is visible. Visible by default, buttons are hidden
+		 * using a CSS class.
+		 *
+		 * @observable
+		 * @member {Boolean} #isVisible
+		 */
+		this.set( 'isVisible', true );
+
+		/**
+		 * (Optional) Controls whether the label of the button is hidden (e.g. an icon–only button).
+		 *
+		 * @observable
+		 * @member {Boolean} #withText
+		 */
+		this.set( 'withText', false );
+
+		/**
+		 * (Optional) An XML {@link module:ui/icon/iconview~IconView#content content} of the icon.
+		 * When defined, an {@link #iconView} will be added to the button.
+		 *
+		 * @observable
+		 * @member {String} #icon
+		 */
+		this.set( 'icon' );
+
+		/**
+		 * (Optional) Controls the `tabindex` HTML attribute of the button. By default, the button is focusable
+		 * but does not included in the <kbd>Tab</kbd> order.
+		 *
+		 * @observable
+		 * @default -1
+		 * @member {String} #tabindex
+		 */
+		this.set( 'tabindex', -1 );
+
+		/**
+		 * Tooltip of the button bound to the template.
+		 *
+		 * @see #tooltip
+		 * @see #_getTooltipString
+		 * @private
+		 * @observable
+		 * @member {Boolean} #_tooltipString
+		 */
+		this.bind( '_tooltipString' ).to(
+			this, 'tooltip',
+			this, 'label',
+			this, 'keystroke',
+			this._getTooltipString.bind( this )
+		);
+
+		/**
+		 * Tooltip of the button view. It is configurable using the {@link #tooltip tooltip attribute}.
+		 *
+		 * @readonly
+		 * @member {module:ui/tooltip/tooltipview~TooltipView} #tooltipView
+		 */
+		this.tooltipView = this._createTooltipView();
+
+		/**
+		 * (Optional) The icon view of the button. Only present when the {@link #icon icon attribute} is defined.
+		 *
+		 * @readonly
+		 * @member {module:ui/icon/iconview~IconView} #iconView
+		 */
+
+		const bind = this.bindTemplate;
+
+		this.template = new __WEBPACK_IMPORTED_MODULE_1__template__["a" /* default */]( {
+			tag: 'button',
+
+			attributes: {
+				class: [
+					'ck-button',
+					bind.to( 'isEnabled', value => value ? 'ck-enabled' : 'ck-disabled' ),
+					bind.if( 'isVisible', 'ck-hidden', value => !value ),
+					bind.to( 'isOn', value => value ? 'ck-on' : 'ck-off' ),
+					bind.if( 'withText', 'ck-button_with-text' )
+				],
+				type: bind.to( 'type', value => value ? value : 'button' ),
+				tabindex: bind.to( 'tabindex' )
+			},
+
+			children: [
+				{
+					tag: 'span',
+
+					attributes: {
+						class: [ 'ck-button__label' ]
+					},
+
+					children: [
+						{
+							text: bind.to( 'label' )
+						}
+					]
+				},
+				this.tooltipView
+			],
+
+			on: {
+				mousedown: bind.to( evt => {
+					evt.preventDefault();
+				} ),
+
+				click: bind.to( evt => {
+					// We can't make the button disabled using the disabled attribute, because it won't be focusable.
+					// Though, shouldn't this condition be moved to the button controller?
+					if ( this.isEnabled ) {
+						this.fire( 'execute' );
+					} else {
+						// Prevent the default when button is disabled, to block e.g.
+						// automatic form submitting. See ckeditor/ckeditor5-link#74.
+						evt.preventDefault();
+					}
+				} )
+			}
+		} );
+
+		/**
+		 * Fired when the button view is clicked. It won't be fired when the button {@link #isEnabled}
+		 * is `false`.
+		 *
+		 * @event execute
+		 */
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	init() {
+		if ( this.icon ) {
+			const iconView = this.iconView = new __WEBPACK_IMPORTED_MODULE_2__icon_iconview__["a" /* default */]();
+
+			iconView.bind( 'content' ).to( this, 'icon' );
+			this.element.insertBefore( iconView.element, this.element.firstChild );
+
+			// Make sure the icon will be destroyed along with the button.
+			this.addChildren( iconView );
+		}
+
+		super.init();
+	}
+
+	/**
+	 * Focuses the {@link #element} of the button.
+	 */
+	focus() {
+		this.element.focus();
+	}
+
+	/**
+	 * Creates a {@link module:ui/tooltip/tooltipview~TooltipView} instance and binds it with button
+	 * attributes.
+	 *
+	 * @private
+	 * @returns {module:ui/tooltip/tooltipview~TooltipView}
+	 */
+	_createTooltipView() {
+		const tooltipView = new __WEBPACK_IMPORTED_MODULE_3__tooltip_tooltipview__["a" /* default */]();
+
+		tooltipView.bind( 'text' ).to( this, '_tooltipString' );
+		tooltipView.bind( 'position' ).to( this, 'tooltipPosition' );
+
+		return tooltipView;
+	}
+
+	/**
+	 * Gets the text for the {@link #tooltipView} from the combination of
+	 * {@link #tooltip}, {@link #label} and {@link #keystroke} attributes.
+	 *
+	 * @private
+	 * @see #tooltip
+	 * @see #_tooltipString
+	 * @param {Boolean|String|Function} tooltip Button tooltip.
+	 * @param {String} label Button label.
+	 * @param {String} keystroke Button keystroke.
+	 * @returns {String}
+	 */
+	_getTooltipString( tooltip, label, keystroke ) {
+		if ( tooltip ) {
+			if ( typeof tooltip == 'string' ) {
+				return tooltip;
+			} else {
+				if ( keystroke ) {
+					keystroke = Object(__WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_keyboard__["b" /* getEnvKeystrokeText */])( keystroke );
+				}
+
+				if ( tooltip instanceof Function ) {
+					return tooltip( label, keystroke );
+				} else {
+					return `${ label }${ keystroke ? ` (${ keystroke })` : '' }`;
+				}
+			}
+		}
+
+		return '';
+	}
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = ButtonView;
+
+
+
+/***/ }),
+/* 26 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditorerror__ = __webpack_require__(0);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/* global console */
+
+/**
+ * @module utils/log
+ */
+
+
+
+/**
+ * The logging module.
+ *
+ * This object features two functions that should be used across CKEditor code base to log errors and warnings.
+ * Despite being an overridable interface for native `console.*` this module serves also the goal to limit the
+ * code size of a minified CKEditor package. During minification process the messages will be shortened and
+ * links to their documentation will be logged to the console.
+ *
+ * All errors and warning should be documented in the following way:
+ *
+ *		/**
+ *		 * Error thrown when a plugin cannot be loaded due to JavaScript errors, lack of plugins with a given name, etc.
+ *		 *
+ *		 * @error plugin-load
+ *		 * @param pluginName The name of the plugin that could not be loaded.
+ *		 * @param moduleName The name of the module which tried to load this plugin.
+ *		 * /
+ *		log.error( 'plugin-load: It was not possible to load the "{$pluginName}" plugin in module "{$moduleName}', {
+ *			pluginName: 'foo',
+ *			moduleName: 'bar'
+ *		} );
+ *
+ * ### Warning vs Error vs Throw
+ *
+ * * Whenever a potentially incorrect situation occurs, which does not directly lead to an incorrect behavior,
+ * log a warning.
+ * * Whenever an incorrect situation occurs, but the app may continue working (although perhaps incorrectly),
+ * log an error.
+ * * Whenever it's really bad and it does not make sense to continue working, throw a {@link module:utils/ckeditorerror~CKEditorError}.
+ *
+ * @namespace
+ */
+const log = {
+	/**
+	 * Logs an error to the console.
+	 *
+	 * Read more about error logging in the {@link module:utils/log} module.
+	 *
+	 * @param {String} message The error message in an `error-name: Error message.` format.
+	 * During the minification process the "Error message" part will be removed to limit the code size
+	 * and a link to this error documentation will be logged to the console.
+	 * @param {Object} [data] Additional data describing the error.
+	 */
+	error( message, data ) {
+		console.error( Object(__WEBPACK_IMPORTED_MODULE_0__ckeditorerror__["a" /* attachLinkToDocumentation */])( message ), data );
+	},
+
+	/**
+	 * Logs a warning to the console.
+	 *
+	 * Read more about error logging in the {@link module:utils/log} module.
+	 *
+	 * @param {String} message The warning message in a `warning-name: Warning message.` format.
+	 * During the minification process the "Warning message" part will be removed to limit the code size
+	 * and a link to this error documentation will be logged to the console.
+	 * @param {Object} [data] Additional data describing the warning.
+	 */
+	warn( message, data ) {
+		console.warn( Object(__WEBPACK_IMPORTED_MODULE_0__ckeditorerror__["a" /* attachLinkToDocumentation */])( message ), data );
+	}
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (log);
+
+
+/***/ }),
+/* 27 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_objecttomap__ = __webpack_require__(166);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_lib_lodash_isPlainObject__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matcher__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matcher__ = __webpack_require__(177);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -7913,806 +9043,7 @@ function normalize( nodes ) {
 
 
 /***/ }),
-/* 22 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["b"] = insert;
-/* harmony export (immutable) */ __webpack_exports__["d"] = remove;
-/* unused harmony export move */
-/* unused harmony export setAttribute */
-/* unused harmony export removeAttribute */
-/* harmony export (immutable) */ __webpack_exports__["c"] = normalizeNodes;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__textproxy__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__range__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__documentfragment__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__nodelist__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module engine/model/writer
- */
-
-
-
-
-
-
-
-
-
-/**
- * Contains functions used for composing model tree, grouped together under "model writer" name. Those functions
- * are built on top of {@link module:engine/model/node~Node node}, and it's child classes', APIs.
- *
- * Model writer API has multiple advantages and it is highly recommended to use it when changing model tree and nodes:
- * * model writer API {@link module:engine/model/writer~writer.normalizeNodes normalizes inserted nodes}, which means that you can insert
- * not only {@link module:engine/model/node~Node nodes}, but also `String`s, {@link module:engine/model/textproxy~TextProxy text proxies}
- * and
- * {@link module:engine/model/documentfragment~DocumentFragment document fragments},
- * * model writer API operates on {@link module:engine/model/position~Position positions}, which means that you have
- * better control over manipulating model tree as positions operate on offsets rather than indexes,
- * * model writer API automatically merges {@link module:engine/model/text~Text text nodes} with same attributes, which means
- * lower memory usage and better efficiency.
- *
- * @namespace writer
- */
-const writer = {
-	insert,
-	remove,
-	move,
-	setAttribute,
-	removeAttribute,
-	normalizeNodes
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (writer);
-
-/**
- * Inserts given nodes at given position.
- *
- * @function module:engine/model/writer~writer.insert
- * @param {module:engine/model/position~Position} position Position at which nodes should be inserted.
- * @param {module:engine/model/node~NodeSet} nodes Nodes to insert.
- * @returns {module:engine/model/range~Range} Range spanning over inserted elements.
- */
-function insert( position, nodes ) {
-	nodes = normalizeNodes( nodes );
-
-	// We have to count offset before inserting nodes because they can get merged and we would get wrong offsets.
-	const offset = nodes.reduce( ( sum, node ) => sum + node.offsetSize, 0 );
-	const parent = position.parent;
-
-	// Insertion might be in a text node, we should split it if that's the case.
-	_splitNodeAtPosition( position );
-	const index = position.index;
-
-	// Insert nodes at given index. After splitting we have a proper index and insertion is between nodes,
-	// using basic `Element` API.
-	parent.insertChildren( index, nodes );
-
-	// Merge text nodes, if possible. Merging is needed only at points where inserted nodes "touch" "old" nodes.
-	_mergeNodesAtIndex( parent, index + nodes.length );
-	_mergeNodesAtIndex( parent, index );
-
-	return new __WEBPACK_IMPORTED_MODULE_3__range__["a" /* default */]( position, position.getShiftedBy( offset ) );
-}
-
-/**
- * Removed nodes in given range. Only {@link module:engine/model/range~Range#isFlat flat} ranges are accepted.
- *
- * @function module:engine/model/writer~writer.remove
- * @param {module:engine/model/range~Range} range Range containing nodes to remove.
- * @returns {Array.<module:engine/model/node~Node>}
- */
-function remove( range ) {
-	if ( !range.isFlat ) {
-		/**
-		 * Trying to remove a range which starts and ends in different element.
-		 *
-		 * @error model-writer-remove-range-not-flat
-		 */
-		throw new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__["b" /* default */]( 'model-writer-remove-range-not-flat: ' +
-			'Trying to remove a range which starts and ends in different element.' );
-	}
-
-	const parent = range.start.parent;
-
-	// Range may be inside text nodes, we have to split them if that's the case.
-	_splitNodeAtPosition( range.start );
-	_splitNodeAtPosition( range.end );
-
-	// Remove the text nodes using basic `Element` API.
-	const removed = parent.removeChildren( range.start.index, range.end.index - range.start.index );
-
-	// Merge text nodes, if possible. After some nodes were removed, node before and after removed range will be
-	// touching at the position equal to the removed range beginning. We check merging possibility there.
-	_mergeNodesAtIndex( parent, range.start.index );
-
-	return removed;
-}
-
-/**
- * Moves nodes in given range to given target position. Only {@link module:engine/model/range~Range#isFlat flat} ranges are accepted.
- *
- * @param {module:engine/model/range~Range} sourceRange Range containing nodes to move.
- * @param {module:engine/model/position~Position} targetPosition Position to which nodes should be moved.
- * @returns {module:engine/model/range~Range} Range containing moved nodes.
- */
-function move( sourceRange, targetPosition ) {
-	if ( !sourceRange.isFlat ) {
-		/**
-		 * Trying to move a range which starts and ends in different element.
-		 *
-		 * @error model-writer-move-range-not-flat
-		 */
-		throw new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__["b" /* default */]( 'model-writer-move-range-not-flat: ' +
-			'Trying to move a range which starts and ends in different element.' );
-	}
-
-	const nodes = this.remove( sourceRange );
-
-	// We have to fix `targetPosition` because model changed after nodes from `sourceRange` got removed and
-	// that change might have an impact on `targetPosition`.
-	targetPosition = targetPosition._getTransformedByDeletion( sourceRange.start, sourceRange.end.offset - sourceRange.start.offset );
-
-	return this.insert( targetPosition, nodes );
-}
-
-/**
- * Sets given attribute on nodes in given range.
- *
- * @param {module:engine/model/range~Range} range Range containing nodes that should have the attribute set.
- * @param {String} key Key of attribute to set.
- * @param {*} value Attribute value.
- */
-function setAttribute( range, key, value ) {
-	// Range might start or end in text nodes, so we have to split them.
-	_splitNodeAtPosition( range.start );
-	_splitNodeAtPosition( range.end );
-
-	// Iterate over all items in the range.
-	for ( const item of range.getItems() ) {
-		// Iterator will return `TextProxy` instances but we know that those text proxies will
-		// always represent full text nodes (this is guaranteed thanks to splitting we did before).
-		// So, we can operate on those text proxies' text nodes.
-		const node = item.is( 'textProxy' ) ? item.textNode : item;
-
-		if ( value !== null ) {
-			node.setAttribute( key, value );
-		} else {
-			node.removeAttribute( key );
-		}
-
-		// After attributes changing it may happen that some text nodes can be merged. Try to merge with previous node.
-		_mergeNodesAtIndex( node.parent, node.index );
-	}
-
-	// Try to merge last changed node with it's previous sibling (not covered by the loop above).
-	_mergeNodesAtIndex( range.end.parent, range.end.index );
-}
-
-/**
- * Removes given attribute from nodes in given range.
- *
- * @param {module:engine/model/range~Range} range Range containing nodes that should have the attribute removed.
- * @param {String} key Key of attribute to remove.
- */
-function removeAttribute( range, key ) {
-	this.setAttribute( range, key, null );
-}
-
-/**
- * Normalizes given object or an array of objects to an array of {@link module:engine/model/node~Node nodes}. See
- * {@link module:engine/model/node~NodeSet NodeSet} for details on how normalization is performed.
- *
- * @param {module:engine/model/node~NodeSet} nodes Objects to normalize.
- * @returns {Array.<module:engine/model/node~Node>} Normalized nodes.
- */
-function normalizeNodes( nodes ) {
-	const normalized = [];
-
-	if ( !( nodes instanceof Array ) ) {
-		nodes = [ nodes ];
-	}
-
-	// Convert instances of classes other than Node.
-	for ( let i = 0; i < nodes.length; i++ ) {
-		if ( typeof nodes[ i ] == 'string' ) {
-			normalized.push( new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( nodes[ i ] ) );
-		} else if ( nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_2__textproxy__["a" /* default */] ) {
-			normalized.push( new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( nodes[ i ].data, nodes[ i ].getAttributes() ) );
-		} else if ( nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_4__documentfragment__["a" /* default */] || nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_5__nodelist__["a" /* default */] ) {
-			for ( const child of nodes[ i ] ) {
-				normalized.push( child );
-			}
-		} else if ( nodes[ i ] instanceof __WEBPACK_IMPORTED_MODULE_0__node__["a" /* default */] ) {
-			normalized.push( nodes[ i ] );
-		}
-		// Skip unrecognized type.
-	}
-
-	// Merge text nodes.
-	for ( let i = 1; i < normalized.length; i++ ) {
-		const node = normalized[ i ];
-		const prev = normalized[ i - 1 ];
-
-		if ( node instanceof __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */] && prev instanceof __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */] && _haveSameAttributes( node, prev ) ) {
-			// Doing this instead changing prev.data because .data is readonly.
-			normalized.splice( i - 1, 2, new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( prev.data + node.data, prev.getAttributes() ) );
-			i--;
-		}
-	}
-
-	return normalized;
-}
-
-/**
- * Checks if nodes before and after given index in given element are {@link module:engine/model/text~Text text nodes} and
- * merges them into one node if they have same attributes.
- *
- * Merging is done by removing two text nodes and inserting a new text node containing data from both merged text nodes.
- *
- * @ignore
- * @private
- * @param {module:engine/model/element~Element} element Parent element of nodes to merge.
- * @param {Number} index Index between nodes to merge.
- */
-function _mergeNodesAtIndex( element, index ) {
-	const nodeBefore = element.getChild( index - 1 );
-	const nodeAfter = element.getChild( index );
-
-	// Check if both of those nodes are text objects with same attributes.
-	if ( nodeBefore && nodeAfter && nodeBefore.is( 'text' ) && nodeAfter.is( 'text' ) && _haveSameAttributes( nodeBefore, nodeAfter ) ) {
-		// Append text of text node after index to the before one.
-		const mergedNode = new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( nodeBefore.data + nodeAfter.data, nodeBefore.getAttributes() );
-
-		// Remove separate text nodes.
-		element.removeChildren( index - 1, 2 );
-
-		// Insert merged text node.
-		element.insertChildren( index - 1, mergedNode );
-	}
-}
-
-/**
- * Checks if given position is in a text node, and if so, splits the text node in two text nodes, each of them
- * containing a part of original text node.
- *
- * @ignore
- * @private
- * @param {module:engine/model/position~Position} position Position at which node should be split.
- */
-function _splitNodeAtPosition( position ) {
-	const textNode = position.textNode;
-	const element = position.parent;
-
-	if ( textNode ) {
-		const offsetDiff = position.offset - textNode.startOffset;
-		const index = textNode.index;
-
-		element.removeChildren( index, 1 );
-
-		const firstPart = new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( textNode.data.substr( 0, offsetDiff ), textNode.getAttributes() );
-		const secondPart = new __WEBPACK_IMPORTED_MODULE_1__text__["a" /* default */]( textNode.data.substr( offsetDiff ), textNode.getAttributes() );
-
-		element.insertChildren( index, [ firstPart, secondPart ] );
-	}
-}
-
-/**
- * Checks whether two given nodes have same attributes.
- *
- * @ignore
- * @private
- * @param {module:engine/model/node~Node} nodeA Node to check.
- * @param {module:engine/model/node~Node} nodeB Node to check.
- * @returns {Boolean} `true` if nodes have same attributes, `false` otherwise.
- */
-function _haveSameAttributes( nodeA, nodeB ) {
-	const iteratorA = nodeA.getAttributes();
-	const iteratorB = nodeB.getAttributes();
-
-	for ( const attr of iteratorA ) {
-		if ( attr[ 1 ] !== nodeB.getAttribute( attr[ 0 ] ) ) {
-			return false;
-		}
-
-		iteratorB.next();
-	}
-
-	return iteratorB.next().done;
-}
-
-/**
- * Value that can be normalized to an array of {@link module:engine/model/node~Node nodes}.
- *
- * Non-arrays are normalized as follows:
- * * {@link module:engine/model/node~Node Node} is left as is,
- * * {@link module:engine/model/textproxy~TextProxy TextProxy} and `String` are normalized to {@link module:engine/model/text~Text Text},
- * * {@link module:engine/model/nodelist~NodeList NodeList} is normalized to an array containing all nodes that are in that node list,
- * * {@link module:engine/model/documentfragment~DocumentFragment DocumentFragment} is normalized to an array containing all of it's
- * * children.
- *
- * Arrays are processed item by item like non-array values and flattened to one array. Normalization always results in
- * a flat array of {@link module:engine/model/node~Node nodes}. Consecutive text nodes (or items normalized to text nodes) will be
- * merged if they have same attributes.
- *
- * @typedef {module:engine/model/node~Node|module:engine/model/textproxy~TextProxy|String|
- * module:engine/model/nodelist~NodeList|module:engine/model/documentfragment~DocumentFragment|Iterable}
- * module:engine/model/node~NodeSet
- */
-
-
-/***/ }),
-/* 23 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_lib_lodash_clone__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module engine/model/delta/delta
- */
-
-
-
-
-/**
- * Base class for all deltas.
- *
- * Delta is a single, from the user action point of view, change in the editable document, like insert, split or
- * rename element. Delta is composed of operations, which are unit changes needed to be done to execute user action.
- *
- * Multiple deltas are grouped into a single {@link module:engine/model/batch~Batch}.
- */
-class Delta {
-	/**
-	 * Creates a delta instance.
-	 */
-	constructor() {
-		/**
-		 * {@link module:engine/model/batch~Batch} which delta is a part of. This property is null by default and set by the
-		 * {@link module:engine/model/batch~Batch#addDelta} method.
-		 *
-		 * @readonly
-		 * @member {module:engine/model/batch~Batch} module:engine/model/delta/delta~Delta#batch
-		 */
-		this.batch = null;
-
-		/**
-		 * Array of operations which compose delta.
-		 *
-		 * @readonly
-		 * @member {module:engine/model/operation/operation~Operation[]} module:engine/model/delta/delta~Delta#operations
-		 */
-		this.operations = [];
-	}
-
-	/**
-	 * Returns delta base version which is equal to the base version of the first operation in delta. If there
-	 * are no operations in delta, returns `null`.
-	 *
-	 * @see module:engine/model/document~Document
-	 * @type {Number|null}
-	 */
-	get baseVersion() {
-		if ( this.operations.length > 0 ) {
-			return this.operations[ 0 ].baseVersion;
-		}
-
-		return null;
-	}
-
-	/**
-	 * @param {Number} baseVersion
-	 */
-	set baseVersion( baseVersion ) {
-		for ( const operation of this.operations ) {
-			operation.baseVersion = baseVersion++;
-		}
-	}
-
-	/**
-	 * A class that will be used when creating reversed delta.
-	 *
-	 * @private
-	 * @type {Function}
-	 */
-	get _reverseDeltaClass() {
-		return Delta;
-	}
-
-	/**
-	 * Delta type.
-	 *
-	 * @readonly
-	 * @member {String} #type
-	 */
-
-	/**
-	 * Add operation to the delta.
-	 *
-	 * @param {module:engine/model/operation/operation~Operation} operation Operation instance.
-	 */
-	addOperation( operation ) {
-		operation.delta = this;
-		this.operations.push( operation );
-
-		return operation;
-	}
-
-	/**
-	 * Creates and returns a delta that has the same parameters as this delta.
-	 *
-	 * @returns {module:engine/model/delta/delta~Delta} Clone of this delta.
-	 */
-	clone() {
-		const delta = new this.constructor();
-
-		for ( const op of this.operations ) {
-			delta.addOperation( op.clone() );
-		}
-
-		return delta;
-	}
-
-	/**
-	 * Creates and returns a reverse delta. Reverse delta when executed right after the original delta will bring back
-	 * tree model state to the point before the original delta execution. In other words, it reverses changes done
-	 * by the original delta.
-	 *
-	 * Keep in mind that tree model state may change since executing the original delta, so reverse delta may be "outdated".
-	 * In that case you will need to {@link module:engine/model/delta/transform~transform} it by all deltas that were executed after
-	 * the original delta.
-	 *
-	 * @returns {module:engine/model/delta/delta~Delta} Reversed delta.
-	 */
-	getReversed() {
-		const delta = new this._reverseDeltaClass();
-
-		for ( const op of this.operations ) {
-			delta.addOperation( op.getReversed() );
-		}
-
-		delta.operations.reverse();
-
-		for ( let i = 0; i < delta.operations.length; i++ ) {
-			delta.operations[ i ].baseVersion = this.operations[ this.operations.length - 1 ].baseVersion + i + 1;
-		}
-
-		return delta;
-	}
-
-	/**
-	 * Custom toJSON method to make deltas serializable.
-	 *
-	 * @returns {Object} Clone of this delta with added class name.
-	 */
-	toJSON() {
-		const json = Object(__WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_lib_lodash_clone__["a" /* default */])( this );
-
-		json.__className = this.constructor.className;
-
-		// Remove parent batch to avoid circular dependencies.
-		delete json.batch;
-
-		return json;
-	}
-
-	/**
-	 * Delta class name. Used by {@link #toJSON} method for serialization and
-	 * {@link module:engine/model/delta/deltafactory~DeltaFactory.fromJSON} during deserialization.
-	 *
-	 * @type {String}
-	 * @readonly
-	 */
-	static get className() {
-		return 'engine.model.delta.Delta';
-	}
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = Delta;
-
-
-__WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( Delta );
-
-
-/***/ }),
-/* 24 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayPush__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isFlattenable__ = __webpack_require__(366);
-
-
-
-/**
- * The base implementation of `_.flatten` with support for restricting flattening.
- *
- * @private
- * @param {Array} array The array to flatten.
- * @param {number} depth The maximum recursion depth.
- * @param {boolean} [predicate=isFlattenable] The function invoked per iteration.
- * @param {boolean} [isStrict] Restrict to values that pass `predicate` checks.
- * @param {Array} [result=[]] The initial result value.
- * @returns {Array} Returns the new flattened array.
- */
-function baseFlatten(array, depth, predicate, isStrict, result) {
-  var index = -1,
-      length = array.length;
-
-  predicate || (predicate = __WEBPACK_IMPORTED_MODULE_1__isFlattenable__["a" /* default */]);
-  result || (result = []);
-
-  while (++index < length) {
-    var value = array[index];
-    if (depth > 0 && predicate(value)) {
-      if (depth > 1) {
-        // Recursively flatten arrays (susceptible to call stack limits).
-        baseFlatten(value, depth - 1, predicate, isStrict, result);
-      } else {
-        Object(__WEBPACK_IMPORTED_MODULE_0__arrayPush__["a" /* default */])(result, value);
-      }
-    } else if (!isStrict) {
-      result[result.length] = value;
-    }
-  }
-  return result;
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (baseFlatten);
-
-
-/***/ }),
-/* 25 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module core/command
- */
-
-
-
-
-/**
- * The base class for CKEditor commands.
- *
- * Commands are the main way to manipulate editor contents and state. They are mostly used by UI elements (or by other
- * commands) to make changes in the model. Commands are available in every part of code that has access to
- * the {@link module:core/editor/editor~Editor editor} instance.
- *
- * Instances of registered commands can be retrieved from {@link module:core/editor/editor~Editor#commands}.
- * The easiest way to execute a command is through {@link module:core/editor/editor~Editor#execute}.
- *
- * By default commands are disabled when the editor is in {@link module:core/editor/editor~Editor#isReadOnly read-only} mode.
- *
- * @mixes module:utils/observablemixin~ObservableMixin
- */
-class Command {
-	/**
-	 * Creates a new `Command` instance.
-	 *
-	 * @param {module:core/editor/editor~Editor} editor Editor on which this command will be used.
-	 */
-	constructor( editor ) {
-		/**
-		 * The editor on which this command will be used.
-		 *
-		 * @readonly
-		 * @member {module:core/editor/editor~Editor}
-		 */
-		this.editor = editor;
-
-		/**
-		 * The value of a command. Concrete command class should define what it represents.
-		 *
-		 * For example, the `bold` command's value is whether the selection starts in a bolded text.
-		 * And the value of the `link` command may be an object with links details.
-		 *
-		 * It's possible for a command to have no value (e.g. for stateless actions such as `uploadImage`).
-		 *
-		 * @observable
-		 * @readonly
-		 * @member #value
-		 */
-		this.set( 'value', undefined );
-
-		/**
-		 * Flag indicating whether a command is enabled or disabled.
-		 * A disabled command should do nothing when executed.
-		 *
-		 * @observable
-		 * @readonly
-		 * @member {Boolean} #isEnabled
-		 */
-		this.set( 'isEnabled', false );
-
-		this.decorate( 'execute' );
-
-		// By default every command is refreshed when changes are applied to the model.
-		this.listenTo( this.editor.document, 'changesDone', () => {
-			this.refresh();
-		} );
-
-		this.on( 'execute', evt => {
-			if ( !this.isEnabled ) {
-				evt.stop();
-			}
-		}, { priority: 'high' } );
-
-		// By default commands are disabled when the editor is in read-only mode.
-		this.listenTo( editor, 'change:isReadOnly', ( evt, name, value ) => {
-			if ( value ) {
-				// See a ticket about overriding observable properties
-				// https://github.com/ckeditor/ckeditor5-utils/issues/171.
-				this.on( 'change:isEnabled', forceDisable, { priority: 'lowest' } );
-				this.isEnabled = false;
-			} else {
-				this.off( 'change:isEnabled', forceDisable );
-				this.refresh();
-			}
-		} );
-
-		function forceDisable() {
-			this.isEnabled = false;
-		}
-	}
-
-	/**
-	 * Refreshes the command. The command should update its {@link #isEnabled} and {@link #value} property
-	 * in this method.
-	 *
-	 * This method is automatically called when
-	 * {@link module:engine/model/document~Document#event:changesDone any changes are applied to the model}.
-	 */
-	refresh() {
-		this.isEnabled = true;
-	}
-
-	/**
-	 * Executes the command.
-	 *
-	 * A command may accept parameters. They will be passed from {@link module:core/editor/editor~Editor#execute}
-	 * to the command.
-	 *
-	 * The `execute()` method will automatically abort when the command is disabled ({@link #isEnabled} is `false`).
-	 * This behavior is implemented by a high priority listener to the {@link #event:execute} event.
-	 *
-	 * @fires execute
-	 */
-	execute() {}
-
-	/**
-	 * Destroys the command.
-	 */
-	destroy() {
-		this.stopListening();
-	}
-
-	/**
-	 * Event fired by the {@link #execute} method. The command action is a listener to this event so it's
-	 * possible to change/cancel the behavior of the command by listening to this event.
-	 *
-	 * See {@link module:utils/observablemixin~ObservableMixin.decorate} for more information and samples.
-	 *
-	 * **Note:** This event is fired even if command is disabled. However, it is automatically blocked
-	 * by a high priority listener in order to prevent command execution.
-	 *
-	 * @event execute
-	 */
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = Command;
-
-
-Object(__WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__["a" /* default */])( Command, __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_observablemixin__["a" /* default */] );
-
-
-/***/ }),
-/* 26 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditorerror__ = __webpack_require__(0);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/* global console */
-
-/**
- * @module utils/log
- */
-
-
-
-/**
- * The logging module.
- *
- * This object features two functions that should be used across CKEditor code base to log errors and warnings.
- * Despite being an overridable interface for native `console.*` this module serves also the goal to limit the
- * code size of a minified CKEditor package. During minification process the messages will be shortened and
- * links to their documentation will be logged to the console.
- *
- * All errors and warning should be documented in the following way:
- *
- *		/**
- *		 * Error thrown when a plugin cannot be loaded due to JavaScript errors, lack of plugins with a given name, etc.
- *		 *
- *		 * @error plugin-load
- *		 * @param pluginName The name of the plugin that could not be loaded.
- *		 * @param moduleName The name of the module which tried to load this plugin.
- *		 * /
- *		log.error( 'plugin-load: It was not possible to load the "{$pluginName}" plugin in module "{$moduleName}', {
- *			pluginName: 'foo',
- *			moduleName: 'bar'
- *		} );
- *
- * ### Warning vs Error vs Throw
- *
- * * Whenever a potentially incorrect situation occurs, which does not directly lead to an incorrect behavior,
- * log a warning.
- * * Whenever an incorrect situation occurs, but the app may continue working (although perhaps incorrectly),
- * log an error.
- * * Whenever it's really bad and it does not make sense to continue working, throw a {@link module:utils/ckeditorerror~CKEditorError}.
- *
- * @namespace
- */
-const log = {
-	/**
-	 * Logs an error to the console.
-	 *
-	 * Read more about error logging in the {@link module:utils/log} module.
-	 *
-	 * @param {String} message The error message in an `error-name: Error message.` format.
-	 * During the minification process the "Error message" part will be removed to limit the code size
-	 * and a link to this error documentation will be logged to the console.
-	 * @param {Object} [data] Additional data describing the error.
-	 */
-	error( message, data ) {
-		console.error( Object(__WEBPACK_IMPORTED_MODULE_0__ckeditorerror__["a" /* attachLinkToDocumentation */])( message ), data );
-	},
-
-	/**
-	 * Logs a warning to the console.
-	 *
-	 * Read more about error logging in the {@link module:utils/log} module.
-	 *
-	 * @param {String} message The warning message in a `warning-name: Warning message.` format.
-	 * During the minification process the "Warning message" part will be removed to limit the code size
-	 * and a link to this error documentation will be logged to the console.
-	 * @param {Object} [data] Additional data describing the warning.
-	 */
-	warn( message, data ) {
-		console.warn( Object(__WEBPACK_IMPORTED_MODULE_0__ckeditorerror__["a" /* attachLinkToDocumentation */])( message ), data );
-	}
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (log);
-
-
-/***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8720,7 +9051,7 @@ const log = {
 /* harmony export (immutable) */ __webpack_exports__["d"] = parseKeystroke;
 /* harmony export (immutable) */ __webpack_exports__["b"] = getEnvKeystrokeText;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditorerror__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__env__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__env__ = __webpack_require__(346);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -8911,7 +9242,7 @@ function splitKeystrokeText( keystroke ) {
 
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8920,7 +9251,7 @@ function splitKeystrokeText( keystroke ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_comparearrays__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__writer__ = __webpack_require__(21);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -9136,7 +9467,7 @@ class MoveOperation extends __WEBPACK_IMPORTED_MODULE_0__operation__["a" /* defa
 
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9164,346 +9495,15 @@ function arrayMap(array, iteratee) {
 
 
 /***/ }),
-/* 30 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__template__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__icon_iconview__ = __webpack_require__(457);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tooltip_tooltipview__ = __webpack_require__(458);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module ui/button/buttonview
- */
-
-
-
-
-
-
-
-
-/**
- * The button view class.
- *
- *		const view = new ButtonView();
- *
- *		view.set( {
- *			label: 'A button',
- *			keystroke: 'Ctrl+B',
- *			tooltip: true,
- *			withText: true
- *		} );
- *
- *		view.init();
- *
- *		document.body.append( view.element );
- *
- * @extends module:ui/view~View
- */
-class ButtonView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */] {
-	/**
-	 * @inheritDoc
-	 */
-	constructor( locale ) {
-		super( locale );
-
-		/**
-		 * The label of the button view visible to the user when {@link #withText} is `true`.
-		 * It can also be used to create a {@link #tooltip}.
-		 *
-		 * @observable
-		 * @member {String} #label
-		 */
-		this.set( 'label' );
-
-		/**
-		 * (Optional) The keystroke associated with the button, i.e. <kbd>CTRL+B</kbd>,
-		 * in the string format compatible with {@link module:utils/keyboard}.
-		 *
-		 * @observable
-		 * @member {Boolean} #keystroke
-		 */
-		this.set( 'keystroke' );
-
-		/**
-		 * (Optional) Tooltip of the button, i.e. displayed when hovering the button with the mouse cursor.
-		 *
-		 * * If defined as a `Boolean` (e.g. `true`), then combination of `label` and `keystroke` will be set as a tooltip.
-		 * * If defined as a `String`, tooltip will equal the exact text of that `String`.
-		 * * If defined as a `Function`, `label` and `keystroke` will be passed to that function, which is to return
-		 * a string with the tooltip text.
-		 *
-		 *		const view = new ButtonView( locale );
-		 *		view.tooltip = ( label, keystroke ) => `A tooltip for ${ label } and ${ keystroke }.`
-		 *
-		 * @observable
-		 * @default false
-		 * @member {Boolean|String|Function} #tooltip
-		 */
-		this.set( 'tooltip' );
-
-		/**
-		 * (Optional) The position of the tooltip. See {@link module:ui/tooltip/tooltipview~TooltipView#position}
-		 * to learn more about the available position values.
-		 *
-		 * **Note:** It makes sense only when the {@link #tooltip `tooltip` attribute} is defined.
-		 *
-		 * @observable
-		 * @default 's'
-		 * @member {'s'|'n'} #position
-		 */
-		this.set( 'tooltipPosition', 's' );
-
-		/**
-		 * The HTML type of the button. Default `button`.
-		 *
-		 * @observable
-		 * @member {'button'|'submit'|'reset'|'menu'} #type
-		 */
-		this.set( 'type', 'button' );
-
-		/**
-		 * Controls whether the button view is "on". It makes sense when a feature it represents
-		 * is currently active, e.g. a bold button is "on" when the selection is in the bold text.
-		 *
-		 * To disable the button, use {@link #isEnabled} instead.
-		 *
-		 * @observable
-		 * @member {Boolean} #isOn
-		 */
-		this.set( 'isOn', false );
-
-		/**
-		 * Controls whether the button view is enabled, i.e. it can be clicked and execute an action.
-		 *
-		 * To change the "on" state of the button, use {@link #isOn} instead.
-		 *
-		 * @observable
-		 * @member {Boolean} #isEnabled
-		 */
-		this.set( 'isEnabled', true );
-
-		/**
-		 * Controls whether the button view is visible. Visible by default, buttons are hidden
-		 * using a CSS class.
-		 *
-		 * @observable
-		 * @member {Boolean} #isVisible
-		 */
-		this.set( 'isVisible', true );
-
-		/**
-		 * (Optional) Controls whether the label of the button is hidden (e.g. an icon–only button).
-		 *
-		 * @observable
-		 * @member {Boolean} #withText
-		 */
-		this.set( 'withText', false );
-
-		/**
-		 * (Optional) An XML {@link module:ui/icon/iconview~IconView#content content} of the icon.
-		 * When defined, an {@link #iconView} will be added to the button.
-		 *
-		 * @observable
-		 * @member {String} #icon
-		 */
-		this.set( 'icon' );
-
-		/**
-		 * (Optional) Controls the `tabindex` HTML attribute of the button. By default, the button is focusable
-		 * but does not included in the <kbd>Tab</kbd> order.
-		 *
-		 * @observable
-		 * @default -1
-		 * @member {String} #tabindex
-		 */
-		this.set( 'tabindex', -1 );
-
-		/**
-		 * Tooltip of the button bound to the template.
-		 *
-		 * @see #tooltip
-		 * @see #_getTooltipString
-		 * @private
-		 * @observable
-		 * @member {Boolean} #_tooltipString
-		 */
-		this.bind( '_tooltipString' ).to(
-			this, 'tooltip',
-			this, 'label',
-			this, 'keystroke',
-			this._getTooltipString.bind( this )
-		);
-
-		/**
-		 * Tooltip of the button view. It is configurable using the {@link #tooltip tooltip attribute}.
-		 *
-		 * @readonly
-		 * @member {module:ui/tooltip/tooltipview~TooltipView} #tooltipView
-		 */
-		this.tooltipView = this._createTooltipView();
-
-		/**
-		 * (Optional) The icon view of the button. Only present when the {@link #icon icon attribute} is defined.
-		 *
-		 * @readonly
-		 * @member {module:ui/icon/iconview~IconView} #iconView
-		 */
-
-		const bind = this.bindTemplate;
-
-		this.template = new __WEBPACK_IMPORTED_MODULE_1__template__["a" /* default */]( {
-			tag: 'button',
-
-			attributes: {
-				class: [
-					'ck-button',
-					bind.to( 'isEnabled', value => value ? 'ck-enabled' : 'ck-disabled' ),
-					bind.if( 'isVisible', 'ck-hidden', value => !value ),
-					bind.to( 'isOn', value => value ? 'ck-on' : 'ck-off' ),
-					bind.if( 'withText', 'ck-button_with-text' )
-				],
-				type: bind.to( 'type', value => value ? value : 'button' ),
-				tabindex: bind.to( 'tabindex' )
-			},
-
-			children: [
-				{
-					tag: 'span',
-
-					attributes: {
-						class: [ 'ck-button__label' ]
-					},
-
-					children: [
-						{
-							text: bind.to( 'label' )
-						}
-					]
-				},
-				this.tooltipView
-			],
-
-			on: {
-				mousedown: bind.to( evt => {
-					evt.preventDefault();
-				} ),
-
-				click: bind.to( evt => {
-					// We can't make the button disabled using the disabled attribute, because it won't be focusable.
-					// Though, shouldn't this condition be moved to the button controller?
-					if ( this.isEnabled ) {
-						this.fire( 'execute' );
-					} else {
-						// Prevent the default when button is disabled, to block e.g.
-						// automatic form submitting. See ckeditor/ckeditor5-link#74.
-						evt.preventDefault();
-					}
-				} )
-			}
-		} );
-
-		/**
-		 * Fired when the button view is clicked. It won't be fired when the button {@link #isEnabled}
-		 * is `false`.
-		 *
-		 * @event execute
-		 */
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	init() {
-		if ( this.icon ) {
-			const iconView = this.iconView = new __WEBPACK_IMPORTED_MODULE_2__icon_iconview__["a" /* default */]();
-
-			iconView.bind( 'content' ).to( this, 'icon' );
-			this.element.insertBefore( iconView.element, this.element.firstChild );
-
-			// Make sure the icon will be destroyed along with the button.
-			this.addChildren( iconView );
-		}
-
-		super.init();
-	}
-
-	/**
-	 * Focuses the {@link #element} of the button.
-	 */
-	focus() {
-		this.element.focus();
-	}
-
-	/**
-	 * Creates a {@link module:ui/tooltip/tooltipview~TooltipView} instance and binds it with button
-	 * attributes.
-	 *
-	 * @private
-	 * @returns {module:ui/tooltip/tooltipview~TooltipView}
-	 */
-	_createTooltipView() {
-		const tooltipView = new __WEBPACK_IMPORTED_MODULE_3__tooltip_tooltipview__["a" /* default */]();
-
-		tooltipView.bind( 'text' ).to( this, '_tooltipString' );
-		tooltipView.bind( 'position' ).to( this, 'tooltipPosition' );
-
-		return tooltipView;
-	}
-
-	/**
-	 * Gets the text for the {@link #tooltipView} from the combination of
-	 * {@link #tooltip}, {@link #label} and {@link #keystroke} attributes.
-	 *
-	 * @private
-	 * @see #tooltip
-	 * @see #_tooltipString
-	 * @param {Boolean|String|Function} tooltip Button tooltip.
-	 * @param {String} label Button label.
-	 * @param {String} keystroke Button keystroke.
-	 * @returns {String}
-	 */
-	_getTooltipString( tooltip, label, keystroke ) {
-		if ( tooltip ) {
-			if ( typeof tooltip == 'string' ) {
-				return tooltip;
-			} else {
-				if ( keystroke ) {
-					keystroke = Object(__WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_keyboard__["b" /* getEnvKeystrokeText */])( keystroke );
-				}
-
-				if ( tooltip instanceof Function ) {
-					return tooltip( label, keystroke );
-				} else {
-					return `${ label }${ keystroke ? ` (${ keystroke })` : '' }`;
-				}
-			}
-		}
-
-		return '';
-	}
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = ButtonView;
-
-
-
-/***/ }),
 /* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = buildViewConverter;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_matcher__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_matcher__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_position__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_writer__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
 /**
@@ -10052,7 +10052,7 @@ function buildViewConverter() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module, global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__checkGlobal__ = __webpack_require__(294);
+/* WEBPACK VAR INJECTION */(function(module, global) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__checkGlobal__ = __webpack_require__(296);
 
 
 /** Used to determine if values are of the language type `Object`. */
@@ -10095,7 +10095,7 @@ var root = freeGlobal ||
 
 /* harmony default export */ __webpack_exports__["a"] = (root);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(163)(module), __webpack_require__(293)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(162)(module), __webpack_require__(295)))
 
 /***/ }),
 /* 33 */
@@ -10222,7 +10222,7 @@ function isIterable( value ) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(27);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -10324,10 +10324,10 @@ function getFillerOffset() {
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = buildModelConverter;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_to_view_converters__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_selection_to_view_converters__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_selection_to_view_converters__ = __webpack_require__(261);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_attributeelement__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__view_containerelement__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__view_uielement__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__view_uielement__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -11251,8 +11251,8 @@ class Operation {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__moveoperation__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reinsertoperation__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__moveoperation__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reinsertoperation__ = __webpack_require__(97);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -11475,7 +11475,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(438);
+var	fixUrls = __webpack_require__(440);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -11831,7 +11831,7 @@ function isObjectLike(value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assignIn__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assignIn__ = __webpack_require__(288);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__assignIn__["a"]; });
 
 
@@ -11888,7 +11888,7 @@ function isSymbol(value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__treewalker__ = __webpack_require__(66);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -12370,7 +12370,7 @@ function enlargeTrimSkip( value ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nodelist__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__removeoperation__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__writer__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__text__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__element__ = __webpack_require__(5);
 /**
@@ -12508,11 +12508,11 @@ class InsertOperation extends __WEBPACK_IMPORTED_MODULE_0__operation__["a" /* de
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayIncludes__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__arrayIncludesWith__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cacheHas__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createSet__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createSet__ = __webpack_require__(394);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__setToArray__ = __webpack_require__(90);
 
 
@@ -13221,7 +13221,7 @@ function compareArrays( a, b ) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isNative__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isNative__ = __webpack_require__(168);
 
 
 /**
@@ -13312,8 +13312,8 @@ function toKey(value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dom_emittermixin__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__keyboard__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dom_emittermixin__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__keyboard__ = __webpack_require__(28);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -13436,7 +13436,7 @@ class KeystrokeHandler {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_dom_emittermixin__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_dom_emittermixin__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -13532,7 +13532,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__paragraphcommand__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__paragraphcommand__ = __webpack_require__(463);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
@@ -13999,7 +13999,7 @@ function isFunction(value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_tomap__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_tomap__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -14421,10 +14421,10 @@ class Node {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__textproxy__ = __webpack_require__(342);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__text__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__textproxy__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -14922,7 +14922,7 @@ class TreeWalker {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseClone__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseClone__ = __webpack_require__(167);
 
 
 /**
@@ -14963,9 +14963,9 @@ function clone(value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseHas__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseKeys__ = __webpack_require__(320);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__indexKeys__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseHas__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseKeys__ = __webpack_require__(322);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__indexKeys__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isArrayLike__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isIndex__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__isPrototype__ = __webpack_require__(81);
@@ -15032,7 +15032,7 @@ function keys(object) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(27);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -15243,10 +15243,10 @@ class NoOperation extends __WEBPACK_IMPORTED_MODULE_0__operation__["a" /* defaul
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayIncludes__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__arrayIncludesWith__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__arrayMap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__arrayMap__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__baseUnary__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cacheHas__ = __webpack_require__(138);
 
@@ -15329,7 +15329,7 @@ function baseDifference(array, values, iteratee, comparator) {
 /* harmony export (immutable) */ __webpack_exports__["e"] = getDataWithoutFiller;
 /* harmony export (immutable) */ __webpack_exports__["g"] = isBlockFiller;
 /* harmony export (immutable) */ __webpack_exports__["f"] = injectQuirksHandling;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -15622,7 +15622,7 @@ class DomEventObserver extends __WEBPACK_IMPORTED_MODULE_0__observer__["a" /* de
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dom_emittermixin__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dom_emittermixin__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__observablemixin__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mix__ = __webpack_require__(4);
@@ -15777,7 +15777,7 @@ Object(__WEBPACK_IMPORTED_MODULE_3__mix__["a" /* default */])( FocusTracker, __W
 /* unused harmony export setLabel */
 /* harmony export (immutable) */ __webpack_exports__["b"] = getLabel;
 /* harmony export (immutable) */ __webpack_exports__["e"] = toWidgetEditable;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__highlightstack__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__highlightstack__ = __webpack_require__(471);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -15956,7 +15956,7 @@ function getFillerOffset() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getPrototype__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getPrototype__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isHostObject__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isObjectLike__ = __webpack_require__(44);
 
@@ -16104,7 +16104,7 @@ function isIterateeCall(value, index, object) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getLength__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getLength__ = __webpack_require__(290);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isFunction__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isLength__ = __webpack_require__(80);
 
@@ -16983,11 +16983,11 @@ Object(__WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__listCacheClear__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__listCacheDelete__ = __webpack_require__(297);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listCacheGet__ = __webpack_require__(298);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listCacheHas__ = __webpack_require__(299);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__listCacheSet__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__listCacheClear__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__listCacheDelete__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listCacheGet__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listCacheHas__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__listCacheSet__ = __webpack_require__(302);
 
 
 
@@ -17070,7 +17070,7 @@ var nativeCreate = Object(__WEBPACK_IMPORTED_MODULE_0__getNative__["a" /* defaul
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isKeyable__ = __webpack_require__(314);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isKeyable__ = __webpack_require__(316);
 
 
 /**
@@ -17269,11 +17269,11 @@ Object(__WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 /* harmony export (immutable) */ __webpack_exports__["i"] = removeUIElement;
 /* unused harmony export eventNameToConsumableType */
 /* harmony export (immutable) */ __webpack_exports__["a"] = createViewElementFromHighlightDescriptor;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_element__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__view_attributeelement__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_text__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_text__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__view_range__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__view_position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__view_position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__view_treewalker__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__view_writer__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__model_range__ = __webpack_require__(2);
@@ -17960,15 +17960,15 @@ class HighlightAttributeElement extends __WEBPACK_IMPORTED_MODULE_1__view_attrib
 /* unused harmony export wrapPosition */
 /* unused harmony export unwrap */
 /* unused harmony export rename */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__containerelement__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__attributeelement__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__emptyelement__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__uielement__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__text__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__emptyelement__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__uielement__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__text__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__range__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__documentfragment__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__documentfragment__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -19200,243 +19200,11 @@ function validateRangeContainer( range ) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__text__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module engine/view/documentfragment
- */
-
-
-
-
-
-
-/**
- * DocumentFragment class.
- */
-class DocumentFragment {
-	/**
-	 * Creates new DocumentFragment instance.
-	 *
-	 * @param {module:engine/view/node~Node|Iterable.<module:engine/view/node~Node>} [children] List of nodes to be inserted into
-	 * created document fragment.
-	 */
-	constructor( children ) {
-		/**
-		 * Array of child nodes.
-		 *
-		 * @protected
-		 * @member {Array.<module:engine/view/element~Element>} module:engine/view/documentfragment~DocumentFragment#_children
-		 */
-		this._children = [];
-
-		if ( children ) {
-			this.insertChildren( 0, children );
-		}
-	}
-
-	/**
-	 * Iterates over nodes added to this DocumentFragment.
-	 */
-	[ Symbol.iterator ]() {
-		return this._children[ Symbol.iterator ]();
-	}
-
-	/**
-	 * Number of child nodes in this document fragment.
-	 *
-	 * @readonly
-	 * @type {Number}
-	 */
-	get childCount() {
-		return this._children.length;
-	}
-
-	/**
-	 * Is `true` if there are no nodes inside this document fragment, `false` otherwise.
-	 *
-	 * @readonly
-	 * @type {Boolean}
-	 */
-	get isEmpty() {
-		return this.childCount === 0;
-	}
-
-	/**
-	 * Artificial root of `DocumentFragment`. Returns itself. Added for compatibility reasons.
-	 *
-	 * @readonly
-	 * @type {module:engine/model/documentfragment~DocumentFragment}
-	 */
-	get root() {
-		return this;
-	}
-
-	/**
-	 * Artificial parent of `DocumentFragment`. Returns `null`. Added for compatibility reasons.
-	 *
-	 * @readonly
-	 * @type {null}
-	 */
-	get parent() {
-		return null;
-	}
-
-	/**
-	 * Checks whether given view tree object is of given type.
-	 *
-	 * Read more in {@link module:engine/view/node~Node#is}.
-	 *
-	 * @param {String} type
-	 * @returns {Boolean}
-	 */
-	is( type ) {
-		return type == 'documentFragment';
-	}
-
-	/**
-	 * {@link module:engine/view/documentfragment~DocumentFragment#insertChildren Insert} a child node or a list of child nodes at the end
-	 * and sets the parent of these nodes to this fragment.
-	 *
-	 * @param {module:engine/view/node~Node|Iterable.<module:engine/view/node~Node>} nodes Node or the list of nodes to be inserted.
-	 * @returns {Number} Number of appended nodes.
-	 */
-	appendChildren( nodes ) {
-		return this.insertChildren( this.childCount, nodes );
-	}
-
-	/**
-	 * Gets child at the given index.
-	 *
-	 * @param {Number} index Index of child.
-	 * @returns {module:engine/view/node~Node} Child node.
-	 */
-	getChild( index ) {
-		return this._children[ index ];
-	}
-
-	/**
-	 * Gets index of the given child node. Returns `-1` if child node is not found.
-	 *
-	 * @param {module:engine/view/node~Node} node Child node.
-	 * @returns {Number} Index of the child node.
-	 */
-	getChildIndex( node ) {
-		return this._children.indexOf( node );
-	}
-
-	/**
-	 * Gets child nodes iterator.
-	 *
-	 * @returns {Iterable.<module:engine/view/node~Node>} Child nodes iterator.
-	 */
-	getChildren() {
-		return this._children[ Symbol.iterator ]();
-	}
-
-	/**
-	 * Inserts a child node or a list of child nodes on the given index and sets the parent of these nodes to
-	 * this fragment.
-	 *
-	 * @param {Number} index Position where nodes should be inserted.
-	 * @param {module:engine/view/node~Node|Iterable.<module:engine/view/node~Node>} nodes Node or list of nodes to be inserted.
-	 * @returns {Number} Number of inserted nodes.
-	 */
-	insertChildren( index, nodes ) {
-		this._fireChange( 'children', this );
-		let count = 0;
-
-		nodes = normalize( nodes );
-
-		for ( const node of nodes ) {
-			// If node that is being added to this element is already inside another element, first remove it from the old parent.
-			if ( node.parent !== null ) {
-				node.remove();
-			}
-
-			node.parent = this;
-
-			this._children.splice( index, 0, node );
-			index++;
-			count++;
-		}
-
-		return count;
-	}
-
-	/**
-	 * Removes number of child nodes starting at the given index and set the parent of these nodes to `null`.
-	 *
-	 * @param {Number} index Number of the first node to remove.
-	 * @param {Number} [howMany=1] Number of nodes to remove.
-	 * @returns {Array.<module:engine/view/node~Node>} The array of removed nodes.
-	 */
-	removeChildren( index, howMany = 1 ) {
-		this._fireChange( 'children', this );
-
-		for ( let i = index; i < index + howMany; i++ ) {
-			this._children[ i ].parent = null;
-		}
-
-		return this._children.splice( index, howMany );
-	}
-
-	/**
-	 * Fires `change` event with given type of the change.
-	 *
-	 * @private
-	 * @param {module:engine/view/document~ChangeType} type Type of the change.
-	 * @param {module:engine/view/node~Node} node Changed node.
-	 * @fires module:engine/view/node~Node#change
-	 */
-	_fireChange( type, node ) {
-		this.fire( 'change:' + type, node );
-	}
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = DocumentFragment;
-
-
-Object(__WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__["a" /* default */])( DocumentFragment, __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_emittermixin__["c" /* default */] );
-
-// Converts strings to Text and non-iterables to arrays.
-//
-// @param {String|module:engine/view/node~Node|Iterable.<String|module:engine/view/node~Node>}
-// @return {Iterable.<module:engine/view/node~Node>}
-function normalize( nodes ) {
-	// Separate condition because string is iterable.
-	if ( typeof nodes == 'string' ) {
-		return [ new __WEBPACK_IMPORTED_MODULE_0__text__["a" /* default */]( nodes ) ];
-	}
-
-	if ( !Object(__WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_isiterable__["a" /* default */])( nodes ) ) {
-		nodes = [ nodes ];
-	}
-
-	// Array.from to enable .map() on non-arrays.
-	return Array.from( nodes )
-		.map( node => {
-			return typeof node == 'string' ? new __WEBPACK_IMPORTED_MODULE_0__text__["a" /* default */]( node ) : node;
-		} );
-}
-
-
-/***/ }),
-/* 95 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__operation__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__writer__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_lib_lodash_isEqual__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__writer__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_lib_lodash_isEqual__ = __webpack_require__(357);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -19614,11 +19382,11 @@ class AttributeOperation extends __WEBPACK_IMPORTED_MODULE_0__operation__["a" /*
 
 
 /***/ }),
-/* 96 */
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqualDeep__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqualDeep__ = __webpack_require__(358);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isObject__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isObjectLike__ = __webpack_require__(44);
 
@@ -19654,13 +19422,13 @@ function baseIsEqual(value, other, customizer, bitmask, stack) {
 
 
 /***/ }),
-/* 97 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MapCache__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__setCacheAdd__ = __webpack_require__(357);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__setCacheHas__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MapCache__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__setCacheAdd__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__setCacheHas__ = __webpack_require__(360);
 
 
 
@@ -19691,11 +19459,11 @@ SetCache.prototype.has = __WEBPACK_IMPORTED_MODULE_2__setCacheHas__["a" /* defau
 
 
 /***/ }),
-/* 98 */
+/* 97 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__removeoperation__ = __webpack_require__(40);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -19762,13 +19530,13 @@ class ReinsertOperation extends __WEBPACK_IMPORTED_MODULE_0__moveoperation__["a"
 
 
 /***/ }),
-/* 99 */
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__movedelta__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__batch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deltafactory__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__movedelta__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__batch__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deltafactory__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_removeoperation__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(2);
@@ -19843,14 +19611,14 @@ __WEBPACK_IMPORTED_MODULE_2__deltafactory__["a" /* default */].register( RemoveD
 
 
 /***/ }),
-/* 100 */
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
@@ -19984,18 +19752,18 @@ __WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( MoveDel
 
 
 /***/ }),
-/* 101 */
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splitdelta__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__batch__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__splitdelta__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__batch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_removeoperation__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__operation_moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__operation_moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -20134,19 +19902,19 @@ __WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( MergeDe
 
 
 /***/ }),
-/* 102 */
+/* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__operation_insertoperation__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__delta_mergedelta__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__delta_mergedelta__ = __webpack_require__(100);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -20290,17 +20058,17 @@ __WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( SplitDe
 
 
 /***/ }),
-/* 103 */
+/* 102 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wrapdelta__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__batch__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__wrapdelta__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__batch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__operation_removeoperation__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -20420,19 +20188,19 @@ __WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( UnwrapD
 
 
 /***/ }),
-/* 104 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__unwrapdelta__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__batch__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__unwrapdelta__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__batch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__operation_insertoperation__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__operation_moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__operation_moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -20592,12 +20360,12 @@ __WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( WrapDel
 
 
 /***/ }),
-/* 105 */
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isArray__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stringToPath__ = __webpack_require__(375);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stringToPath__ = __webpack_require__(377);
 
 
 
@@ -20616,7 +20384,7 @@ function castPath(value) {
 
 
 /***/ }),
-/* 106 */
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20650,12 +20418,12 @@ function baseWhile(array, predicate, isDrop, fromRight) {
 
 
 /***/ }),
-/* 107 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndexBy__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__identity__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isSymbol__ = __webpack_require__(46);
 
 
@@ -20702,14 +20470,14 @@ function baseSortedIndex(array, value, retHighest) {
 
 
 /***/ }),
-/* 108 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayMap__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseProperty__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__baseTimes__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayMap__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseProperty__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__baseTimes__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isArrayLikeObject__ = __webpack_require__(12);
 
 
@@ -20759,7 +20527,7 @@ function unzip(array) {
 
 
 /***/ }),
-/* 109 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20791,7 +20559,7 @@ function arrayFilter(array, predicate) {
 
 
 /***/ }),
-/* 110 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20801,8 +20569,8 @@ function arrayFilter(array, predicate) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_tomap__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_mapsequal__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_tomap__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_mapsequal__ = __webpack_require__(401);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -21613,14 +21381,14 @@ function getParentBlock( position, visited ) {
 
 
 /***/ }),
-/* 111 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__emittermixin__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__uid__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lib_lodash_extend__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_lodash_isNative__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lib_lodash_isNative__ = __webpack_require__(168);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -21913,16 +21681,16 @@ function isDomNode( node ) {
 
 
 /***/ }),
-/* 112 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__range__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__element__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_count__ = __webpack_require__(150);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
 /**
@@ -22559,169 +22327,128 @@ Object(__WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 113 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_editor_standardeditor__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_dataprocessor_htmldataprocessor__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__classiceditorui__ = __webpack_require__(422);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__classiceditoruiview__ = __webpack_require__(426);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_elementreplacer__ = __webpack_require__(435);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_scss__ = __webpack_require__(436);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__theme_theme_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
  */
 
 /**
- * @module editor-classic/classiceditor
+ * @module basic-styles/attributecommand
  */
-
-
-
-
-
-
 
 
 
 /**
- * The {@glink builds/guides/overview#Classic-editor classic editor} implementation.
- * It uses an inline editable and a sticky toolbar, all enclosed in a boxed UI.
- * See the {@glink examples/builds/classic-editor demo}.
+ * An extension of the base {@link module:core/command~Command} class, which provides utilities for a command
+ * that toggles a single attribute on a text or an element.
  *
- * In order to create a classic editor instance, use the static
- * {@link module:editor-classic/classiceditor~ClassicEditor#create `ClassicEditor.create()`} method.
+ * `AttributeCommand` uses {@link module:engine/model/document~Document#selection}
+ * to decide which nodes (if any) should be changed, and applies or removes the attribute from them.
  *
- * # Classic editor and classic build
+ * The command checks the {@link module:engine/model/document~Document#schema} to decide if it can be enabled
+ * for the current selection and to which nodes the attribute can be applied.
  *
- * The classic editor can be used directly from source (if you installed the
- * [`@ckeditor/ckeditor5-editor-classic`](https://www.npmjs.com/package/@ckeditor/ckeditor5-editor-classic) package)
- * but it is also available in the {@glink builds/guides/overview#Classic-editor classic build}.
- *
- * {@glink builds/guides/overview Builds} are ready-to-use editors with plugins bundled in. When using the editor from
- * source you need to take care of loading all plugins by yourself
- * (through the {@link module:core/editor/editorconfig~EditorConfig#plugins `config.plugins`} option).
- * Using the editor from source gives much better flexibility and allows easier customization.
- *
- * Read more about initializing the editor from source or as a build in
- * {@link module:editor-classic/classiceditor~ClassicEditor#create `ClassicEditor.create()`}.
- *
- * @extends module:core/editor/standardeditor~StandardEditor
+ * @extends module:core/command~Command
  */
-class ClassicEditor extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_editor_standardeditor__["a" /* default */] {
+class AttributeCommand extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__["a" /* default */] {
 	/**
-	 * Creates an instance of the classic editor.
-	 *
-	 * **Note:** do not use the constructor to create editor instances. Use the static
-	 * {@link module:editor-classic/classiceditor~ClassicEditor#create `ClassicEditor.create()`} method instead.
-	 *
-	 * @protected
-	 * @param {HTMLElement} element The DOM element that will be the source for the created editor.
-	 * The data will be loaded from it and loaded back to it once the editor is destroyed.
-	 * @param {module:core/editor/editorconfig~EditorConfig} config The editor configuration.
+	 * @param {module:core/editor/editor~Editor} editor
+	 * @param {String} attributeKey Attribute that will be set by the command.
 	 */
-	constructor( element, config ) {
-		super( element, config );
-
-		this.document.createRoot();
-		this.data.processor = new __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_dataprocessor_htmldataprocessor__["a" /* default */]();
-		this.ui = new __WEBPACK_IMPORTED_MODULE_2__classiceditorui__["a" /* default */]( this, new __WEBPACK_IMPORTED_MODULE_3__classiceditoruiview__["a" /* default */]( this.locale ) );
+	constructor( editor, attributeKey ) {
+		super( editor );
 
 		/**
-		 * The element replacer instance used to hide the editor element.
+		 * The attribute that will be set by the command.
 		 *
-		 * @protected
-		 * @member {module:utils/elementreplacer~ElementReplacer}
+		 * @readonly
+		 * @member {String}
 		 */
-		this._elementReplacer = new __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_elementreplacer__["a" /* default */]();
+		this.attributeKey = attributeKey;
+
+		/**
+		 * Flag indicating whether the command is active. The command is active when the
+		 * {@link module:engine/model/selection~Selection#hasAttribute selection has the attribute} which means that:
+		 *
+		 * * If the selection is not empty &ndash; That it starts in a text (or another node) which has the attribute set.
+		 * * If the selection is empty &ndash; That the selection has the attribute itself (which means that newly typed
+		 * text will have this attribute, too).
+		 *
+		 * @observable
+		 * @readonly
+		 * @member {Boolean} #value
+		 */
 	}
 
 	/**
-	 * Destroys the editor instance, releasing all resources used by it.
-	 *
-	 * Updates the original editor element with the data.
-	 *
-	 * @returns {Promise}
+	 * Updates the command's {@link #value} and {@link #isEnabled} based on the current selection.
 	 */
-	destroy() {
-		this.updateEditorElement();
-		this._elementReplacer.restore();
-		this.ui.destroy();
+	refresh() {
+		const doc = this.editor.document;
 
-		return super.destroy();
+		this.value = doc.selection.hasAttribute( this.attributeKey );
+		this.isEnabled = doc.schema.checkAttributeInSelection( doc.selection, this.attributeKey );
 	}
 
 	/**
-	 * Creates a classic editor instance.
+	 * Executes the command &mdash; applies the attribute to the selection or removes it from the selection.
 	 *
-	 * Creating instance when using {@glink builds/index CKEditor build}:
+	 * If the command is active (`value == true`), it will remove attributes. Otherwise, it will set attributes.
 	 *
-	 *		ClassicEditor
-	 *			.create( document.querySelector( '#editor' ) )
-	 *			.then( editor => {
-	 *				console.log( 'Editor was initialized', editor );
-	 *			} )
-	 *			.catch( err => {
-	 *				console.error( err.stack );
-	 *			} );
+	 * The execution result differs, depending on the {@link module:engine/model/document~Document#selection}:
 	 *
-	 * Creating instance when using CKEditor from source (make sure to specify the list of plugins to load and the toolbar):
+	 * * If the selection is on a range, the command applies the attribute to all nodes in that range
+	 * (if they are allowed to have this attribute by the {@link module:engine/model/schema~Schema schema}).
+	 * * If the selection is collapsed in a non-empty node, the command applies the attribute to the
+	 * {@link module:engine/model/document~Document#selection} itself (note that typed characters copy attributes from the selection).
+	 * * If the selection is collapsed in an empty node, the command applies the attribute to the parent node of the selection (note
+	 * that the selection inherits all attributes from a node if it is in an empty node).
 	 *
-	 *		import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-	 *		import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
-	 *		import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
-	 *		import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
-	 *		import ...
-	 *
-	 *		ClassicEditor
-	 *			.create( document.querySelector( '#editor' ), {
-	 *				plugins: [ Essentials, Bold, Italic, ... ],
-	 *				toolbar: [ 'bold', 'italic', ... ]
-	 *			} )
-	 *			.then( editor => {
-	 *				console.log( 'Editor was initialized', editor );
-	 *			} )
-	 *			.catch( err => {
-	 *				console.error( err.stack );
-	 *			} );
-	 *
-	 * @param {HTMLElement} element The DOM element that will be the source for the created editor.
-	 * The data will be loaded from it and loaded back to it once the editor is destroyed.
-	 * @param {module:core/editor/editorconfig~EditorConfig} config The editor configuration.
-	 * @returns {Promise} A promise resolved once the editor is ready.
-	 * The promise returns the created {@link module:editor-classic/classiceditor~ClassicEditor} instance.
+	 * @fires execute
+	 * @param {Object} [options] Command options.
+	 * @param {Boolean} [options.forceValue] If set, it will force the command behavior. If `true`, the command will apply the attribute,
+	 * otherwise the command will remove the attribute.
+	 * If not set, the command will look for its current value to decide what it should do.
+	 * @param {module:engine/model/batch~Batch} [options.batch] A batch to group undo steps.
 	 */
-	static create( element, config ) {
-		return new Promise( resolve => {
-			const editor = new this( element, config );
+	execute( options = {} ) {
+		const doc = this.editor.document;
+		const selection = doc.selection;
+		const value = ( options.forceValue === undefined ) ? !this.value : options.forceValue;
 
-			resolve(
-				editor.initPlugins()
-					.then( () => editor._elementReplacer.replace( element, editor.ui.view.element ) )
-					.then( () => {
-						editor.ui.init();
-						editor.fire( 'uiReady' );
-					} )
-					.then( () => editor.editing.view.attachDomRoot( editor.ui.view.editableElement ) )
-					.then( () => editor.loadDataFromEditorElement() )
-					.then( () => {
-						editor.fire( 'dataReady' );
-						editor.fire( 'ready' );
-					} )
-					.then( () => editor )
-			);
+		doc.enqueueChanges( () => {
+			if ( selection.isCollapsed ) {
+				if ( value ) {
+					selection.setAttribute( this.attributeKey, true );
+				} else {
+					selection.removeAttribute( this.attributeKey );
+				}
+			} else {
+				const ranges = doc.schema.getValidRanges( selection.getRanges(), this.attributeKey );
+				const batch = options.batch || doc.batch();
+
+				for ( const range of ranges ) {
+					if ( value ) {
+						batch.setAttribute( range, this.attributeKey, value );
+					} else {
+						batch.removeAttribute( range, this.attributeKey );
+					}
+				}
+			}
 		} );
 	}
 }
-/* harmony export (immutable) */ __webpack_exports__["a"] = ClassicEditor;
+/* harmony export (immutable) */ __webpack_exports__["a"] = AttributeCommand;
 
 
 
 /***/ }),
-/* 114 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22743,7 +22470,7 @@ function getPrototype(value) {
 
 
 /***/ }),
-/* 115 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22782,7 +22509,7 @@ function copyObject(source, props, object, customizer) {
 
 
 /***/ }),
-/* 116 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22803,7 +22530,7 @@ function baseProperty(key) {
 
 
 /***/ }),
-/* 117 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22857,7 +22584,7 @@ function isArguments(value) {
 
 
 /***/ }),
-/* 118 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22906,13 +22633,13 @@ function isString(value) {
 
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = toMap;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lib_lodash_isPlainObject__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__objecttomap__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__objecttomap__ = __webpack_require__(166);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -22945,16 +22672,16 @@ function toMap( data ) {
 
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ListCache__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stackClear__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stackDelete__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stackGet__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stackHas__ = __webpack_require__(304);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stackSet__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__stackClear__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stackDelete__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__stackGet__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stackHas__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stackSet__ = __webpack_require__(307);
 
 
 
@@ -22984,15 +22711,15 @@ Stack.prototype.set = __WEBPACK_IMPORTED_MODULE_5__stackSet__["a" /* default */]
 
 
 /***/ }),
-/* 121 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mapCacheClear__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mapCacheDelete__ = __webpack_require__(313);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapCacheGet__ = __webpack_require__(315);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapCacheHas__ = __webpack_require__(316);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mapCacheSet__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mapCacheClear__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mapCacheDelete__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapCacheGet__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapCacheHas__ = __webpack_require__(318);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mapCacheSet__ = __webpack_require__(319);
 
 
 
@@ -23028,16 +22755,16 @@ MapCache.prototype.set = __WEBPACK_IMPORTED_MODULE_4__mapCacheSet__["a" /* defau
 
 
 /***/ }),
-/* 122 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DataView__ = __webpack_require__(325);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Map__ = __webpack_require__(171);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Promise__ = __webpack_require__(326);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Set__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__WeakMap__ = __webpack_require__(327);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toSource__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__DataView__ = __webpack_require__(327);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Map__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Promise__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Set__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__WeakMap__ = __webpack_require__(329);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toSource__ = __webpack_require__(169);
 
 
 
@@ -23111,11 +22838,11 @@ if ((__WEBPACK_IMPORTED_MODULE_0__DataView__["a" /* default */] && getTag(new __
 
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Uint8Array__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Uint8Array__ = __webpack_require__(175);
 
 
 /**
@@ -23135,7 +22862,7 @@ function cloneArrayBuffer(arrayBuffer) {
 
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23160,7 +22887,7 @@ function mapToArray(map) {
 
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23174,11 +22901,11 @@ var Symbol = __WEBPACK_IMPORTED_MODULE_0__root__["a" /* default */].Symbol;
 
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node__ = __webpack_require__(84);
 /**
@@ -23258,15 +22985,15 @@ function getFillerOffset() {
 
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = injectUiElementHandling;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__element__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -23431,14 +23158,246 @@ function jumpOverUiElement( evt, data, domConverter ) {
 
 
 /***/ }),
+/* 127 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__text__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_isiterable__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module engine/view/documentfragment
+ */
+
+
+
+
+
+
+/**
+ * DocumentFragment class.
+ */
+class DocumentFragment {
+	/**
+	 * Creates new DocumentFragment instance.
+	 *
+	 * @param {module:engine/view/node~Node|Iterable.<module:engine/view/node~Node>} [children] List of nodes to be inserted into
+	 * created document fragment.
+	 */
+	constructor( children ) {
+		/**
+		 * Array of child nodes.
+		 *
+		 * @protected
+		 * @member {Array.<module:engine/view/element~Element>} module:engine/view/documentfragment~DocumentFragment#_children
+		 */
+		this._children = [];
+
+		if ( children ) {
+			this.insertChildren( 0, children );
+		}
+	}
+
+	/**
+	 * Iterates over nodes added to this DocumentFragment.
+	 */
+	[ Symbol.iterator ]() {
+		return this._children[ Symbol.iterator ]();
+	}
+
+	/**
+	 * Number of child nodes in this document fragment.
+	 *
+	 * @readonly
+	 * @type {Number}
+	 */
+	get childCount() {
+		return this._children.length;
+	}
+
+	/**
+	 * Is `true` if there are no nodes inside this document fragment, `false` otherwise.
+	 *
+	 * @readonly
+	 * @type {Boolean}
+	 */
+	get isEmpty() {
+		return this.childCount === 0;
+	}
+
+	/**
+	 * Artificial root of `DocumentFragment`. Returns itself. Added for compatibility reasons.
+	 *
+	 * @readonly
+	 * @type {module:engine/model/documentfragment~DocumentFragment}
+	 */
+	get root() {
+		return this;
+	}
+
+	/**
+	 * Artificial parent of `DocumentFragment`. Returns `null`. Added for compatibility reasons.
+	 *
+	 * @readonly
+	 * @type {null}
+	 */
+	get parent() {
+		return null;
+	}
+
+	/**
+	 * Checks whether given view tree object is of given type.
+	 *
+	 * Read more in {@link module:engine/view/node~Node#is}.
+	 *
+	 * @param {String} type
+	 * @returns {Boolean}
+	 */
+	is( type ) {
+		return type == 'documentFragment';
+	}
+
+	/**
+	 * {@link module:engine/view/documentfragment~DocumentFragment#insertChildren Insert} a child node or a list of child nodes at the end
+	 * and sets the parent of these nodes to this fragment.
+	 *
+	 * @param {module:engine/view/node~Node|Iterable.<module:engine/view/node~Node>} nodes Node or the list of nodes to be inserted.
+	 * @returns {Number} Number of appended nodes.
+	 */
+	appendChildren( nodes ) {
+		return this.insertChildren( this.childCount, nodes );
+	}
+
+	/**
+	 * Gets child at the given index.
+	 *
+	 * @param {Number} index Index of child.
+	 * @returns {module:engine/view/node~Node} Child node.
+	 */
+	getChild( index ) {
+		return this._children[ index ];
+	}
+
+	/**
+	 * Gets index of the given child node. Returns `-1` if child node is not found.
+	 *
+	 * @param {module:engine/view/node~Node} node Child node.
+	 * @returns {Number} Index of the child node.
+	 */
+	getChildIndex( node ) {
+		return this._children.indexOf( node );
+	}
+
+	/**
+	 * Gets child nodes iterator.
+	 *
+	 * @returns {Iterable.<module:engine/view/node~Node>} Child nodes iterator.
+	 */
+	getChildren() {
+		return this._children[ Symbol.iterator ]();
+	}
+
+	/**
+	 * Inserts a child node or a list of child nodes on the given index and sets the parent of these nodes to
+	 * this fragment.
+	 *
+	 * @param {Number} index Position where nodes should be inserted.
+	 * @param {module:engine/view/node~Node|Iterable.<module:engine/view/node~Node>} nodes Node or list of nodes to be inserted.
+	 * @returns {Number} Number of inserted nodes.
+	 */
+	insertChildren( index, nodes ) {
+		this._fireChange( 'children', this );
+		let count = 0;
+
+		nodes = normalize( nodes );
+
+		for ( const node of nodes ) {
+			// If node that is being added to this element is already inside another element, first remove it from the old parent.
+			if ( node.parent !== null ) {
+				node.remove();
+			}
+
+			node.parent = this;
+
+			this._children.splice( index, 0, node );
+			index++;
+			count++;
+		}
+
+		return count;
+	}
+
+	/**
+	 * Removes number of child nodes starting at the given index and set the parent of these nodes to `null`.
+	 *
+	 * @param {Number} index Number of the first node to remove.
+	 * @param {Number} [howMany=1] Number of nodes to remove.
+	 * @returns {Array.<module:engine/view/node~Node>} The array of removed nodes.
+	 */
+	removeChildren( index, howMany = 1 ) {
+		this._fireChange( 'children', this );
+
+		for ( let i = index; i < index + howMany; i++ ) {
+			this._children[ i ].parent = null;
+		}
+
+		return this._children.splice( index, howMany );
+	}
+
+	/**
+	 * Fires `change` event with given type of the change.
+	 *
+	 * @private
+	 * @param {module:engine/view/document~ChangeType} type Type of the change.
+	 * @param {module:engine/view/node~Node} node Changed node.
+	 * @fires module:engine/view/node~Node#change
+	 */
+	_fireChange( type, node ) {
+		this.fire( 'change:' + type, node );
+	}
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = DocumentFragment;
+
+
+Object(__WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__["a" /* default */])( DocumentFragment, __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_emittermixin__["c" /* default */] );
+
+// Converts strings to Text and non-iterables to arrays.
+//
+// @param {String|module:engine/view/node~Node|Iterable.<String|module:engine/view/node~Node>}
+// @return {Iterable.<module:engine/view/node~Node>}
+function normalize( nodes ) {
+	// Separate condition because string is iterable.
+	if ( typeof nodes == 'string' ) {
+		return [ new __WEBPACK_IMPORTED_MODULE_0__text__["a" /* default */]( nodes ) ];
+	}
+
+	if ( !Object(__WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_isiterable__["a" /* default */])( nodes ) ) {
+		nodes = [ nodes ];
+	}
+
+	// Array.from to enable .map() on non-arrays.
+	return Array.from( nodes )
+		.map( node => {
+			return typeof node == 'string' ? new __WEBPACK_IMPORTED_MODULE_0__text__["a" /* default */]( node ) : node;
+		} );
+}
+
+
+/***/ }),
 /* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_attributeoperation__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_attributeoperation__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__operation_rootattributeoperation__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__operation_nooperation__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__position__ = __webpack_require__(1);
@@ -24183,12 +24142,12 @@ class RootAttributeOperation extends __WEBPACK_IMPORTED_MODULE_0__operation__["a
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__removedelta__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deltafactory__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__removedelta__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deltafactory__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_insertoperation__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__batch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__batch__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__writer__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__documentfragment__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__model_range_js__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__model_position_js__ = __webpack_require__(1);
@@ -24325,9 +24284,9 @@ __WEBPACK_IMPORTED_MODULE_2__deltafactory__["a" /* default */].register( InsertD
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_renameoperation__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__position__ = __webpack_require__(1);
@@ -24444,7 +24403,7 @@ function arrayIncludes(array, value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__indexOfNaN__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__indexOfNaN__ = __webpack_require__(188);
 
 
 /**
@@ -24549,7 +24508,7 @@ function cacheHas(cache, key) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__castPath__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__castPath__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isKey__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toKey__ = __webpack_require__(57);
 
@@ -24709,10 +24668,10 @@ function head(array) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayIncludes__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__arrayIncludesWith__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__arrayMap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__arrayMap__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__baseUnary__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cacheHas__ = __webpack_require__(138);
 
@@ -24855,9 +24814,9 @@ function pullAll(array, values) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIndexOf__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseIndexOfWith__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseIndexOfWith__ = __webpack_require__(390);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__baseUnary__ = __webpack_require__(137);
 
 
@@ -24985,9 +24944,9 @@ function baseSortedIndexBy(array, value, iteratee, retHighest) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__apply__ = __webpack_require__(161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayMap__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__unzip__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__apply__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayMap__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__unzip__ = __webpack_require__(107);
 
 
 
@@ -25108,18 +25067,18 @@ function count( iterator ) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__text__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__element__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__text__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__element__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__range__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__selection__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__documentfragment__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__selection__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__documentfragment__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__treewalker__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__filler__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_dom_global__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_utils_src_dom_indexof__ = __webpack_require__(408);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_utils_src_dom_getancestors__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_utils_src_dom_getcommonancestor__ = __webpack_require__(409);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_utils_src_dom_indexof__ = __webpack_require__(410);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_utils_src_dom_getancestors__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_utils_src_dom_getcommonancestor__ = __webpack_require__(411);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -26356,121 +26315,9 @@ function isRange( obj ) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basichtmlwriter__ = __webpack_require__(421);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__view_domconverter__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_filler__ = __webpack_require__(72);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module engine/dataprocessor/htmldataprocessor
- */
-
-/* globals document, DOMParser */
-
-
-
-
-
-/**
- * HtmlDataProcessor class.
- * This data processor implementation uses HTML as input/output data.
- *
- * @implements module:engine/dataprocessor/dataprocessor~DataProcessor
- */
-class HtmlDataProcessor {
-	/**
-	 * Creates a new instance of the HtmlDataProcessor class.
-	 */
-	constructor() {
-		/**
-		 * DOMParser instance used to parse HTML string to HTMLDocument.
-		 *
-		 * @private
-		 * @member {DOMParser}
-		 */
-		this._domParser = new DOMParser();
-
-		/**
-		 * DOM converter used to convert DOM elements to view elements.
-		 *
-		 * @private
-		 * @member
-		 */
-		this._domConverter = new __WEBPACK_IMPORTED_MODULE_1__view_domconverter__["a" /* default */]( { blockFiller: __WEBPACK_IMPORTED_MODULE_2__view_filler__["d" /* NBSP_FILLER */] } );
-
-		/**
-		 * BasicHtmlWriter instance used to convert DOM elements to HTML string.
-		 *
-		 * @private
-		 * @member {module:engine/dataprocessor/basichtmlwriter~BasicHtmlWriter}
-		 */
-		this._htmlWriter = new __WEBPACK_IMPORTED_MODULE_0__basichtmlwriter__["a" /* default */]();
-	}
-
-	/**
-	 * Converts provided {@link module:engine/view/documentfragment~DocumentFragment DocumentFragment}
-	 * to data format - in this case HTML string.
-	 *
-	 * @param {module:engine/view/documentfragment~DocumentFragment} viewFragment
-	 * @returns {String} HTML string.
-	 */
-	toData( viewFragment ) {
-		// Convert view DocumentFragment to DOM DocumentFragment.
-		const domFragment = this._domConverter.viewToDom( viewFragment, document );
-
-		// Convert DOM DocumentFragment to HTML output.
-		return this._htmlWriter.getHtml( domFragment );
-	}
-
-	/**
-	 * Converts provided HTML string to view tree.
-	 *
-	 * @param {String} data HTML string.
-	 * @returns {module:engine/view/node~Node|module:engine/view/documentfragment~DocumentFragment|null} Converted view element.
-	 */
-	toView( data ) {
-		// Convert input HTML data to DOM DocumentFragment.
-		const domFragment = this._toDom( data );
-
-		// Convert DOM DocumentFragment to view DocumentFragment.
-		return this._domConverter.domToView( domFragment );
-	}
-
-	/**
-	 * Converts HTML String to its DOM representation. Returns DocumentFragment, containing nodes parsed from
-	 * provided data.
-	 *
-	 * @private
-	 * @param {String} data
-	 * @returns {DocumentFragment}
-	 */
-	_toDom( data ) {
-		const document = this._domParser.parseFromString( data, 'text/html' );
-		const fragment = document.createDocumentFragment();
-		const nodes = document.body.childNodes;
-
-		while ( nodes.length > 0 ) {
-			fragment.appendChild( nodes[ 0 ] );
-		}
-
-		return fragment;
-	}
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = HtmlDataProcessor;
-
-
-
-/***/ }),
-/* 155 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_collection__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_collection__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -26758,7 +26605,7 @@ function isStringArray( arr ) {
 
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27279,7 +27126,7 @@ Object(__WEBPACK_IMPORTED_MODULE_3__mix__["a" /* default */])( Collection, __WEB
 
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27579,141 +27426,20 @@ function isFocusable( view ) {
 
 
 /***/ }),
-/* 158 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module basic-styles/attributecommand
- */
-
-
-
-/**
- * An extension of the base {@link module:core/command~Command} class, which provides utilities for a command
- * that toggles a single attribute on a text or an element.
- *
- * `AttributeCommand` uses {@link module:engine/model/document~Document#selection}
- * to decide which nodes (if any) should be changed, and applies or removes the attribute from them.
- *
- * The command checks the {@link module:engine/model/document~Document#schema} to decide if it can be enabled
- * for the current selection and to which nodes the attribute can be applied.
- *
- * @extends module:core/command~Command
- */
-class AttributeCommand extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__["a" /* default */] {
-	/**
-	 * @param {module:core/editor/editor~Editor} editor
-	 * @param {String} attributeKey Attribute that will be set by the command.
-	 */
-	constructor( editor, attributeKey ) {
-		super( editor );
-
-		/**
-		 * The attribute that will be set by the command.
-		 *
-		 * @readonly
-		 * @member {String}
-		 */
-		this.attributeKey = attributeKey;
-
-		/**
-		 * Flag indicating whether the command is active. The command is active when the
-		 * {@link module:engine/model/selection~Selection#hasAttribute selection has the attribute} which means that:
-		 *
-		 * * If the selection is not empty &ndash; That it starts in a text (or another node) which has the attribute set.
-		 * * If the selection is empty &ndash; That the selection has the attribute itself (which means that newly typed
-		 * text will have this attribute, too).
-		 *
-		 * @observable
-		 * @readonly
-		 * @member {Boolean} #value
-		 */
-	}
-
-	/**
-	 * Updates the command's {@link #value} and {@link #isEnabled} based on the current selection.
-	 */
-	refresh() {
-		const doc = this.editor.document;
-
-		this.value = doc.selection.hasAttribute( this.attributeKey );
-		this.isEnabled = doc.schema.checkAttributeInSelection( doc.selection, this.attributeKey );
-	}
-
-	/**
-	 * Executes the command &mdash; applies the attribute to the selection or removes it from the selection.
-	 *
-	 * If the command is active (`value == true`), it will remove attributes. Otherwise, it will set attributes.
-	 *
-	 * The execution result differs, depending on the {@link module:engine/model/document~Document#selection}:
-	 *
-	 * * If the selection is on a range, the command applies the attribute to all nodes in that range
-	 * (if they are allowed to have this attribute by the {@link module:engine/model/schema~Schema schema}).
-	 * * If the selection is collapsed in a non-empty node, the command applies the attribute to the
-	 * {@link module:engine/model/document~Document#selection} itself (note that typed characters copy attributes from the selection).
-	 * * If the selection is collapsed in an empty node, the command applies the attribute to the parent node of the selection (note
-	 * that the selection inherits all attributes from a node if it is in an empty node).
-	 *
-	 * @fires execute
-	 * @param {Object} [options] Command options.
-	 * @param {Boolean} [options.forceValue] If set, it will force the command behavior. If `true`, the command will apply the attribute,
-	 * otherwise the command will remove the attribute.
-	 * If not set, the command will look for its current value to decide what it should do.
-	 * @param {module:engine/model/batch~Batch} [options.batch] A batch to group undo steps.
-	 */
-	execute( options = {} ) {
-		const doc = this.editor.document;
-		const selection = doc.selection;
-		const value = ( options.forceValue === undefined ) ? !this.value : options.forceValue;
-
-		doc.enqueueChanges( () => {
-			if ( selection.isCollapsed ) {
-				if ( value ) {
-					selection.setAttribute( this.attributeKey, true );
-				} else {
-					selection.removeAttribute( this.attributeKey );
-				}
-			} else {
-				const ranges = doc.schema.getValidRanges( selection.getRanges(), this.attributeKey );
-				const batch = options.batch || doc.batch();
-
-				for ( const range of ranges ) {
-					if ( value ) {
-						batch.setAttribute( range, this.attributeKey, value );
-					} else {
-						batch.removeAttribute( range, this.attributeKey );
-					}
-				}
-			}
-		} );
-	}
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = AttributeCommand;
-
-
-
-/***/ }),
-/* 159 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_view_observer_mouseobserver__ = __webpack_require__(470);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_view_observer_mouseobserver__ = __webpack_require__(472);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_range__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_model_selection__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_model_selection__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_view_editableelement__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_engine_src_view_rooteditableelement__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_engine_src_view_rooteditableelement__ = __webpack_require__(255);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_theme_scss__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_theme_scss__ = __webpack_require__(473);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__theme_theme_scss__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -28059,7 +27785,7 @@ function isInsideNestedEditable( element ) {
 
 
 /***/ }),
-/* 160 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28306,7 +28032,169 @@ class ContextualBalloon extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_
 
 
 /***/ }),
-/* 161 */
+/* 159 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_editor_standardeditor__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_dataprocessor_htmldataprocessor__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__classiceditorui__ = __webpack_require__(424);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__classiceditoruiview__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_elementreplacer__ = __webpack_require__(437);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_scss__ = __webpack_require__(438);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__theme_theme_scss__);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module editor-classic/classiceditor
+ */
+
+
+
+
+
+
+
+
+
+/**
+ * The {@glink builds/guides/overview#Classic-editor classic editor} implementation.
+ * It uses an inline editable and a sticky toolbar, all enclosed in a boxed UI.
+ * See the {@glink examples/builds/classic-editor demo}.
+ *
+ * In order to create a classic editor instance, use the static
+ * {@link module:editor-classic/classiceditor~ClassicEditor#create `ClassicEditor.create()`} method.
+ *
+ * # Classic editor and classic build
+ *
+ * The classic editor can be used directly from source (if you installed the
+ * [`@ckeditor/ckeditor5-editor-classic`](https://www.npmjs.com/package/@ckeditor/ckeditor5-editor-classic) package)
+ * but it is also available in the {@glink builds/guides/overview#Classic-editor classic build}.
+ *
+ * {@glink builds/guides/overview Builds} are ready-to-use editors with plugins bundled in. When using the editor from
+ * source you need to take care of loading all plugins by yourself
+ * (through the {@link module:core/editor/editorconfig~EditorConfig#plugins `config.plugins`} option).
+ * Using the editor from source gives much better flexibility and allows easier customization.
+ *
+ * Read more about initializing the editor from source or as a build in
+ * {@link module:editor-classic/classiceditor~ClassicEditor#create `ClassicEditor.create()`}.
+ *
+ * @extends module:core/editor/standardeditor~StandardEditor
+ */
+class ClassicEditor extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_editor_standardeditor__["a" /* default */] {
+	/**
+	 * Creates an instance of the classic editor.
+	 *
+	 * **Note:** do not use the constructor to create editor instances. Use the static
+	 * {@link module:editor-classic/classiceditor~ClassicEditor#create `ClassicEditor.create()`} method instead.
+	 *
+	 * @protected
+	 * @param {HTMLElement} element The DOM element that will be the source for the created editor.
+	 * The data will be loaded from it and loaded back to it once the editor is destroyed.
+	 * @param {module:core/editor/editorconfig~EditorConfig} config The editor configuration.
+	 */
+	constructor( element, config ) {
+		super( element, config );
+
+		this.document.createRoot();
+		this.data.processor = new __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_dataprocessor_htmldataprocessor__["a" /* default */]();
+		this.ui = new __WEBPACK_IMPORTED_MODULE_2__classiceditorui__["a" /* default */]( this, new __WEBPACK_IMPORTED_MODULE_3__classiceditoruiview__["a" /* default */]( this.locale ) );
+
+		/**
+		 * The element replacer instance used to hide the editor element.
+		 *
+		 * @protected
+		 * @member {module:utils/elementreplacer~ElementReplacer}
+		 */
+		this._elementReplacer = new __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_elementreplacer__["a" /* default */]();
+	}
+
+	/**
+	 * Destroys the editor instance, releasing all resources used by it.
+	 *
+	 * Updates the original editor element with the data.
+	 *
+	 * @returns {Promise}
+	 */
+	destroy() {
+		this.updateEditorElement();
+		this._elementReplacer.restore();
+		this.ui.destroy();
+
+		return super.destroy();
+	}
+
+	/**
+	 * Creates a classic editor instance.
+	 *
+	 * Creating instance when using {@glink builds/index CKEditor build}:
+	 *
+	 *		ClassicEditor
+	 *			.create( document.querySelector( '#editor' ) )
+	 *			.then( editor => {
+	 *				console.log( 'Editor was initialized', editor );
+	 *			} )
+	 *			.catch( err => {
+	 *				console.error( err.stack );
+	 *			} );
+	 *
+	 * Creating instance when using CKEditor from source (make sure to specify the list of plugins to load and the toolbar):
+	 *
+	 *		import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+	 *		import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
+	 *		import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+	 *		import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+	 *		import ...
+	 *
+	 *		ClassicEditor
+	 *			.create( document.querySelector( '#editor' ), {
+	 *				plugins: [ Essentials, Bold, Italic, ... ],
+	 *				toolbar: [ 'bold', 'italic', ... ]
+	 *			} )
+	 *			.then( editor => {
+	 *				console.log( 'Editor was initialized', editor );
+	 *			} )
+	 *			.catch( err => {
+	 *				console.error( err.stack );
+	 *			} );
+	 *
+	 * @param {HTMLElement} element The DOM element that will be the source for the created editor.
+	 * The data will be loaded from it and loaded back to it once the editor is destroyed.
+	 * @param {module:core/editor/editorconfig~EditorConfig} config The editor configuration.
+	 * @returns {Promise} A promise resolved once the editor is ready.
+	 * The promise returns the created {@link module:editor-classic/classiceditor~ClassicEditor} instance.
+	 */
+	static create( element, config ) {
+		return new Promise( resolve => {
+			const editor = new this( element, config );
+
+			resolve(
+				editor.initPlugins()
+					.then( () => editor._elementReplacer.replace( element, editor.ui.view.element ) )
+					.then( () => {
+						editor.ui.init();
+						editor.fire( 'uiReady' );
+					} )
+					.then( () => editor.editing.view.attachDomRoot( editor.ui.view.editableElement ) )
+					.then( () => editor.loadDataFromEditorElement() )
+					.then( () => {
+						editor.fire( 'dataReady' );
+						editor.fire( 'ready' );
+					} )
+					.then( () => editor )
+			);
+		} );
+	}
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = ClassicEditor;
+
+
+
+/***/ }),
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28335,7 +28223,7 @@ function apply(func, thisArg, args) {
 
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28412,7 +28300,7 @@ function toNumber(value) {
 
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = function(originalModule) {
@@ -28442,15 +28330,15 @@ module.exports = function(originalModule) {
 
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseTimes__ = __webpack_require__(165);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isArguments__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseTimes__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isArguments__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArray__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isLength__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isString__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isString__ = __webpack_require__(117);
 
 
 
@@ -28478,7 +28366,7 @@ function indexKeys(object) {
 
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28505,15 +28393,15 @@ function baseTimes(n, iteratee) {
 
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_range__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__view_range__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__view_text__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__view_text__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /**
@@ -29048,7 +28936,7 @@ Object(__WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29083,24 +28971,24 @@ function objectToMap( obj ) {
 
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Stack__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayEach__ = __webpack_require__(318);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Stack__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayEach__ = __webpack_require__(320);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assignValue__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__baseAssign__ = __webpack_require__(319);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cloneBuffer__ = __webpack_require__(321);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__copyArray__ = __webpack_require__(173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__copySymbols__ = __webpack_require__(322);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__getAllKeys__ = __webpack_require__(323);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__getTag__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__initCloneArray__ = __webpack_require__(328);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__initCloneByTag__ = __webpack_require__(329);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__initCloneObject__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__baseAssign__ = __webpack_require__(321);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cloneBuffer__ = __webpack_require__(323);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__copyArray__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__copySymbols__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__getAllKeys__ = __webpack_require__(325);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__getTag__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__initCloneArray__ = __webpack_require__(330);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__initCloneByTag__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__initCloneObject__ = __webpack_require__(340);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__isArray__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__isBuffer__ = __webpack_require__(340);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__isBuffer__ = __webpack_require__(342);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__isHostObject__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__isObject__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__keys__ = __webpack_require__(68);
@@ -29246,14 +29134,14 @@ function baseClone(value, isDeep, isFull, customizer, key, object, stack) {
 
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isFunction__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isHostObject__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isObject__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toSource__ = __webpack_require__(170);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toSource__ = __webpack_require__(169);
 
 
 
@@ -29313,7 +29201,7 @@ function isNative(value) {
 
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29343,7 +29231,7 @@ function toSource(func) {
 
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29359,11 +29247,11 @@ var Map = Object(__WEBPACK_IMPORTED_MODULE_0__getNative__["a" /* default */])(__
 
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getPrototype__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getPrototype__ = __webpack_require__(113);
 
 
 /** Used for built-in method references. */
@@ -29392,7 +29280,7 @@ function baseHas(object, key) {
 
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29419,7 +29307,7 @@ function copyArray(source, array) {
 
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29450,7 +29338,7 @@ if (!getOwnPropertySymbols) {
 
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29466,7 +29354,7 @@ var Set = Object(__WEBPACK_IMPORTED_MODULE_0__getNative__["a" /* default */])(__
 
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29480,7 +29368,7 @@ var Uint8Array = __WEBPACK_IMPORTED_MODULE_0__root__["a" /* default */].Uint8Arr
 
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29513,7 +29401,7 @@ function arrayReduce(array, iteratee, accumulator, initAccum) {
 
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29902,11 +29790,11 @@ function matchStyles( patterns, element ) {
 
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modelconsumable__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modelconsumable__ = __webpack_require__(345);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_documentfragment__ = __webpack_require__(38);
@@ -30663,7 +30551,7 @@ function shouldMarkerChangeBeConverted( modelPosition, marker, mapper ) {
 
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30890,7 +30778,7 @@ Object(__WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30970,12 +30858,12 @@ function isInsideCombinedSymbol( string, offset ) {
 
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arraySome__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__SetCache__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arraySome__ = __webpack_require__(361);
 
 
 
@@ -31060,15 +30948,15 @@ function equalArrays(array, other, equalFunc, customizer, bitmask, stack) {
 
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__insertdelta__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__batch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deltafactory__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__batch__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deltafactory__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_insertoperation__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__writer__ = __webpack_require__(21);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -31142,24 +31030,24 @@ __WEBPACK_IMPORTED_MODULE_2__deltafactory__["a" /* default */].register( WeakIns
 
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__movedelta__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__removedelta__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mergedelta__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__splitdelta__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__wrapdelta__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__unwrapdelta__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__movedelta__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__removedelta__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mergedelta__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__splitdelta__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__wrapdelta__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__unwrapdelta__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__renamedelta__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__attributedelta__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__operation_transform__ = __webpack_require__(364);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__operation_transform__ = __webpack_require__(366);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__operation_nooperation__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__operation_moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__operation_moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__operation_removeoperation__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_utils_src_lib_lodash_array__ = __webpack_require__(365);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_utils_src_lib_lodash_array__ = __webpack_require__(367);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_utils_src_comparearrays__ = __webpack_require__(54);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -31828,7 +31716,7 @@ function getNormalizedDeltas( DeltaClass, operations ) {
 
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31888,7 +31776,7 @@ function chunk(array, size, guard) {
 
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31926,13 +31814,13 @@ function compact(array) {
 
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayPush__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__copyArray__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__copyArray__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isArray__ = __webpack_require__(13);
 
 
@@ -31979,12 +31867,12 @@ function concat() {
 
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseDifference__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArrayLikeObject__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rest__ = __webpack_require__(7);
 
@@ -32021,7 +31909,7 @@ var difference = Object(__WEBPACK_IMPORTED_MODULE_3__rest__["a" /* default */])(
 
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32051,12 +31939,12 @@ function indexOfNaN(array, fromIndex, fromRight) {
 
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseDifference__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseIteratee__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isArrayLikeObject__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__last__ = __webpack_require__(16);
@@ -32106,7 +31994,7 @@ var differenceBy = Object(__WEBPACK_IMPORTED_MODULE_5__rest__["a" /* default */]
 
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32129,7 +32017,7 @@ function isStrictComparable(value) {
 
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32156,7 +32044,7 @@ function matchesStrictComparable(key, srcValue) {
 
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32197,7 +32085,7 @@ function get(object, path, defaultValue) {
 
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32225,12 +32113,12 @@ function identity(value) {
 
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseDifference__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseFlatten__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArrayLikeObject__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__last__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__rest__ = __webpack_require__(7);
@@ -32275,12 +32163,12 @@ var differenceWith = Object(__WEBPACK_IMPORTED_MODULE_4__rest__["a" /* default *
 
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIteratee__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(105);
 
 
 
@@ -32330,12 +32218,12 @@ function dropRightWhile(array, predicate) {
 
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIteratee__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(105);
 
 
 
@@ -32385,11 +32273,11 @@ function dropWhile(array, predicate) {
 
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFill__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFill__ = __webpack_require__(386);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isIterateeCall__ = __webpack_require__(78);
 
 
@@ -32439,11 +32327,11 @@ function fill(array, value, start, end) {
 
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFindIndex__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFindIndex__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIteratee__ = __webpack_require__(10);
 
 
@@ -32493,7 +32381,7 @@ function findIndex(array, predicate) {
 
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32523,11 +32411,11 @@ function baseFindIndex(array, predicate, fromRight) {
 
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFindIndex__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFindIndex__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIteratee__ = __webpack_require__(10);
 
 
@@ -32577,7 +32465,7 @@ function findLastIndex(array, predicate) {
 
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32587,11 +32475,11 @@ function findLastIndex(array, predicate) {
 
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(23);
 
 
 /**
@@ -32617,11 +32505,11 @@ function flatten(array) {
 
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(23);
 
 
 /** Used as references for various `Number` constants. */
@@ -32650,11 +32538,11 @@ function flattenDeep(array) {
 
 
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toInteger__ = __webpack_require__(11);
 
 
@@ -32692,7 +32580,7 @@ function flattenDepth(array, depth) {
 
 
 /***/ }),
-/* 206 */
+/* 205 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32727,7 +32615,7 @@ function fromPairs(pairs) {
 
 
 /***/ }),
-/* 207 */
+/* 206 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32778,7 +32666,7 @@ function indexOf(array, value, fromIndex) {
 
 
 /***/ }),
-/* 208 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32807,11 +32695,11 @@ function initial(array) {
 
 
 /***/ }),
-/* 209 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIntersection__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__castArrayLikeObject__ = __webpack_require__(144);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rest__ = __webpack_require__(7);
@@ -32848,11 +32736,11 @@ var intersection = Object(__WEBPACK_IMPORTED_MODULE_3__rest__["a" /* default */]
 
 
 /***/ }),
-/* 210 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIntersection__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseIteratee__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__castArrayLikeObject__ = __webpack_require__(144);
@@ -32906,11 +32794,11 @@ var intersectionBy = Object(__WEBPACK_IMPORTED_MODULE_5__rest__["a" /* default *
 
 
 /***/ }),
-/* 211 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIntersection__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__castArrayLikeObject__ = __webpack_require__(144);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__last__ = __webpack_require__(16);
@@ -32960,7 +32848,7 @@ var intersectionWith = Object(__WEBPACK_IMPORTED_MODULE_4__rest__["a" /* default
 
 
 /***/ }),
-/* 212 */
+/* 211 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32993,11 +32881,11 @@ function join(array, separator) {
 
 
 /***/ }),
-/* 213 */
+/* 212 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__indexOfNaN__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__indexOfNaN__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toInteger__ = __webpack_require__(11);
 
 
@@ -33056,11 +32944,11 @@ function lastIndexOf(array, value, fromIndex) {
 
 
 /***/ }),
-/* 214 */
+/* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseNth__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseNth__ = __webpack_require__(389);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toInteger__ = __webpack_require__(11);
 
 
@@ -33094,7 +32982,7 @@ function nth(array, n) {
 
 
 /***/ }),
-/* 215 */
+/* 214 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33132,7 +33020,7 @@ var pull = Object(__WEBPACK_IMPORTED_MODULE_1__rest__["a" /* default */])(__WEBP
 
 
 /***/ }),
-/* 216 */
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33175,7 +33063,7 @@ function pullAllBy(array, values, iteratee) {
 
 
 /***/ }),
-/* 217 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33215,15 +33103,15 @@ function pullAllWith(array, values, comparator) {
 
 
 /***/ }),
-/* 218 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseAt__ = __webpack_require__(389);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseFlatten__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__basePullAt__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__compareAscending__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseAt__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseFlatten__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__basePullAt__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__compareAscending__ = __webpack_require__(393);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__isIndex__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__rest__ = __webpack_require__(7);
 
@@ -33275,15 +33163,15 @@ var pullAt = Object(__WEBPACK_IMPORTED_MODULE_6__rest__["a" /* default */])(func
 
 
 /***/ }),
-/* 219 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__castPath__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__castPath__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isIndex__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isKey__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__last__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__parent__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__parent__ = __webpack_require__(392);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toKey__ = __webpack_require__(57);
 
 
@@ -33338,12 +33226,12 @@ function basePullAt(array, indexes) {
 
 
 /***/ }),
-/* 220 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIteratee__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basePullAt__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basePullAt__ = __webpack_require__(218);
 
 
 
@@ -33401,7 +33289,7 @@ function remove(array, predicate) {
 
 
 /***/ }),
-/* 221 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33442,7 +33330,7 @@ function reverse(array) {
 
 
 /***/ }),
-/* 222 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33489,11 +33377,11 @@ function slice(array, start, end) {
 
 
 /***/ }),
-/* 223 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(106);
 
 
 /**
@@ -33524,7 +33412,7 @@ function sortedIndex(array, value) {
 
 
 /***/ }),
-/* 224 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33567,11 +33455,11 @@ function sortedIndexBy(array, value, iteratee) {
 
 
 /***/ }),
-/* 225 */
+/* 224 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__eq__ = __webpack_require__(52);
 
 
@@ -33607,11 +33495,11 @@ function sortedIndexOf(array, value) {
 
 
 /***/ }),
-/* 226 */
+/* 225 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(106);
 
 
 /**
@@ -33640,7 +33528,7 @@ function sortedLastIndex(array, value) {
 
 
 /***/ }),
-/* 227 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33678,11 +33566,11 @@ function sortedLastIndexBy(array, value, iteratee) {
 
 
 /***/ }),
-/* 228 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedIndex__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__eq__ = __webpack_require__(52);
 
 
@@ -33718,11 +33606,11 @@ function sortedLastIndexOf(array, value) {
 
 
 /***/ }),
-/* 229 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedUniq__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSortedUniq__ = __webpack_require__(229);
 
 
 /**
@@ -33750,7 +33638,7 @@ function sortedUniq(array) {
 
 
 /***/ }),
-/* 230 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33788,12 +33676,12 @@ function baseSortedUniq(array, iteratee) {
 
 
 /***/ }),
-/* 231 */
+/* 230 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIteratee__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseSortedUniq__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseSortedUniq__ = __webpack_require__(229);
 
 
 
@@ -33823,7 +33711,7 @@ function sortedUniqBy(array, iteratee) {
 
 
 /***/ }),
-/* 232 */
+/* 231 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33852,7 +33740,7 @@ function tail(array) {
 
 
 /***/ }),
-/* 233 */
+/* 232 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33898,7 +33786,7 @@ function take(array, n, guard) {
 
 
 /***/ }),
-/* 234 */
+/* 233 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33946,12 +33834,12 @@ function takeRight(array, n, guard) {
 
 
 /***/ }),
-/* 235 */
+/* 234 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIteratee__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(105);
 
 
 
@@ -34001,12 +33889,12 @@ function takeRightWhile(array, predicate) {
 
 
 /***/ }),
-/* 236 */
+/* 235 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIteratee__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseWhile__ = __webpack_require__(105);
 
 
 
@@ -34056,11 +33944,11 @@ function takeWhile(array, predicate) {
 
 
 /***/ }),
-/* 237 */
+/* 236 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseUniq__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArrayLikeObject__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rest__ = __webpack_require__(7);
@@ -34093,11 +33981,11 @@ var union = Object(__WEBPACK_IMPORTED_MODULE_3__rest__["a" /* default */])(funct
 
 
 /***/ }),
-/* 238 */
+/* 237 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIteratee__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseUniq__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isArrayLikeObject__ = __webpack_require__(12);
@@ -34145,11 +34033,11 @@ var unionBy = Object(__WEBPACK_IMPORTED_MODULE_5__rest__["a" /* default */])(fun
 
 
 /***/ }),
-/* 239 */
+/* 238 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseFlatten__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseUniq__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArrayLikeObject__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__last__ = __webpack_require__(16);
@@ -34192,7 +34080,7 @@ var unionWith = Object(__WEBPACK_IMPORTED_MODULE_4__rest__["a" /* default */])(f
 
 
 /***/ }),
-/* 240 */
+/* 239 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34226,7 +34114,7 @@ function uniq(array) {
 
 
 /***/ }),
-/* 241 */
+/* 240 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34267,7 +34155,7 @@ function uniqBy(array, iteratee) {
 
 
 /***/ }),
-/* 242 */
+/* 241 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34303,7 +34191,7 @@ function uniqWith(array, comparator) {
 
 
 /***/ }),
-/* 243 */
+/* 242 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34342,11 +34230,11 @@ var without = Object(__WEBPACK_IMPORTED_MODULE_2__rest__["a" /* default */])(fun
 
 
 /***/ }),
-/* 244 */
+/* 243 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseXor__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArrayLikeObject__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rest__ = __webpack_require__(7);
@@ -34381,11 +34269,11 @@ var xor = Object(__WEBPACK_IMPORTED_MODULE_3__rest__["a" /* default */])(functio
 
 
 /***/ }),
-/* 245 */
+/* 244 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIteratee__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baseXor__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isArrayLikeObject__ = __webpack_require__(12);
@@ -34433,11 +34321,11 @@ var xorBy = Object(__WEBPACK_IMPORTED_MODULE_5__rest__["a" /* default */])(funct
 
 
 /***/ }),
-/* 246 */
+/* 245 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayFilter__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseXor__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArrayLikeObject__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__last__ = __webpack_require__(16);
@@ -34480,12 +34368,12 @@ var xorWith = Object(__WEBPACK_IMPORTED_MODULE_4__rest__["a" /* default */])(fun
 
 
 /***/ }),
-/* 247 */
+/* 246 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__rest__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__unzip__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__unzip__ = __webpack_require__(107);
 
 
 
@@ -34511,12 +34399,12 @@ var zip = Object(__WEBPACK_IMPORTED_MODULE_0__rest__["a" /* default */])(__WEBPA
 
 
 /***/ }),
-/* 248 */
+/* 247 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assignValue__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseZipObject__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseZipObject__ = __webpack_require__(248);
 
 
 
@@ -34544,7 +34432,7 @@ function zipObject(props, values) {
 
 
 /***/ }),
-/* 249 */
+/* 248 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34574,12 +34462,12 @@ function baseZipObject(props, values, assignFunc) {
 
 
 /***/ }),
-/* 250 */
+/* 249 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSet__ = __webpack_require__(394);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseZipObject__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseSet__ = __webpack_require__(396);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseZipObject__ = __webpack_require__(248);
 
 
 
@@ -34606,7 +34494,7 @@ function zipObjectDeep(props, values) {
 
 
 /***/ }),
-/* 251 */
+/* 250 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34646,19 +34534,19 @@ var zipWith = Object(__WEBPACK_IMPORTED_MODULE_0__rest__["a" /* default */])(fun
 
 
 /***/ }),
-/* 252 */
+/* 251 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__range__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__liverange__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__liverange__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__text__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__textproxy__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_tomap__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_tomap__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_log__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__selection__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__selection__ = __webpack_require__(109);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -35401,7 +35289,7 @@ function clearAttributesStoredInElement( changes, batch, document ) {
 
 
 /***/ }),
-/* 253 */
+/* 252 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35614,7 +35502,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 254 */
+/* 253 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35741,7 +35629,7 @@ function diff( a, b, cmp ) {
 
 
 /***/ }),
-/* 255 */
+/* 254 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35780,7 +35668,7 @@ function getAncestors( node ) {
 
 
 /***/ }),
-/* 256 */
+/* 255 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -35849,14 +35737,14 @@ class RootEditableElement extends __WEBPACK_IMPORTED_MODULE_0__editableelement__
 
 
 /***/ }),
-/* 257 */
+/* 256 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__observer__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selection__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selection__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filler__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_lib_lodash_isEqualWith__ = __webpack_require__(410);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_lib_lodash_isEqualWith__ = __webpack_require__(412);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -36206,13 +36094,13 @@ class MutationObserver extends __WEBPACK_IMPORTED_MODULE_0__observer__["a" /* de
 
 
 /***/ }),
-/* 258 */
+/* 257 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isObject__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__now__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toNumber__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__now__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toNumber__ = __webpack_require__(161);
 
 
 
@@ -36402,14 +36290,14 @@ function debounce(func, wait, options) {
 
 
 /***/ }),
-/* 259 */
+/* 258 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isrange__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__iswindow__ = __webpack_require__(417);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lib_lodash_isElement__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getborderwidths__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__iswindow__ = __webpack_require__(419);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__lib_lodash_isElement__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getborderwidths__ = __webpack_require__(260);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__log__ = __webpack_require__(26);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -36816,7 +36704,7 @@ function isBody( elementOrRange ) {
 
 
 /***/ }),
-/* 260 */
+/* 259 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36851,7 +36739,7 @@ function isElement(value) {
 
 
 /***/ }),
-/* 261 */
+/* 260 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36886,7 +36774,7 @@ function getBorderWidths( element ) {
 
 
 /***/ }),
-/* 262 */
+/* 261 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36896,7 +36784,7 @@ function getBorderWidths( element ) {
 /* harmony export (immutable) */ __webpack_exports__["f"] = convertSelectionMarker;
 /* harmony export (immutable) */ __webpack_exports__["a"] = clearAttributes;
 /* harmony export (immutable) */ __webpack_exports__["b"] = clearFakeSelection;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_element__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__view_range__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_writer__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_to_view_converters__ = __webpack_require__(92);
@@ -37179,6 +37067,118 @@ function clearFakeSelection() {
 
 
 /***/ }),
+/* 262 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__basichtmlwriter__ = __webpack_require__(423);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__view_domconverter__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_filler__ = __webpack_require__(72);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module engine/dataprocessor/htmldataprocessor
+ */
+
+/* globals document, DOMParser */
+
+
+
+
+
+/**
+ * HtmlDataProcessor class.
+ * This data processor implementation uses HTML as input/output data.
+ *
+ * @implements module:engine/dataprocessor/dataprocessor~DataProcessor
+ */
+class HtmlDataProcessor {
+	/**
+	 * Creates a new instance of the HtmlDataProcessor class.
+	 */
+	constructor() {
+		/**
+		 * DOMParser instance used to parse HTML string to HTMLDocument.
+		 *
+		 * @private
+		 * @member {DOMParser}
+		 */
+		this._domParser = new DOMParser();
+
+		/**
+		 * DOM converter used to convert DOM elements to view elements.
+		 *
+		 * @private
+		 * @member
+		 */
+		this._domConverter = new __WEBPACK_IMPORTED_MODULE_1__view_domconverter__["a" /* default */]( { blockFiller: __WEBPACK_IMPORTED_MODULE_2__view_filler__["d" /* NBSP_FILLER */] } );
+
+		/**
+		 * BasicHtmlWriter instance used to convert DOM elements to HTML string.
+		 *
+		 * @private
+		 * @member {module:engine/dataprocessor/basichtmlwriter~BasicHtmlWriter}
+		 */
+		this._htmlWriter = new __WEBPACK_IMPORTED_MODULE_0__basichtmlwriter__["a" /* default */]();
+	}
+
+	/**
+	 * Converts provided {@link module:engine/view/documentfragment~DocumentFragment DocumentFragment}
+	 * to data format - in this case HTML string.
+	 *
+	 * @param {module:engine/view/documentfragment~DocumentFragment} viewFragment
+	 * @returns {String} HTML string.
+	 */
+	toData( viewFragment ) {
+		// Convert view DocumentFragment to DOM DocumentFragment.
+		const domFragment = this._domConverter.viewToDom( viewFragment, document );
+
+		// Convert DOM DocumentFragment to HTML output.
+		return this._htmlWriter.getHtml( domFragment );
+	}
+
+	/**
+	 * Converts provided HTML string to view tree.
+	 *
+	 * @param {String} data HTML string.
+	 * @returns {module:engine/view/node~Node|module:engine/view/documentfragment~DocumentFragment|null} Converted view element.
+	 */
+	toView( data ) {
+		// Convert input HTML data to DOM DocumentFragment.
+		const domFragment = this._toDom( data );
+
+		// Convert DOM DocumentFragment to view DocumentFragment.
+		return this._domConverter.domToView( domFragment );
+	}
+
+	/**
+	 * Converts HTML String to its DOM representation. Returns DocumentFragment, containing nodes parsed from
+	 * provided data.
+	 *
+	 * @private
+	 * @param {String} data
+	 * @returns {DocumentFragment}
+	 */
+	_toDom( data ) {
+		const document = this._domParser.parseFromString( data, 'text/html' );
+		const fragment = document.createDocumentFragment();
+		const nodes = document.body.childNodes;
+
+		while ( nodes.length > 0 ) {
+			fragment.appendChild( nodes[ 0 ] );
+		}
+
+		return fragment;
+	}
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = HtmlDataProcessor;
+
+
+
+/***/ }),
 /* 263 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -37221,10 +37221,10 @@ function toUnit( unit ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__template__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_focustracker__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__focuscycler__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__focuscycler__ = __webpack_require__(156);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_keystrokehandler__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbarseparatorview__ = __webpack_require__(433);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__bindings_preventdefault_js__ = __webpack_require__(434);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbarseparatorview__ = __webpack_require__(435);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__bindings_preventdefault_js__ = __webpack_require__(436);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_log__ = __webpack_require__(26);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -37388,8 +37388,8 @@ class ToolbarView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */]
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__entercommand__ = __webpack_require__(446);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__enterobserver__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__entercommand__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__enterobserver__ = __webpack_require__(449);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -37442,8 +37442,8 @@ class Enter extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plu
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__input__ = __webpack_require__(448);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__delete__ = __webpack_require__(451);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__input__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__delete__ = __webpack_require__(453);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -37712,11 +37712,11 @@ class ChangeBuffer {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__undoengine__ = __webpack_require__(454);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_undo_svg__ = __webpack_require__(459);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__undoengine__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_undo_svg__ = __webpack_require__(461);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_undo_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__theme_icons_undo_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_icons_redo_svg__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_icons_redo_svg__ = __webpack_require__(462);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_icons_redo_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__theme_icons_redo_svg__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -37892,7 +37892,7 @@ class Undo extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plug
 
 "use strict";
 /* unused harmony export transformRangesByDeltas */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -38139,9 +38139,9 @@ function transformRangesByDeltas( ranges, deltas ) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__boldengine__ = __webpack_require__(462);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_bold_svg__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__boldengine__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_bold_svg__ = __webpack_require__(465);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_bold_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__theme_icons_bold_svg__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -38221,9 +38221,9 @@ class Bold extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plug
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__italicengine__ = __webpack_require__(464);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_italic_svg__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__italicengine__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_italic_svg__ = __webpack_require__(467);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_icons_italic_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__theme_icons_italic_svg__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -38304,9 +38304,9 @@ class Italic extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_pl
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__template__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_dom_position__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_dom_position__ = __webpack_require__(484);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_dom_isrange__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_lib_lodash_isElement__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_lib_lodash_isElement__ = __webpack_require__(259);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_dom_tounit__ = __webpack_require__(263);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_dom_global__ = __webpack_require__(50);
 /**
@@ -39100,27 +39100,39 @@ function getBalloonPositionData( editor ) {
 
 /***/ }),
 /* 274 */
+/***/ (function(module, exports) {
+
+module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15.116 7.961l2.426 2.206-.01-.417-.01-.525-5.87 5.831.916.923 5.87-5.832.485-.482-.506-.46-2.419-2.198-.882.954zm-2.96-2.69l-.483-.44.874-.961.491.446-.882.955zm-7.041 7.612l-2.442-2.22-.507-.46.486-.483 5.87-5.83.915.922-5.87 5.83-.02-.941 2.45 2.227-.882.955zm2.96 2.69l.467.425.875-.962-.46-.417-.882.955zM4.518 17.43L17.475 3.422l-.954-.882L3.564 16.548l.954.882z\" fill=\"#232323\" fill-rule=\"evenodd\"/></svg>"
+
+/***/ }),
+/* 275 */
+/***/ (function(module, exports) {
+
+module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.635 7.529l-6.252 6.474A2 2 0 0 0 6.26 16.78l6.252-6.473-.72-.695-6.251 6.474a1 1 0 0 1-1.439-1.39l6.252-6.473-.72-.695zm5.125.746c.115-.096.238-.21.369-.346 1.332-1.379 1.76-3.127.955-3.903-.805-.777-2.537-.29-3.868 1.09a4.63 4.63 0 0 0-.332.38l2.876 2.779zm-4.755-3.27l4.774 4.61-.662.685-4.774-4.61.662-.685z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
+
+/***/ }),
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_editor_classic_src_classiceditor__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_essentials_src_essentials__ = __webpack_require__(439);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_editor_classic_src_classiceditor__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_essentials_src_essentials__ = __webpack_require__(441);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_paragraph_src_paragraph__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_basic_styles_src_bold__ = __webpack_require__(270);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_basic_styles_src_italic__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_image_src_image__ = __webpack_require__(466);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_image_src_imagecaption__ = __webpack_require__(489);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_image_src_imagetoolbar__ = __webpack_require__(497);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_block_quote_src_blockquote__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_image_src_image__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_image_src_imagecaption__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_image_src_imagetoolbar__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_block_quote_src_blockquote__ = __webpack_require__(500);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_core_theme_icons_image_svg__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_core_theme_icons_image_svg__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_core_theme_icons_image_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_core_theme_icons_image_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_core_theme_icons_source_svg__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_core_theme_icons_source_svg__ = __webpack_require__(274);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_core_theme_icons_source_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_core_theme_icons_source_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_eftouchwidget_js__ = __webpack_require__(510);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_eftouchwidget_js__ = __webpack_require__(507);
 
 
 
@@ -39227,16 +39239,16 @@ __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_editor_classic_src_classiceditor
   } );
 
 /***/ }),
-/* 275 */
+/* 277 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__editor__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__editingkeystrokehandler__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_controller_editingcontroller__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__editor__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__editingkeystrokehandler__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_controller_editingcontroller__ = __webpack_require__(405);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_lib_lodash_isFunction__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_dom_getdatafromelement__ = __webpack_require__(419);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_dom_setdatainelement__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_dom_getdatafromelement__ = __webpack_require__(421);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_dom_setdatainelement__ = __webpack_require__(422);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -39417,16 +39429,16 @@ class StandardEditor extends __WEBPACK_IMPORTED_MODULE_0__editor__["a" /* defaul
 
 
 /***/ }),
-/* 276 */
+/* 278 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_config__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__plugincollection__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__commandcollection__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_locale__ = __webpack_require__(280);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_controller_datacontroller__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_model_document__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_config__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__plugincollection__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__commandcollection__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_locale__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_controller_datacontroller__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_model_document__ = __webpack_require__(354);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /**
@@ -39701,7 +39713,7 @@ Object(__WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 277 */
+/* 279 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39928,7 +39940,7 @@ class Config {
 
 
 /***/ }),
-/* 278 */
+/* 280 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40198,7 +40210,7 @@ class PluginCollection {
 
 
 /***/ }),
-/* 279 */
+/* 281 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40311,11 +40323,11 @@ class CommandCollection {
 
 
 /***/ }),
-/* 280 */
+/* 282 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__translation_service__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__translation_service__ = __webpack_require__(283);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -40389,7 +40401,7 @@ class Locale {
 
 
 /***/ }),
-/* 281 */
+/* 283 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40468,25 +40480,25 @@ function _clear() {
 
 
 /***/ }),
-/* 282 */
+/* 284 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_mapper__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__conversion_modelconversiondispatcher__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_mapper__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__conversion_modelconversiondispatcher__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__conversion_model_to_view_converters__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__conversion_viewconversiondispatcher__ = __webpack_require__(345);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__conversion_view_to_model_converters__ = __webpack_require__(347);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__view_documentfragment__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__conversion_viewconversiondispatcher__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__conversion_view_to_model_converters__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__view_documentfragment__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__model_range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__model_element__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__insertcontent__ = __webpack_require__(348);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__deletecontent__ = __webpack_require__(349);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__modifyselection__ = __webpack_require__(350);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__getselectedcontent__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__insertcontent__ = __webpack_require__(350);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__deletecontent__ = __webpack_require__(351);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__modifyselection__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__getselectedcontent__ = __webpack_require__(353);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -40863,11 +40875,11 @@ Object(__WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 283 */
+/* 285 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__spy__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__spy__ = __webpack_require__(286);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -40952,7 +40964,7 @@ class EventInfo {
 
 
 /***/ }),
-/* 284 */
+/* 286 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40984,7 +40996,7 @@ function spy() {
 
 
 /***/ }),
-/* 285 */
+/* 287 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41035,16 +41047,16 @@ const priorities = {
 
 
 /***/ }),
-/* 286 */
+/* 288 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assignValue__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__copyObject__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createAssigner__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__copyObject__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createAssigner__ = __webpack_require__(289);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isArrayLike__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isPrototype__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__keysIn__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__keysIn__ = __webpack_require__(292);
 
 
 
@@ -41106,7 +41118,7 @@ var assignIn = Object(__WEBPACK_IMPORTED_MODULE_2__createAssigner__["a" /* defau
 
 
 /***/ }),
-/* 287 */
+/* 289 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41152,11 +41164,11 @@ function createAssigner(assigner) {
 
 
 /***/ }),
-/* 288 */
+/* 290 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseProperty__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseProperty__ = __webpack_require__(115);
 
 
 /**
@@ -41176,11 +41188,11 @@ var getLength = Object(__WEBPACK_IMPORTED_MODULE_0__baseProperty__["a" /* defaul
 
 
 /***/ }),
-/* 289 */
+/* 291 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toNumber__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toNumber__ = __webpack_require__(161);
 
 
 /** Used as references for various `Number` constants. */
@@ -41226,12 +41238,12 @@ function toFinite(value) {
 
 
 /***/ }),
-/* 290 */
+/* 292 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseKeysIn__ = __webpack_require__(291);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__indexKeys__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseKeysIn__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__indexKeys__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isIndex__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isPrototype__ = __webpack_require__(81);
 
@@ -41292,12 +41304,12 @@ function keysIn(object) {
 
 
 /***/ }),
-/* 291 */
+/* 293 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Reflect__ = __webpack_require__(292);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__iteratorToArray__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Reflect__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__iteratorToArray__ = __webpack_require__(297);
 
 
 
@@ -41337,7 +41349,7 @@ if (enumerate && !propertyIsEnumerable.call({ 'valueOf': 1 }, 'valueOf')) {
 
 
 /***/ }),
-/* 292 */
+/* 294 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41351,7 +41363,7 @@ var Reflect = __WEBPACK_IMPORTED_MODULE_0__root__["a" /* default */].Reflect;
 
 
 /***/ }),
-/* 293 */
+/* 295 */
 /***/ (function(module, exports) {
 
 var g;
@@ -41378,7 +41390,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 294 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41397,7 +41409,7 @@ function checkGlobal(value) {
 
 
 /***/ }),
-/* 295 */
+/* 297 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41422,7 +41434,7 @@ function iteratorToArray(iterator) {
 
 
 /***/ }),
-/* 296 */
+/* 298 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41441,7 +41453,7 @@ function listCacheClear() {
 
 
 /***/ }),
-/* 297 */
+/* 299 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41483,7 +41495,7 @@ function listCacheDelete(key) {
 
 
 /***/ }),
-/* 298 */
+/* 300 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41510,7 +41522,7 @@ function listCacheGet(key) {
 
 
 /***/ }),
-/* 299 */
+/* 301 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41534,7 +41546,7 @@ function listCacheHas(key) {
 
 
 /***/ }),
-/* 300 */
+/* 302 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41567,7 +41579,7 @@ function listCacheSet(key, value) {
 
 
 /***/ }),
-/* 301 */
+/* 303 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41589,7 +41601,7 @@ function stackClear() {
 
 
 /***/ }),
-/* 302 */
+/* 304 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41610,7 +41622,7 @@ function stackDelete(key) {
 
 
 /***/ }),
-/* 303 */
+/* 305 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41631,7 +41643,7 @@ function stackGet(key) {
 
 
 /***/ }),
-/* 304 */
+/* 306 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41652,12 +41664,12 @@ function stackHas(key) {
 
 
 /***/ }),
-/* 305 */
+/* 307 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ListCache__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__MapCache__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__MapCache__ = __webpack_require__(120);
 
 
 
@@ -41687,13 +41699,13 @@ function stackSet(key, value) {
 
 
 /***/ }),
-/* 306 */
+/* 308 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Hash__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Hash__ = __webpack_require__(309);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ListCache__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Map__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Map__ = __webpack_require__(170);
 
 
 
@@ -41717,15 +41729,15 @@ function mapCacheClear() {
 
 
 /***/ }),
-/* 307 */
+/* 309 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hashClear__ = __webpack_require__(308);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hashDelete__ = __webpack_require__(309);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hashGet__ = __webpack_require__(310);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__hashHas__ = __webpack_require__(311);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__hashSet__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__hashClear__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hashDelete__ = __webpack_require__(311);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hashGet__ = __webpack_require__(312);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__hashHas__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__hashSet__ = __webpack_require__(314);
 
 
 
@@ -41761,7 +41773,7 @@ Hash.prototype.set = __WEBPACK_IMPORTED_MODULE_4__hashSet__["a" /* default */];
 
 
 /***/ }),
-/* 308 */
+/* 310 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41783,7 +41795,7 @@ function hashClear() {
 
 
 /***/ }),
-/* 309 */
+/* 311 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41805,7 +41817,7 @@ function hashDelete(key) {
 
 
 /***/ }),
-/* 310 */
+/* 312 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41843,7 +41855,7 @@ function hashGet(key) {
 
 
 /***/ }),
-/* 311 */
+/* 313 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41874,7 +41886,7 @@ function hashHas(key) {
 
 
 /***/ }),
-/* 312 */
+/* 314 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41904,7 +41916,7 @@ function hashSet(key, value) {
 
 
 /***/ }),
-/* 313 */
+/* 315 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41928,7 +41940,7 @@ function mapCacheDelete(key) {
 
 
 /***/ }),
-/* 314 */
+/* 316 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41950,7 +41962,7 @@ function isKeyable(value) {
 
 
 /***/ }),
-/* 315 */
+/* 317 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41974,7 +41986,7 @@ function mapCacheGet(key) {
 
 
 /***/ }),
-/* 316 */
+/* 318 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -41998,7 +42010,7 @@ function mapCacheHas(key) {
 
 
 /***/ }),
-/* 317 */
+/* 319 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42024,7 +42036,7 @@ function mapCacheSet(key, value) {
 
 
 /***/ }),
-/* 318 */
+/* 320 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42053,11 +42065,11 @@ function arrayEach(array, iteratee) {
 
 
 /***/ }),
-/* 319 */
+/* 321 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__copyObject__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__copyObject__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__keys__ = __webpack_require__(68);
 
 
@@ -42079,7 +42091,7 @@ function baseAssign(object, source) {
 
 
 /***/ }),
-/* 320 */
+/* 322 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42102,7 +42114,7 @@ function baseKeys(object) {
 
 
 /***/ }),
-/* 321 */
+/* 323 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42127,12 +42139,12 @@ function cloneBuffer(buffer, isDeep) {
 
 
 /***/ }),
-/* 322 */
+/* 324 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__copyObject__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getSymbols__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__copyObject__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getSymbols__ = __webpack_require__(173);
 
 
 
@@ -42152,12 +42164,12 @@ function copySymbols(source, object) {
 
 
 /***/ }),
-/* 323 */
+/* 325 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseGetAllKeys__ = __webpack_require__(324);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getSymbols__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseGetAllKeys__ = __webpack_require__(326);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getSymbols__ = __webpack_require__(173);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__keys__ = __webpack_require__(68);
 
 
@@ -42178,7 +42190,7 @@ function getAllKeys(object) {
 
 
 /***/ }),
-/* 324 */
+/* 326 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42207,7 +42219,7 @@ function baseGetAllKeys(object, keysFunc, symbolsFunc) {
 
 
 /***/ }),
-/* 325 */
+/* 327 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42223,7 +42235,7 @@ var DataView = Object(__WEBPACK_IMPORTED_MODULE_0__getNative__["a" /* default */
 
 
 /***/ }),
-/* 326 */
+/* 328 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42239,7 +42251,7 @@ var Promise = Object(__WEBPACK_IMPORTED_MODULE_0__getNative__["a" /* default */]
 
 
 /***/ }),
-/* 327 */
+/* 329 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42255,7 +42267,7 @@ var WeakMap = Object(__WEBPACK_IMPORTED_MODULE_0__getNative__["a" /* default */]
 
 
 /***/ }),
-/* 328 */
+/* 330 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42288,17 +42300,17 @@ function initCloneArray(array) {
 
 
 /***/ }),
-/* 329 */
+/* 331 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cloneArrayBuffer__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cloneDataView__ = __webpack_require__(330);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cloneMap__ = __webpack_require__(331);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cloneRegExp__ = __webpack_require__(333);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cloneSet__ = __webpack_require__(334);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cloneSymbol__ = __webpack_require__(336);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cloneTypedArray__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cloneArrayBuffer__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cloneDataView__ = __webpack_require__(332);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cloneMap__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__cloneRegExp__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cloneSet__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__cloneSymbol__ = __webpack_require__(338);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cloneTypedArray__ = __webpack_require__(339);
 
 
 
@@ -42382,11 +42394,11 @@ function initCloneByTag(object, tag, cloneFunc, isDeep) {
 
 
 /***/ }),
-/* 330 */
+/* 332 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cloneArrayBuffer__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cloneArrayBuffer__ = __webpack_require__(122);
 
 
 /**
@@ -42406,13 +42418,13 @@ function cloneDataView(dataView, isDeep) {
 
 
 /***/ }),
-/* 331 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__addMapEntry__ = __webpack_require__(332);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayReduce__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapToArray__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__addMapEntry__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayReduce__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapToArray__ = __webpack_require__(123);
 
 
 
@@ -42435,7 +42447,7 @@ function cloneMap(map, isDeep, cloneFunc) {
 
 
 /***/ }),
-/* 332 */
+/* 334 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42457,7 +42469,7 @@ function addMapEntry(map, pair) {
 
 
 /***/ }),
-/* 333 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42481,12 +42493,12 @@ function cloneRegExp(regexp) {
 
 
 /***/ }),
-/* 334 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__addSetEntry__ = __webpack_require__(335);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayReduce__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__addSetEntry__ = __webpack_require__(337);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__arrayReduce__ = __webpack_require__(176);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__setToArray__ = __webpack_require__(90);
 
 
@@ -42510,7 +42522,7 @@ function cloneSet(set, isDeep, cloneFunc) {
 
 
 /***/ }),
-/* 335 */
+/* 337 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42531,11 +42543,11 @@ function addSetEntry(set, value) {
 
 
 /***/ }),
-/* 336 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol__ = __webpack_require__(124);
 
 
 /** Used to convert symbols to primitives and strings. */
@@ -42557,11 +42569,11 @@ function cloneSymbol(symbol) {
 
 
 /***/ }),
-/* 337 */
+/* 339 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cloneArrayBuffer__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cloneArrayBuffer__ = __webpack_require__(122);
 
 
 /**
@@ -42581,12 +42593,12 @@ function cloneTypedArray(typedArray, isDeep) {
 
 
 /***/ }),
-/* 338 */
+/* 340 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseCreate__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getPrototype__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseCreate__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getPrototype__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isPrototype__ = __webpack_require__(81);
 
 
@@ -42609,7 +42621,7 @@ function initCloneObject(object) {
 
 
 /***/ }),
-/* 339 */
+/* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42635,11 +42647,11 @@ function baseCreate(proto) {
 
 
 /***/ }),
-/* 340 */
+/* 342 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(341);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constant__ = __webpack_require__(343);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__root__ = __webpack_require__(32);
 
 
@@ -42691,10 +42703,10 @@ var isBuffer = !Buffer ? Object(__WEBPACK_IMPORTED_MODULE_0__constant__["a" /* d
 
 /* harmony default export */ __webpack_exports__["a"] = (isBuffer);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(163)(module)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(162)(module)))
 
 /***/ }),
-/* 341 */
+/* 343 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42725,7 +42737,7 @@ function constant(value) {
 
 
 /***/ }),
-/* 342 */
+/* 344 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42900,7 +42912,7 @@ class TextProxy {
 
 
 /***/ }),
-/* 343 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43214,7 +43226,7 @@ class ModelConsumable {
 
 
 /***/ }),
-/* 344 */
+/* 346 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43261,17 +43273,17 @@ function isMac( userAgent ) {
 
 
 /***/ }),
-/* 345 */
+/* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__viewconsumable__ = __webpack_require__(346);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__viewconsumable__ = __webpack_require__(348);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_treewalker__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__model_node__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__model_documentfragment__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__model_writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__model_writer__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_utils_src_lib_lodash_extend__ = __webpack_require__(45);
@@ -43646,7 +43658,7 @@ function extractMarkersFromModelFragment( modelItem ) {
 
 
 /***/ }),
-/* 346 */
+/* 348 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44252,7 +44264,7 @@ class ViewElementConsumables {
 
 
 /***/ }),
-/* 347 */
+/* 349 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44260,7 +44272,7 @@ class ViewElementConsumables {
 /* harmony export (immutable) */ __webpack_exports__["a"] = convertText;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_documentfragment__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_text__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_writer__ = __webpack_require__(21);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -44325,13 +44337,13 @@ function convertText() {
 
 
 /***/ }),
-/* 348 */
+/* 350 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = insertContent;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_position__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_liveposition__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_liveposition__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_log__ = __webpack_require__(26);
@@ -44793,12 +44805,12 @@ function getNodeSchemaName( node ) {
 
 
 /***/ }),
-/* 349 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = deleteContent;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_liveposition__ = __webpack_require__(180);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_liveposition__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_element__ = __webpack_require__(5);
@@ -45026,7 +45038,7 @@ function shouldEntireContentBeReplacedWithParagraph( schema, selection ) {
 
 
 /***/ }),
-/* 350 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45034,7 +45046,7 @@ function shouldEntireContentBeReplacedWithParagraph( schema, selection ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_treewalker__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_range__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_unicode__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_unicode__ = __webpack_require__(180);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -45177,7 +45189,7 @@ function getSearchRange( start, isForward ) {
 
 
 /***/ }),
-/* 351 */
+/* 353 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45186,7 +45198,7 @@ function getSearchRange( start, isForward ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_text__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__model_writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__model_writer__ = __webpack_require__(21);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -45337,27 +45349,27 @@ function removeRangeContent( range ) {
 
 
 /***/ }),
-/* 352 */
+/* 354 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta_basic_deltas__ = __webpack_require__(353);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__delta_basic_transformations__ = __webpack_require__(363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta_basic_deltas__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__delta_basic_transformations__ = __webpack_require__(365);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__position__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__rootelement__ = __webpack_require__(397);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__batch__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__history__ = __webpack_require__(398);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__documentselection__ = __webpack_require__(252);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__schema__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__rootelement__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__batch__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__history__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__documentselection__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__schema__ = __webpack_require__(402);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__treewalker__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markercollection__ = __webpack_require__(401);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__delta_transform__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markercollection__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__delta_transform__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_utils_src_lib_lodash_clone__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_utils_src_unicode__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_utils_src_unicode__ = __webpack_require__(180);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -45884,20 +45896,20 @@ function* combineWalkers( backward, forward ) {
 
 
 /***/ }),
-/* 353 */
+/* 355 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__attributedelta__ = __webpack_require__(128);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__insertdelta__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mergedelta__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__movedelta__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__removedelta__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mergedelta__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__movedelta__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__removedelta__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__renamedelta__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__splitdelta__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__unwrapdelta__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__weakinsertdelta__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__wrapdelta__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__splitdelta__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__unwrapdelta__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__weakinsertdelta__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__wrapdelta__ = __webpack_require__(103);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -45927,17 +45939,17 @@ function* combineWalkers( backward, forward ) {
 
 
 /***/ }),
-/* 354 */
+/* 356 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__operation_attributeoperation__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__operation_attributeoperation__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__operation_insertoperation__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__operation_markeroperation__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__operation_nooperation__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__operation_operation__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_reinsertoperation__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_reinsertoperation__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__operation_removeoperation__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__operation_renameoperation__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__operation_rootattributeoperation__ = __webpack_require__(131);
@@ -45995,11 +46007,11 @@ class OperationFactory {
 
 
 /***/ }),
-/* 355 */
+/* 357 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqual__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqual__ = __webpack_require__(95);
 
 
 /**
@@ -46039,18 +46051,18 @@ function isEqual(value, other) {
 
 
 /***/ }),
-/* 356 */
+/* 358 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Stack__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__equalArrays__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equalByTag__ = __webpack_require__(360);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__equalObjects__ = __webpack_require__(361);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getTag__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Stack__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__equalArrays__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equalByTag__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__equalObjects__ = __webpack_require__(363);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getTag__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__isArray__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__isHostObject__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__isTypedArray__ = __webpack_require__(362);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__isTypedArray__ = __webpack_require__(364);
 
 
 
@@ -46136,7 +46148,7 @@ function baseIsEqualDeep(object, other, equalFunc, customizer, bitmask, stack) {
 
 
 /***/ }),
-/* 357 */
+/* 359 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46162,7 +46174,7 @@ function setCacheAdd(value) {
 
 
 /***/ }),
-/* 358 */
+/* 360 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46183,7 +46195,7 @@ function setCacheHas(value) {
 
 
 /***/ }),
-/* 359 */
+/* 361 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46213,14 +46225,14 @@ function arraySome(array, predicate) {
 
 
 /***/ }),
-/* 360 */
+/* 362 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Uint8Array__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equalArrays__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapToArray__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Uint8Array__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__equalArrays__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapToArray__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__setToArray__ = __webpack_require__(90);
 
 
@@ -46339,11 +46351,11 @@ function equalByTag(object, other, tag, equalFunc, customizer, bitmask, stack) {
 
 
 /***/ }),
-/* 361 */
+/* 363 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseHas__ = __webpack_require__(172);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseHas__ = __webpack_require__(171);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__keys__ = __webpack_require__(68);
 
 
@@ -46431,7 +46443,7 @@ function equalObjects(object, other, equalFunc, customizer, bitmask, stack) {
 
 
 /***/ }),
-/* 362 */
+/* 364 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46520,29 +46532,29 @@ function isTypedArray(value) {
 
 
 /***/ }),
-/* 363 */
+/* 365 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transform__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__transform__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_nooperation__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__operation_attributeoperation__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__operation_attributeoperation__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__operation_insertoperation__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_reinsertoperation__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__delta__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__operation_reinsertoperation__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__delta__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__attributedelta__ = __webpack_require__(128);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__insertdelta__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markerdelta__ = __webpack_require__(396);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__mergedelta__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__movedelta__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__splitdelta__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__weakinsertdelta__ = __webpack_require__(183);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__wrapdelta__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__unwrapdelta__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__markerdelta__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__mergedelta__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__movedelta__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__splitdelta__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__weakinsertdelta__ = __webpack_require__(182);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__wrapdelta__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__unwrapdelta__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__renamedelta__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__removedelta__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__removedelta__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ckeditor_ckeditor5_utils_src_comparearrays__ = __webpack_require__(54);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -47174,18 +47186,18 @@ function noDelta() {
 
 
 /***/ }),
-/* 364 */
+/* 366 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__insertoperation__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attributeoperation__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attributeoperation__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rootattributeoperation__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__renameoperation__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__markeroperation__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__moveoperation__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__moveoperation__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__removeoperation__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__reinsertoperation__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__reinsertoperation__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__nooperation__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_utils_src_comparearrays__ = __webpack_require__(54);
@@ -47888,141 +47900,141 @@ function makeMoveOperation( range, targetPosition, isSticky ) {
 
 
 /***/ }),
-/* 365 */
+/* 367 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chunk__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chunk__ = __webpack_require__(184);
 /* unused harmony reexport chunk */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compact__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compact__ = __webpack_require__(185);
 /* unused harmony reexport compact */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__concat__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__concat__ = __webpack_require__(186);
 /* unused harmony reexport concat */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__difference__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__difference__ = __webpack_require__(187);
 /* unused harmony reexport difference */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__differenceBy__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__differenceBy__ = __webpack_require__(189);
 /* unused harmony reexport differenceBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__differenceWith__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__differenceWith__ = __webpack_require__(194);
 /* unused harmony reexport differenceWith */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__drop__ = __webpack_require__(140);
 /* unused harmony reexport drop */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dropRight__ = __webpack_require__(141);
 /* unused harmony reexport dropRight */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dropRightWhile__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dropRightWhile__ = __webpack_require__(195);
 /* unused harmony reexport dropRightWhile */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dropWhile__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dropWhile__ = __webpack_require__(196);
 /* unused harmony reexport dropWhile */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__fill__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__fill__ = __webpack_require__(197);
 /* unused harmony reexport fill */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__findIndex__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__findIndex__ = __webpack_require__(198);
 /* unused harmony reexport findIndex */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__findLastIndex__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__findLastIndex__ = __webpack_require__(200);
 /* unused harmony reexport findLastIndex */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__first__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__first__ = __webpack_require__(201);
 /* unused harmony reexport first */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__flatten__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__flatten__ = __webpack_require__(202);
 /* unused harmony reexport flatten */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__flattenDeep__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__flattenDeep__ = __webpack_require__(203);
 /* unused harmony reexport flattenDeep */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__flattenDepth__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__flattenDepth__ = __webpack_require__(204);
 /* unused harmony reexport flattenDepth */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__fromPairs__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__fromPairs__ = __webpack_require__(205);
 /* unused harmony reexport fromPairs */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__head__ = __webpack_require__(142);
 /* unused harmony reexport head */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__indexOf__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__indexOf__ = __webpack_require__(206);
 /* unused harmony reexport indexOf */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__initial__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__initial__ = __webpack_require__(207);
 /* unused harmony reexport initial */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__intersection__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__intersection__ = __webpack_require__(208);
 /* unused harmony reexport intersection */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__intersectionBy__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__intersectionBy__ = __webpack_require__(209);
 /* unused harmony reexport intersectionBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__intersectionWith__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__intersectionWith__ = __webpack_require__(210);
 /* unused harmony reexport intersectionWith */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__join__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__join__ = __webpack_require__(211);
 /* unused harmony reexport join */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__last__ = __webpack_require__(16);
 /* unused harmony reexport last */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__lastIndexOf__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__lastIndexOf__ = __webpack_require__(212);
 /* unused harmony reexport lastIndexOf */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__nth__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__nth__ = __webpack_require__(213);
 /* unused harmony reexport nth */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pull__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pull__ = __webpack_require__(214);
 /* unused harmony reexport pull */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pullAll__ = __webpack_require__(145);
 /* unused harmony reexport pullAll */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pullAllBy__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pullAllBy__ = __webpack_require__(215);
 /* unused harmony reexport pullAllBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pullAllWith__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pullAllWith__ = __webpack_require__(216);
 /* unused harmony reexport pullAllWith */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pullAt__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pullAt__ = __webpack_require__(217);
 /* unused harmony reexport pullAt */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__remove__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__remove__ = __webpack_require__(219);
 /* unused harmony reexport remove */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__reverse__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__reverse__ = __webpack_require__(220);
 /* unused harmony reexport reverse */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__slice__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__slice__ = __webpack_require__(221);
 /* unused harmony reexport slice */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__sortedIndex__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__sortedIndex__ = __webpack_require__(222);
 /* unused harmony reexport sortedIndex */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__sortedIndexBy__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__sortedIndexBy__ = __webpack_require__(223);
 /* unused harmony reexport sortedIndexBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__sortedIndexOf__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__sortedIndexOf__ = __webpack_require__(224);
 /* unused harmony reexport sortedIndexOf */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__sortedLastIndex__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__sortedLastIndex__ = __webpack_require__(225);
 /* unused harmony reexport sortedLastIndex */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__sortedLastIndexBy__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__sortedLastIndexBy__ = __webpack_require__(226);
 /* unused harmony reexport sortedLastIndexBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__sortedLastIndexOf__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__sortedLastIndexOf__ = __webpack_require__(227);
 /* unused harmony reexport sortedLastIndexOf */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__sortedUniq__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__sortedUniq__ = __webpack_require__(228);
 /* unused harmony reexport sortedUniq */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__sortedUniqBy__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__sortedUniqBy__ = __webpack_require__(230);
 /* unused harmony reexport sortedUniqBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__tail__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__tail__ = __webpack_require__(231);
 /* unused harmony reexport tail */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__take__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__take__ = __webpack_require__(232);
 /* unused harmony reexport take */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__takeRight__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__takeRight__ = __webpack_require__(233);
 /* unused harmony reexport takeRight */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__takeRightWhile__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__takeRightWhile__ = __webpack_require__(234);
 /* unused harmony reexport takeRightWhile */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__takeWhile__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__takeWhile__ = __webpack_require__(235);
 /* unused harmony reexport takeWhile */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__union__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__union__ = __webpack_require__(236);
 /* unused harmony reexport union */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__unionBy__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__unionBy__ = __webpack_require__(237);
 /* unused harmony reexport unionBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__unionWith__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__unionWith__ = __webpack_require__(238);
 /* unused harmony reexport unionWith */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__uniq__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__uniq__ = __webpack_require__(239);
 /* unused harmony reexport uniq */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__uniqBy__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__uniqBy__ = __webpack_require__(240);
 /* unused harmony reexport uniqBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__uniqWith__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__uniqWith__ = __webpack_require__(241);
 /* unused harmony reexport uniqWith */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__unzip__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__unzip__ = __webpack_require__(107);
 /* unused harmony reexport unzip */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__unzipWith__ = __webpack_require__(148);
 /* unused harmony reexport unzipWith */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__without__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__without__ = __webpack_require__(242);
 /* unused harmony reexport without */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__xor__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__xor__ = __webpack_require__(243);
 /* unused harmony reexport xor */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__xorBy__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__xorBy__ = __webpack_require__(244);
 /* unused harmony reexport xorBy */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__xorWith__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__xorWith__ = __webpack_require__(245);
 /* unused harmony reexport xorWith */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__zip__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__zip__ = __webpack_require__(246);
 /* unused harmony reexport zip */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__zipObject__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__zipObject__ = __webpack_require__(247);
 /* unused harmony reexport zipObject */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__zipObjectDeep__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__zipObjectDeep__ = __webpack_require__(249);
 /* unused harmony reexport zipObjectDeep */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__zipWith__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__zipWith__ = __webpack_require__(250);
 /* unused harmony reexport zipWith */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__array_default__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__array_default__ = __webpack_require__(397);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_65__array_default__["a"]; });
 
 
@@ -48093,11 +48105,11 @@ function makeMoveOperation( range, targetPosition, isSticky ) {
 
 
 /***/ }),
-/* 366 */
+/* 368 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isArguments__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isArguments__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isArray__ = __webpack_require__(13);
 
 
@@ -48117,13 +48129,13 @@ function isFlattenable(value) {
 
 
 /***/ }),
-/* 367 */
+/* 369 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsMatch__ = __webpack_require__(368);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getMatchData__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__matchesStrictComparable__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsMatch__ = __webpack_require__(370);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getMatchData__ = __webpack_require__(371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__matchesStrictComparable__ = __webpack_require__(191);
 
 
 
@@ -48149,12 +48161,12 @@ function baseMatches(source) {
 
 
 /***/ }),
-/* 368 */
+/* 370 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Stack__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIsEqual__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Stack__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__baseIsEqual__ = __webpack_require__(95);
 
 
 
@@ -48220,12 +48232,12 @@ function baseIsMatch(object, source, matchData, customizer) {
 
 
 /***/ }),
-/* 369 */
+/* 371 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isStrictComparable__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toPairs__ = __webpack_require__(370);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isStrictComparable__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toPairs__ = __webpack_require__(372);
 
 
 
@@ -48250,11 +48262,11 @@ function getMatchData(object) {
 
 
 /***/ }),
-/* 370 */
+/* 372 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createToPairs__ = __webpack_require__(371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createToPairs__ = __webpack_require__(373);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__keys__ = __webpack_require__(68);
 
 
@@ -48289,14 +48301,14 @@ var toPairs = Object(__WEBPACK_IMPORTED_MODULE_0__createToPairs__["a" /* default
 
 
 /***/ }),
-/* 371 */
+/* 373 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseToPairs__ = __webpack_require__(372);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getTag__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapToArray__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__setToPairs__ = __webpack_require__(373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseToPairs__ = __webpack_require__(374);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getTag__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapToArray__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__setToPairs__ = __webpack_require__(375);
 
 
 
@@ -48330,11 +48342,11 @@ function createToPairs(keysFunc) {
 
 
 /***/ }),
-/* 372 */
+/* 374 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__arrayMap__ = __webpack_require__(30);
 
 
 /**
@@ -48356,7 +48368,7 @@ function baseToPairs(object, props) {
 
 
 /***/ }),
-/* 373 */
+/* 375 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48381,16 +48393,16 @@ function setToPairs(set) {
 
 
 /***/ }),
-/* 374 */
+/* 376 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqual__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__get__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hasIn__ = __webpack_require__(379);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqual__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__get__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hasIn__ = __webpack_require__(381);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isKey__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isStrictComparable__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchesStrictComparable__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isStrictComparable__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchesStrictComparable__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__toKey__ = __webpack_require__(57);
 
 
@@ -48428,12 +48440,12 @@ function baseMatchesProperty(path, srcValue) {
 
 
 /***/ }),
-/* 375 */
+/* 377 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__memoize__ = __webpack_require__(376);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toString__ = __webpack_require__(377);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__memoize__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toString__ = __webpack_require__(379);
 
 
 
@@ -48462,11 +48474,11 @@ var stringToPath = Object(__WEBPACK_IMPORTED_MODULE_0__memoize__["a" /* default 
 
 
 /***/ }),
-/* 376 */
+/* 378 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MapCache__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__MapCache__ = __webpack_require__(120);
 
 
 /** Used as the `TypeError` message for "Functions" methods. */
@@ -48543,11 +48555,11 @@ memoize.Cache = __WEBPACK_IMPORTED_MODULE_0__MapCache__["a" /* default */];
 
 
 /***/ }),
-/* 377 */
+/* 379 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseToString__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseToString__ = __webpack_require__(380);
 
 
 /**
@@ -48579,11 +48591,11 @@ function toString(value) {
 
 
 /***/ }),
-/* 378 */
+/* 380 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isSymbol__ = __webpack_require__(46);
 
 
@@ -48619,12 +48631,12 @@ function baseToString(value) {
 
 
 /***/ }),
-/* 379 */
+/* 381 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseHasIn__ = __webpack_require__(380);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hasPath__ = __webpack_require__(381);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseHasIn__ = __webpack_require__(382);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__hasPath__ = __webpack_require__(383);
 
 
 
@@ -48662,7 +48674,7 @@ function hasIn(object, path) {
 
 
 /***/ }),
-/* 380 */
+/* 382 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48682,17 +48694,17 @@ function baseHasIn(object, key) {
 
 
 /***/ }),
-/* 381 */
+/* 383 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__castPath__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isArguments__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__castPath__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__isArguments__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isArray__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isIndex__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isKey__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__isLength__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__isString__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__isString__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__toKey__ = __webpack_require__(57);
 
 
@@ -48738,12 +48750,12 @@ function hasPath(object, path, hasFunc) {
 
 
 /***/ }),
-/* 382 */
+/* 384 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseProperty__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basePropertyDeep__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseProperty__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__basePropertyDeep__ = __webpack_require__(385);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isKey__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toKey__ = __webpack_require__(57);
 
@@ -48781,7 +48793,7 @@ function property(path) {
 
 
 /***/ }),
-/* 383 */
+/* 385 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48805,12 +48817,12 @@ function basePropertyDeep(path) {
 
 
 /***/ }),
-/* 384 */
+/* 386 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__toInteger__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toLength__ = __webpack_require__(385);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toLength__ = __webpack_require__(387);
 
 
 
@@ -48846,11 +48858,11 @@ function baseFill(array, value, start, end) {
 
 
 /***/ }),
-/* 385 */
+/* 387 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseClamp__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseClamp__ = __webpack_require__(388);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__toInteger__ = __webpack_require__(11);
 
 
@@ -48893,7 +48905,7 @@ function toLength(value) {
 
 
 /***/ }),
-/* 386 */
+/* 388 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48922,7 +48934,7 @@ function baseClamp(number, lower, upper) {
 
 
 /***/ }),
-/* 387 */
+/* 389 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48950,7 +48962,7 @@ function baseNth(array, n) {
 
 
 /***/ }),
-/* 388 */
+/* 390 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48980,11 +48992,11 @@ function baseIndexOfWith(array, value, fromIndex, comparator) {
 
 
 /***/ }),
-/* 389 */
+/* 391 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__get__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__get__ = __webpack_require__(192);
 
 
 /**
@@ -49011,7 +49023,7 @@ function baseAt(object, paths) {
 
 
 /***/ }),
-/* 390 */
+/* 392 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49036,7 +49048,7 @@ function parent(object, path) {
 
 
 /***/ }),
-/* 391 */
+/* 393 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49085,12 +49097,12 @@ function compareAscending(value, other) {
 
 
 /***/ }),
-/* 392 */
+/* 394 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Set__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(393);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Set__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__noop__ = __webpack_require__(395);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__setToArray__ = __webpack_require__(90);
 
 
@@ -49114,7 +49126,7 @@ var createSet = !(__WEBPACK_IMPORTED_MODULE_0__Set__["a" /* default */] && (1 / 
 
 
 /***/ }),
-/* 393 */
+/* 395 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49141,12 +49153,12 @@ function noop() {
 
 
 /***/ }),
-/* 394 */
+/* 396 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assignValue__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__castPath__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__castPath__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isIndex__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isKey__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__isObject__ = __webpack_require__(15);
@@ -49200,75 +49212,75 @@ function baseSet(object, path, value, customizer) {
 
 
 /***/ }),
-/* 395 */
+/* 397 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chunk__ = __webpack_require__(185);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compact__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__concat__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__difference__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__differenceBy__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__differenceWith__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chunk__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compact__ = __webpack_require__(185);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__concat__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__difference__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__differenceBy__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__differenceWith__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__drop__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dropRight__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dropRightWhile__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dropWhile__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__fill__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__findIndex__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__findLastIndex__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__first__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__flatten__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__flattenDeep__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__flattenDepth__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__fromPairs__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dropRightWhile__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__dropWhile__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__fill__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__findIndex__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__findLastIndex__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__first__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__flatten__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__flattenDeep__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__flattenDepth__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__fromPairs__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__head__ = __webpack_require__(142);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__indexOf__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__initial__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__intersection__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__intersectionBy__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__intersectionWith__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__join__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__indexOf__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__initial__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__intersection__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__intersectionBy__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__intersectionWith__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__join__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__last__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__lastIndexOf__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__nth__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pull__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__lastIndexOf__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__nth__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pull__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pullAll__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pullAllBy__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pullAllWith__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pullAt__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__remove__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__reverse__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__slice__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__sortedIndex__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__sortedIndexBy__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__sortedIndexOf__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__sortedLastIndex__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__sortedLastIndexBy__ = __webpack_require__(227);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__sortedLastIndexOf__ = __webpack_require__(228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__sortedUniq__ = __webpack_require__(229);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__sortedUniqBy__ = __webpack_require__(231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__tail__ = __webpack_require__(232);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__take__ = __webpack_require__(233);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__takeRight__ = __webpack_require__(234);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__takeRightWhile__ = __webpack_require__(235);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__takeWhile__ = __webpack_require__(236);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__union__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__unionBy__ = __webpack_require__(238);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__unionWith__ = __webpack_require__(239);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__uniq__ = __webpack_require__(240);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__uniqBy__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__uniqWith__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__unzip__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pullAllBy__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pullAllWith__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pullAt__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__remove__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__reverse__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__slice__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__sortedIndex__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__sortedIndexBy__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__sortedIndexOf__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__sortedLastIndex__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__sortedLastIndexBy__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__sortedLastIndexOf__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__sortedUniq__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__sortedUniqBy__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__tail__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__take__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__takeRight__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__takeRightWhile__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__takeWhile__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__union__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__unionBy__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__unionWith__ = __webpack_require__(238);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__uniq__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__uniqBy__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__uniqWith__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__unzip__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__unzipWith__ = __webpack_require__(148);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__without__ = __webpack_require__(243);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__xor__ = __webpack_require__(244);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__xorBy__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__xorWith__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__zip__ = __webpack_require__(247);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__zipObject__ = __webpack_require__(248);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__zipObjectDeep__ = __webpack_require__(250);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__zipWith__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__without__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__xor__ = __webpack_require__(243);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__xorBy__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__xorWith__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__zip__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__zipObject__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__zipObjectDeep__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__zipWith__ = __webpack_require__(250);
 
 
 
@@ -49353,13 +49365,13 @@ function baseSet(object, path, value, customizer) {
 
 
 /***/ }),
-/* 396 */
+/* 398 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__delta__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deltafactory__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__batch__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__operation_markeroperation__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
@@ -49498,7 +49510,7 @@ __WEBPACK_IMPORTED_MODULE_1__deltafactory__["a" /* default */].register( MarkerD
 
 
 /***/ }),
-/* 397 */
+/* 399 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49584,7 +49596,7 @@ class RootElement extends __WEBPACK_IMPORTED_MODULE_0__element__["a" /* default 
 
 
 /***/ }),
-/* 398 */
+/* 400 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49785,7 +49797,7 @@ class History {
 
 
 /***/ }),
-/* 399 */
+/* 401 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49823,17 +49835,17 @@ function mapsEqual( mapA, mapB ) {
 
 
 /***/ }),
-/* 400 */
+/* 402 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__documentselection__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__documentselection__ = __webpack_require__(251);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_lib_lodash_clone__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_lib_lodash_isArray__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_lib_lodash_isString__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_lib_lodash_isString__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -50594,11 +50606,11 @@ function matchPaths( schema, pathToCheck, registeredPath ) {
 
 
 /***/ }),
-/* 401 */
+/* 403 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__liverange__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__liverange__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
@@ -50954,7 +50966,7 @@ Object(__WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 402 */
+/* 404 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51036,16 +51048,16 @@ class EditingKeystrokeHandler extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_cked
 
 
 /***/ }),
-/* 403 */
+/* 405 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_document__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conversion_mapper__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_modelconversiondispatcher__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view_document__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__conversion_mapper__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__conversion_modelconversiondispatcher__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__conversion_model_to_view_converters__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__conversion_view_selection_to_model_converters__ = __webpack_require__(418);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__conversion_model_selection_to_view_converters__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__conversion_view_selection_to_model_converters__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__conversion_model_selection_to_view_converters__ = __webpack_require__(261);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /**
@@ -51204,25 +51216,25 @@ Object(__WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 404 */
+/* 406 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__renderer__ = __webpack_require__(405);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__selection__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__renderer__ = __webpack_require__(407);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__domconverter__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rooteditableelement__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__rooteditableelement__ = __webpack_require__(255);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__filler__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__uielement__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__uielement__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_log__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__observer_mutationobserver__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__observer_selectionobserver__ = __webpack_require__(411);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__observer_focusobserver__ = __webpack_require__(413);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__observer_keyobserver__ = __webpack_require__(414);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__observer_fakeselectionobserver__ = __webpack_require__(415);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__observer_mutationobserver__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__observer_selectionobserver__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__observer_focusobserver__ = __webpack_require__(415);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__observer_keyobserver__ = __webpack_require__(416);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__observer_fakeselectionobserver__ = __webpack_require__(417);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_utils_src_dom_scroll__ = __webpack_require__(416);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_utils_src_dom_scroll__ = __webpack_require__(418);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -51595,17 +51607,17 @@ Object(__WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_utils_src_mix__["a" /* d
 
 
 /***/ }),
-/* 405 */
+/* 407 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__text__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__text__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__filler__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_mix__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_diff__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_dom_insertat__ = __webpack_require__(406);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_dom_remove__ = __webpack_require__(407);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_diff__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_dom_insertat__ = __webpack_require__(408);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_dom_remove__ = __webpack_require__(409);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_log__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_observablemixin__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
@@ -52324,7 +52336,7 @@ Object(__WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 406 */
+/* 408 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52351,7 +52363,7 @@ function insertAt( parentElement, index, nodeToInsert ) {
 
 
 /***/ }),
-/* 407 */
+/* 409 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52380,7 +52392,7 @@ function remove( node ) {
 
 
 /***/ }),
-/* 408 */
+/* 410 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52413,12 +52425,12 @@ function indexOf( node ) {
 
 
 /***/ }),
-/* 409 */
+/* 411 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = getCommonAncestor;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getancestors__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__getancestors__ = __webpack_require__(254);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -52453,11 +52465,11 @@ function getCommonAncestor( nodeA, nodeB ) {
 
 
 /***/ }),
-/* 410 */
+/* 412 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqual__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseIsEqual__ = __webpack_require__(95);
 
 
 /**
@@ -52503,14 +52515,14 @@ function isEqualWith(value, other, customizer) {
 
 
 /***/ }),
-/* 411 */
+/* 413 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__observer__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutationobserver__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mutationobserver__ = __webpack_require__(256);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_log__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_lib_lodash_debounce__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_lib_lodash_debounce__ = __webpack_require__(257);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -52755,7 +52767,7 @@ class SelectionObserver extends __WEBPACK_IMPORTED_MODULE_0__observer__["a" /* d
 
 
 /***/ }),
-/* 412 */
+/* 414 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52782,7 +52794,7 @@ var now = Date.now;
 
 
 /***/ }),
-/* 413 */
+/* 415 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52894,12 +52906,12 @@ class FocusObserver extends __WEBPACK_IMPORTED_MODULE_0__domeventobserver__["a" 
 
 
 /***/ }),
-/* 414 */
+/* 416 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__domeventobserver__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -52989,14 +53001,14 @@ class KeyObserver extends __WEBPACK_IMPORTED_MODULE_0__domeventobserver__["a" /*
 
 
 /***/ }),
-/* 415 */
+/* 417 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__observer__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selection__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_lib_lodash_debounce__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__selection__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_utils_src_lib_lodash_debounce__ = __webpack_require__(257);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -53128,14 +53140,14 @@ function _isArrowKeyCode( keyCode ) {
 
 
 /***/ }),
-/* 416 */
+/* 418 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = scrollViewportToShowTarget;
 /* unused harmony export scrollAncestorsToShowTarget */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__isrange__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rect__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rect__ = __webpack_require__(258);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -53434,7 +53446,7 @@ function getRectRelativeToWindow( target, relativeWindow ) {
 
 
 /***/ }),
-/* 417 */
+/* 419 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53460,12 +53472,12 @@ function isWindow( obj ) {
 
 
 /***/ }),
-/* 418 */
+/* 420 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = convertSelectionChange;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_selection__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__model_selection__ = __webpack_require__(109);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -53517,7 +53529,7 @@ function convertSelectionChange( modelDocument, mapper ) {
 
 
 /***/ }),
-/* 419 */
+/* 421 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53549,7 +53561,7 @@ function getDataFromElement( el ) {
 
 
 /***/ }),
-/* 420 */
+/* 422 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53581,7 +53593,7 @@ function setDataInElement( el, data ) {
 
 
 /***/ }),
-/* 421 */
+/* 423 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53622,14 +53634,14 @@ class BasicHtmlWriter {
 
 
 /***/ }),
-/* 422 */
+/* 424 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_ui_src_componentfactory__ = __webpack_require__(423);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_ui_src_componentfactory__ = __webpack_require__(425);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_focustracker__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_toolbar_enabletoolbarkeyboardfocus__ = __webpack_require__(424);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_toolbar_normalizetoolbarconfig__ = __webpack_require__(425);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_toolbar_enabletoolbarkeyboardfocus__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_toolbar_normalizetoolbarconfig__ = __webpack_require__(427);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -53737,7 +53749,7 @@ class ClassicEditorUI {
 
 
 /***/ }),
-/* 423 */
+/* 425 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53873,7 +53885,7 @@ class ComponentFactory {
 
 
 /***/ }),
-/* 424 */
+/* 426 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53945,7 +53957,7 @@ function enableToolbarKeyboardFocus( {
 
 
 /***/ }),
-/* 425 */
+/* 427 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54000,13 +54012,13 @@ function normalizeToolbarConfig( config ) {
 
 
 /***/ }),
-/* 426 */
+/* 428 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_ui_src_editorui_boxed_boxededitoruiview__ = __webpack_require__(427);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_ui_src_editableui_inline_inlineeditableuiview__ = __webpack_require__(430);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_panel_sticky_stickypanelview__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_ui_src_editorui_boxed_boxededitoruiview__ = __webpack_require__(429);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_ui_src_editableui_inline_inlineeditableuiview__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_panel_sticky_stickypanelview__ = __webpack_require__(434);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_toolbar_toolbarview__ = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_ui_src_template__ = __webpack_require__(6);
 /**
@@ -54089,11 +54101,11 @@ class ClassicEditorUIView extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor
 
 
 /***/ }),
-/* 427 */
+/* 429 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__editorui_editoruiview__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__editorui_editoruiview__ = __webpack_require__(430);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_uid__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__template__ = __webpack_require__(6);
 /**
@@ -54213,7 +54225,7 @@ class BoxedEditorUIView extends __WEBPACK_IMPORTED_MODULE_0__editorui_editoruivi
 
 
 /***/ }),
-/* 428 */
+/* 430 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54307,11 +54319,11 @@ class EditorUIView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */
 
 
 /***/ }),
-/* 429 */
+/* 431 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseClone__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseClone__ = __webpack_require__(167);
 
 
 /**
@@ -54350,11 +54362,11 @@ function cloneDeepWith(value, customizer) {
 
 
 /***/ }),
-/* 430 */
+/* 432 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__editableui_editableuiview__ = __webpack_require__(431);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__editableui_editableuiview__ = __webpack_require__(433);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__template__ = __webpack_require__(6);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -54414,7 +54426,7 @@ class InlineEditableUIView extends __WEBPACK_IMPORTED_MODULE_0__editableui_edita
 
 
 /***/ }),
-/* 431 */
+/* 433 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54528,7 +54540,7 @@ class EditableUIView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default 
 
 
 /***/ }),
-/* 432 */
+/* 434 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54803,7 +54815,7 @@ class StickyPanelView extends __WEBPACK_IMPORTED_MODULE_1__view__["a" /* default
 
 
 /***/ }),
-/* 433 */
+/* 435 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54848,7 +54860,7 @@ class ToolbarSeparatorView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* de
 
 
 /***/ }),
-/* 434 */
+/* 436 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54894,7 +54906,7 @@ function preventDefault( view ) {
 
 
 /***/ }),
-/* 435 */
+/* 437 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54960,13 +54972,13 @@ class ElementReplacer {
 
 
 /***/ }),
-/* 436 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(437);
+var content = __webpack_require__(439);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -54991,7 +55003,7 @@ if(false) {
 }
 
 /***/ }),
-/* 437 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -55005,7 +55017,7 @@ exports.push([module.i, "@charset \"UTF-8\";\n/**\n * Makes element unselectable
 
 
 /***/ }),
-/* 438 */
+/* 440 */
 /***/ (function(module, exports) {
 
 
@@ -55100,12 +55112,12 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 439 */
+/* 441 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_clipboard_src_clipboard__ = __webpack_require__(440);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_clipboard_src_clipboard__ = __webpack_require__(442);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_enter_src_enter__ = __webpack_require__(265);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_typing_src_typing__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_undo_src_undo__ = __webpack_require__(268);
@@ -55151,16 +55163,16 @@ class Essentials extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_sr
 
 
 /***/ }),
-/* 440 */
+/* 442 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clipboardobserver__ = __webpack_require__(441);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_plaintexttohtml__ = __webpack_require__(443);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_normalizeclipboarddata__ = __webpack_require__(444);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_viewtoplaintext_js__ = __webpack_require__(445);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_dataprocessor_htmldataprocessor__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__clipboardobserver__ = __webpack_require__(443);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_plaintexttohtml__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_normalizeclipboarddata__ = __webpack_require__(446);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_viewtoplaintext_js__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_dataprocessor_htmldataprocessor__ = __webpack_require__(262);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -55429,12 +55441,12 @@ class Clipboard extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src
 
 
 /***/ }),
-/* 441 */
+/* 443 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_engine_src_view_observer_domeventobserver__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__datatransfer__ = __webpack_require__(442);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__datatransfer__ = __webpack_require__(444);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -55627,7 +55639,7 @@ function getDropViewRange( doc, domEvent ) {
 
 
 /***/ }),
-/* 442 */
+/* 444 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55712,7 +55724,7 @@ function getFiles( nativeDataTransfer ) {
 
 
 /***/ }),
-/* 443 */
+/* 445 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55760,7 +55772,7 @@ function plainTextToHtml( text ) {
 
 
 /***/ }),
-/* 444 */
+/* 446 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55795,7 +55807,7 @@ function normalizeClipboardData( data ) {
 
 
 /***/ }),
-/* 445 */
+/* 447 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55856,11 +55868,11 @@ function viewToPlainText( viewItem ) {
 
 
 /***/ }),
-/* 446 */
+/* 448 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -55970,13 +55982,13 @@ function splitBlock( batch, selection, splitPos ) {
 
 
 /***/ }),
-/* 447 */
+/* 449 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_engine_src_view_observer_observer__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_view_observer_domeventdata__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -56026,19 +56038,19 @@ class EnterObserver extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_engi
 
 
 /***/ }),
-/* 448 */
+/* 450 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_range__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_view_position__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_view_text__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_diff__ = __webpack_require__(254);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_difftochanges__ = __webpack_require__(449);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_view_position__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_view_text__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_diff__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_difftochanges__ = __webpack_require__(451);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_view_domconverter__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__inputcommand__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__inputcommand__ = __webpack_require__(452);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -56526,7 +56538,7 @@ function calculateChanges( diffResult ) {
 
 
 /***/ }),
-/* 449 */
+/* 451 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56620,11 +56632,11 @@ function diffToChanges( diff, output ) {
 
 
 /***/ }),
-/* 450 */
+/* 452 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__changebuffer__ = __webpack_require__(267);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -56734,13 +56746,13 @@ class InputCommand extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_
 
 
 /***/ }),
-/* 451 */
+/* 453 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deletecommand__ = __webpack_require__(452);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deleteobserver__ = __webpack_require__(453);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__deletecommand__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__deleteobserver__ = __webpack_require__(455);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -56788,12 +56800,12 @@ class Delete extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_pl
 
 
 /***/ }),
-/* 452 */
+/* 454 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_selection__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_selection__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_model_range__ = __webpack_require__(2);
@@ -56986,13 +56998,13 @@ class DeleteCommand extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core
 
 
 /***/ }),
-/* 453 */
+/* 455 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_engine_src_view_observer_observer__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_view_observer_domeventdata__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_keyboard__ = __webpack_require__(28);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -57067,13 +57079,13 @@ class DeleteObserver extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_eng
 
 
 /***/ }),
-/* 454 */
+/* 456 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__undocommand__ = __webpack_require__(455);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__redocommand__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__undocommand__ = __webpack_require__(457);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__redocommand__ = __webpack_require__(458);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -57169,7 +57181,7 @@ class UndoEngine extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_sr
 
 
 /***/ }),
-/* 455 */
+/* 457 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57235,7 +57247,7 @@ class UndoCommand extends __WEBPACK_IMPORTED_MODULE_0__basecommand__["a" /* defa
 
 
 /***/ }),
-/* 456 */
+/* 458 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57292,7 +57304,7 @@ class RedoCommand extends __WEBPACK_IMPORTED_MODULE_0__basecommand__["a" /* defa
 
 
 /***/ }),
-/* 457 */
+/* 459 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57371,7 +57383,7 @@ class IconView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */] {
 
 
 /***/ }),
-/* 458 */
+/* 460 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57466,23 +57478,23 @@ class TooltipView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */]
 
 
 /***/ }),
-/* 459 */
+/* 461 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 10l8 6-1-3.982c3.417 0 8.616.869 10 3.982 0-5.983-6.601-7.96-10-7.96 0-.85 1-3.32 1-4.04l-8 6z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
 
 /***/ }),
-/* 460 */
+/* 462 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10 16l1-3.982c-3.417 0-8.616.869-10 3.982 0-5.983 6.601-7.96 10-7.96 0-.85-1-3.32-1-4.04l8 6-8 6z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
 
 /***/ }),
-/* 461 */
+/* 463 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_first__ = __webpack_require__(61);
 /**
@@ -57567,14 +57579,14 @@ function checkCanBecomeParagraph( block, schema ) {
 
 
 /***/ }),
-/* 462 */
+/* 464 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__attributecommand__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__attributecommand__ = __webpack_require__(112);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -57634,20 +57646,20 @@ class BoldEngine extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_sr
 
 
 /***/ }),
-/* 463 */
+/* 465 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15.135 10.409c.361.248.654.56.88.934.225.375.338.816.338 1.324 0 .609-.128 1.123-.385 1.543-.256.42-.624.751-1.103.994a5.908 5.908 0 0 1-1.755.55c-.663.107-1.442.16-2.338.16H4.539v-.66a22.5 22.5 0 0 0 .66-.076c.265-.033.45-.073.558-.118.208-.085.35-.196.427-.334.076-.138.114-.317.114-.537V5.732c0-.203-.031-.372-.093-.507s-.211-.254-.448-.355a3.326 3.326 0 0 0-.61-.182 14.136 14.136 0 0 0-.608-.114v-.66h6.52c1.64 0 2.825.226 3.552.677.727.45 1.09 1.116 1.09 1.995 0 .406-.08.763-.244 1.07a2.388 2.388 0 0 1-.702.8 4.214 4.214 0 0 1-.99.54c-.383.153-.795.28-1.234.381v.16c.44.046.896.143 1.37.292.473.15.885.343 1.234.58zm-2.723-3.611c0-.665-.187-1.184-.562-1.556-.375-.372-.937-.558-1.687-.558-.107 0-.247.004-.419.012l-.444.021v4.449h.44c.913 0 1.587-.213 2.021-.639.434-.425.651-1.002.651-1.73zm.592 5.759c0-.835-.248-1.475-.744-1.92-.496-.445-1.21-.668-2.14-.668a22.977 22.977 0 0 0-.82.034v4.389c.05.208.209.385.474.528.265.144.586.216.964.216.67 0 1.216-.225 1.636-.676.42-.452.63-1.086.63-1.903z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
 
 /***/ }),
-/* 464 */
+/* 466 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__attributecommand__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__attributecommand__ = __webpack_require__(112);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -57707,22 +57719,22 @@ class ItalicEngine extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_
 
 
 /***/ }),
-/* 465 */
+/* 467 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13.825 3.914l-.126.558a5.701 5.701 0 0 0-.685.076c-.282.045-.49.088-.626.127-.237.073-.406.186-.508.338a1.586 1.586 0 0 0-.22.5l-2.03 8.769a1.24 1.24 0 0 0-.034.27c.001.13.03.24.086.33.056.09.157.17.304.237.085.04.27.086.558.14.288.053.502.086.643.097l-.127.558H5.656l.127-.558.677-.05c.293-.023.501-.057.625-.102a1.11 1.11 0 0 0 .5-.326c.112-.138.188-.306.228-.503l2.02-8.778a1.428 1.428 0 0 0 .035-.305.59.59 0 0 0-.072-.295c-.048-.085-.148-.161-.3-.229a3.457 3.457 0 0 0-.622-.19 5.001 5.001 0 0 0-.58-.106l.128-.558h5.403z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
 
 /***/ }),
-/* 466 */
+/* 468 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__image_imageengine__ = __webpack_require__(467);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_widget_src_widget__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__imagetextalternative__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__image_imageengine__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_widget_src_widget__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__imagetextalternative__ = __webpack_require__(475);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__image_utils__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_scss__ = __webpack_require__(487);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_scss__ = __webpack_require__(489);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__theme_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__theme_theme_scss__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -57810,7 +57822,7 @@ class Image extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plu
 
 
 /***/ }),
-/* 467 */
+/* 469 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57818,11 +57830,11 @@ class Image extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plu
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__converters__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__converters__ = __webpack_require__(470);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_engine_src_view_containerelement__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_view_emptyelement__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_view_emptyelement__ = __webpack_require__(125);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -57938,7 +57950,7 @@ function createImageViewElement() {
 
 
 /***/ }),
-/* 468 */
+/* 470 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57949,7 +57961,7 @@ function createImageViewElement() {
 /* harmony export (immutable) */ __webpack_exports__["c"] = hoistImageThroughElement;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_documentfragment__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_writer__ = __webpack_require__(21);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -58275,7 +58287,7 @@ function hoistImageThroughElement( evt, data ) {
 
 
 /***/ }),
-/* 469 */
+/* 471 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58455,7 +58467,7 @@ function classesToString( classes ) {
 
 
 /***/ }),
-/* 470 */
+/* 472 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58509,13 +58521,13 @@ class MouseObserver extends __WEBPACK_IMPORTED_MODULE_0__domeventobserver__["a" 
 
 
 /***/ }),
-/* 471 */
+/* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(472);
+var content = __webpack_require__(474);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -58540,7 +58552,7 @@ if(false) {
 }
 
 /***/ }),
-/* 472 */
+/* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -58554,21 +58566,21 @@ exports.push([module.i, "/**\n * Colors configured by the user.\n *\n * @type Ma
 
 
 /***/ }),
-/* 473 */
+/* 475 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__imagetextalternative_imagetextalternativeengine__ = __webpack_require__(474);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_bindings_clickoutsidehandler__ = __webpack_require__(476);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__imagetextalternative_ui_textalternativeformview__ = __webpack_require__(477);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_ui_src_panel_balloon_contextualballoon__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_core_theme_icons_low_vision_svg__ = __webpack_require__(484);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__imagetextalternative_imagetextalternativeengine__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_bindings_clickoutsidehandler__ = __webpack_require__(478);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__imagetextalternative_ui_textalternativeformview__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_ui_src_panel_balloon_contextualballoon__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_core_theme_icons_low_vision_svg__ = __webpack_require__(486);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_core_theme_icons_low_vision_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_core_theme_icons_low_vision_svg__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__image_ui_utils__ = __webpack_require__(273);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__image_utils__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_imagetextalternative_theme_scss__ = __webpack_require__(485);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_imagetextalternative_theme_scss__ = __webpack_require__(487);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__theme_imagetextalternative_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__theme_imagetextalternative_theme_scss__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -58775,11 +58787,11 @@ class ImageTextAlternative extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckedito
 
 
 /***/ }),
-/* 474 */
+/* 476 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__imagetextalternativecommand__ = __webpack_require__(475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__imagetextalternativecommand__ = __webpack_require__(477);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -58812,11 +58824,11 @@ class ImageTextAlternativeEngine extends __WEBPACK_IMPORTED_MODULE_1__ckeditor_c
 
 
 /***/ }),
-/* 475 */
+/* 477 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__image_utils__ = __webpack_require__(51);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -58884,7 +58896,7 @@ class ImageTextAlternativeCommand extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_
 
 
 /***/ }),
-/* 476 */
+/* 478 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58933,20 +58945,20 @@ function clickOutsideHandler( { emitter, activator, callback, contextElements } 
 
 
 /***/ }),
-/* 477 */
+/* 479 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_ui_src_view__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_ui_src_template__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_viewcollection__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_ui_src_labeledinput_labeledinputview__ = __webpack_require__(478);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_ui_src_inputtext_inputtextview__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_bindings_submithandler__ = __webpack_require__(481);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_viewcollection__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_ui_src_labeledinput_labeledinputview__ = __webpack_require__(480);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_ui_src_inputtext_inputtextview__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_bindings_submithandler__ = __webpack_require__(483);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_utils_src_keystrokehandler__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_utils_src_focustracker__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_ui_src_focuscycler__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_ui_src_focuscycler__ = __webpack_require__(156);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -59152,14 +59164,14 @@ class TextAlternativeFormView extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_cked
 
 
 /***/ }),
-/* 478 */
+/* 480 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__template__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_uid__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__label_labelview__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__label_labelview__ = __webpack_require__(481);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -59299,7 +59311,7 @@ class LabeledInputView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* defaul
 
 
 /***/ }),
-/* 479 */
+/* 481 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59368,7 +59380,7 @@ class LabelView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */] {
 
 
 /***/ }),
-/* 480 */
+/* 482 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59471,7 +59483,7 @@ class InputTextView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default *
 
 
 /***/ }),
-/* 481 */
+/* 483 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59529,15 +59541,15 @@ function submitHandler( { view } ) {
 
 
 /***/ }),
-/* 482 */
+/* 484 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = getOptimalPosition;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__global__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rect__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__getpositionedancestor__ = __webpack_require__(483);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getborderwidths__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__rect__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__getpositionedancestor__ = __webpack_require__(485);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__getborderwidths__ = __webpack_require__(260);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lib_lodash_isFunction__ = __webpack_require__(64);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -59847,7 +59859,7 @@ function getAbsoluteRectCoordinates( { left, top } ) {
 
 
 /***/ }),
-/* 483 */
+/* 485 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59884,19 +59896,19 @@ function getPositionedAncestor( element ) {
 
 
 /***/ }),
-/* 484 */
+/* 486 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" stroke-linejoin=\"round\" stroke-miterlimit=\"1.414\"><path d=\"M5.414 6.749L2.903 4.237a.49.49 0 1 1 .694-.694L6.394 6.34a10.662 10.662 0 0 1 2.127-.53c.366-.051.734-.081 1.103-.095a10.628 10.628 0 0 1 1.524.07c1.109.134 2.204.449 3.243.936a9.65 9.65 0 0 1 2.12 1.331c.276.231.542.484.784.766.18.211.349.439.488.692.169.307.301.664.301 1.039 0 .375-.132.732-.301 1.039a4.143 4.143 0 0 1-.488.691 6.668 6.668 0 0 1-.784.767 9.628 9.628 0 0 1-2.092 1.318l2.196 2.197a.49.49 0 1 1-.694.694l-2.485-2.484-.008.003-.931-.931.009-.003-6.215-6.215a9.887 9.887 0 0 0-.945.444l6.239 6.24-.006.005.78.78c-.388.094-.78.166-1.174.215l-1.11-1.11h.011L4.483 8.596a7.2 7.2 0 0 0-.665.514l-.112.098 4.897 4.897-.005.006 1.276 1.276a10.164 10.164 0 0 1-1.477-.117l-.479-.479-.009.009-4.863-4.863-.022.031a2.563 2.563 0 0 0-.124.2 1.497 1.497 0 0 0-.108.241.534.534 0 0 0-.028.133.29.29 0 0 0 .008.072.927.927 0 0 0 .082.226 2.613 2.613 0 0 0 .234.379l3.463 3.594a10.565 10.565 0 0 1-2.125-1 9.096 9.096 0 0 1-1.015-.721 6.672 6.672 0 0 1-.798-.764 4.325 4.325 0 0 1-.502-.69c-.184-.319-.329-.693-.329-1.089 0-.375.131-.732.301-1.039.139-.253.307-.481.488-.692.225-.263.471-.5.728-.719a9.538 9.538 0 0 1 2.096-1.341l.019-.009zm6.674.401a4.632 4.632 0 0 1 1.108 5.992l.345.344.046-.018a9.313 9.313 0 0 0 2-1.112 6.86 6.86 0 0 0 .727-.613c.137-.134.27-.277.392-.431.072-.091.141-.185.203-.286a1.966 1.966 0 0 0 .148-.292.72.72 0 0 0 .036-.12.29.29 0 0 0 .008-.072.492.492 0 0 0-.028-.133.999.999 0 0 0-.036-.096 2.165 2.165 0 0 0-.071-.145 2.917 2.917 0 0 0-.125-.2 3.592 3.592 0 0 0-.263-.335 5.444 5.444 0 0 0-.53-.523 7.955 7.955 0 0 0-1.054-.768 9.766 9.766 0 0 0-1.879-.891 10.119 10.119 0 0 0-1.027-.301zm-2.85.21l-.069.002a.508.508 0 0 0-.254.097.496.496 0 0 0-.104.679.498.498 0 0 0 .326.199l.045.005c.091.003.181.003.272.012a2.449 2.449 0 0 1 2.017 1.513c.024.061.043.125.069.185a.494.494 0 0 0 .45.287h.008a.496.496 0 0 0 .35-.158.482.482 0 0 0 .13-.335.638.638 0 0 0-.048-.219 3.379 3.379 0 0 0-.36-.723 3.438 3.438 0 0 0-2.791-1.543l-.028-.001h-.013z\"/></svg>"
 
 /***/ }),
-/* 485 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(486);
+var content = __webpack_require__(488);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -59921,7 +59933,7 @@ if(false) {
 }
 
 /***/ }),
-/* 486 */
+/* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -59935,13 +59947,13 @@ exports.push([module.i, "/**\n * Default spacing value (\"unit\").\n *\n */\n/**
 
 
 /***/ }),
-/* 487 */
+/* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(488);
+var content = __webpack_require__(490);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -59966,7 +59978,7 @@ if(false) {
 }
 
 /***/ }),
-/* 488 */
+/* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -59980,13 +59992,13 @@ exports.push([module.i, "/**\n * Default spacing value (\"unit\").\n *\n */\n/**
 
 
 /***/ }),
-/* 489 */
+/* 491 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__imagecaption_imagecaptionengine__ = __webpack_require__(490);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_imagecaption_theme_scss__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__imagecaption_imagecaptionengine__ = __webpack_require__(492);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_imagecaption_theme_scss__ = __webpack_require__(497);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_imagecaption_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__theme_imagecaption_theme_scss__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -60026,7 +60038,7 @@ class ImageCaption extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_
 
 
 /***/ }),
-/* 490 */
+/* 492 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60034,13 +60046,13 @@ class ImageCaption extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_treewalker__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_view_containerelement__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_view_element__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_view_element__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_view_writer__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_view_position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_view_position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__image_utils__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils__ = __webpack_require__(493);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -60291,7 +60303,7 @@ function getParentCaption( node ) {
 
 
 /***/ }),
-/* 491 */
+/* 493 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60301,7 +60313,7 @@ function getParentCaption( node ) {
 /* harmony export (immutable) */ __webpack_exports__["c"] = matchImageCaption;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_view_editableelement__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_view_placeholder__ = __webpack_require__(492);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_view_placeholder__ = __webpack_require__(494);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_widget_src_utils__ = __webpack_require__(75);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -60384,7 +60396,7 @@ function matchImageCaption( element ) {
 
 
 /***/ }),
-/* 492 */
+/* 494 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -60393,7 +60405,7 @@ function matchImageCaption( element ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_utils_src_lib_lodash_extend__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_emittermixin__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_ckeditorerror__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_placeholder_scss__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_placeholder_scss__ = __webpack_require__(495);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__theme_placeholder_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__theme_placeholder_scss__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -60528,13 +60540,13 @@ function updateSinglePlaceholder( element, checkFunction ) {
 
 
 /***/ }),
-/* 493 */
+/* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(494);
+var content = __webpack_require__(496);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -60559,7 +60571,7 @@ if(false) {
 }
 
 /***/ }),
-/* 494 */
+/* 496 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -60573,13 +60585,13 @@ exports.push([module.i, ".ck-placeholder::before {\n  content: attr(data-placeho
 
 
 /***/ }),
-/* 495 */
+/* 497 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(496);
+var content = __webpack_require__(498);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -60604,7 +60616,7 @@ if(false) {
 }
 
 /***/ }),
-/* 496 */
+/* 498 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -60618,14 +60630,14 @@ exports.push([module.i, "/**\n * Colors configured by the user.\n *\n * @type Ma
 
 
 /***/ }),
-/* 497 */
+/* 499 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_ui_src_template__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_toolbar_toolbarview__ = __webpack_require__(264);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_panel_balloon_contextualballoon__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_panel_balloon_contextualballoon__ = __webpack_require__(158);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__image_utils__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__image_ui_utils__ = __webpack_require__(273);
 /**
@@ -60815,16 +60827,16 @@ class ImageToolbar extends __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_core_
 
 
 /***/ }),
-/* 498 */
+/* 500 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blockquoteengine__ = __webpack_require__(499);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_core_theme_icons_quote_svg__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blockquoteengine__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_core_theme_icons_quote_svg__ = __webpack_require__(503);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_core_theme_icons_quote_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_core_theme_icons_quote_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_theme_scss__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_theme_scss__ = __webpack_require__(504);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__theme_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__theme_theme_scss__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -60925,12 +60937,12 @@ class BlockQuote extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_sr
 
 
 /***/ }),
-/* 499 */
+/* 501 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blockquotecommand__ = __webpack_require__(500);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__blockquotecommand__ = __webpack_require__(502);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
 /**
@@ -61001,11 +61013,11 @@ class BlockQuoteEngine extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_c
 
 
 /***/ }),
-/* 500 */
+/* 502 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_model_range__ = __webpack_require__(2);
@@ -61252,19 +61264,19 @@ function checkCanBeQuoted( schema, block ) {
 
 
 /***/ }),
-/* 501 */
+/* 503 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12.061 15.51v-.882c1.395-.847 2.345-1.633 2.85-2.358.37-.533.554-1.162.554-1.887 0-.437-.082-.759-.246-.964-.15-.205-.328-.307-.533-.307-.137 0-.328.048-.574.143-.37.123-.67.185-.902.185-.547 0-1.033-.205-1.456-.615-.424-.41-.636-.923-.636-1.538 0-.698.212-1.238.636-1.62a3.002 3.002 0 0 1 2.05-.78c.93 0 1.757.39 2.482 1.17.724.778 1.087 1.742 1.087 2.89 0 1.614-.602 3.084-1.805 4.41-.807.875-1.976 1.593-3.507 2.153zm-8.386 0v-.882c1.394-.847 2.345-1.633 2.85-2.358.37-.533.554-1.162.554-1.887 0-.437-.082-.759-.246-.964-.15-.205-.328-.307-.533-.307-.137 0-.328.048-.574.143-.37.123-.67.185-.903.185-.547 0-1.032-.205-1.456-.615-.424-.41-.636-.923-.636-1.538 0-.698.212-1.238.636-1.62a3.002 3.002 0 0 1 2.051-.78c.93 0 1.757.39 2.481 1.17.725.778 1.087 1.742 1.087 2.89 0 1.614-.601 3.084-1.804 4.41-.807.875-1.976 1.593-3.507 2.153z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
 
 /***/ }),
-/* 502 */
+/* 504 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(503);
+var content = __webpack_require__(505);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -61289,7 +61301,7 @@ if(false) {
 }
 
 /***/ }),
-/* 503 */
+/* 505 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -61303,498 +61315,42 @@ exports.push([module.i, "blockquote {\n  border-left: solid 5px #CCC;\n  padding
 
 
 /***/ }),
-/* 504 */
+/* 506 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 14.994C2 16.102 2.895 17 3.994 17h12.012A2 2 0 0 0 18 14.994V5.006A2.001 2.001 0 0 0 16.006 3H3.994A2 2 0 0 0 2 5.006v9.988zm1-9.992C3 4.45 3.45 4 4.007 4h11.986A1.01 1.01 0 0 1 17 5.002v9.996C17 15.55 16.55 16 15.993 16H4.007A1.01 1.01 0 0 1 3 14.998V5.002zm1.024 10H16v-3.096l-2.89-4.263-3.096 5.257-3.003-2.103L4 13.96l.024 1.043zM6.406 6A1.4 1.4 0 0 0 5 7.393a1.4 1.4 0 0 0 1.406 1.393 1.4 1.4 0 0 0 1.407-1.393A1.4 1.4 0 0 0 6.406 6z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
-
-/***/ }),
-/* 505 */
-/***/ (function(module, exports) {
-
-module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15.116 7.961l2.426 2.206-.01-.417-.01-.525-5.87 5.831.916.923 5.87-5.832.485-.482-.506-.46-2.419-2.198-.882.954zm-2.96-2.69l-.483-.44.874-.961.491.446-.882.955zm-7.041 7.612l-2.442-2.22-.507-.46.486-.483 5.87-5.83.915.922-5.87 5.83-.02-.941 2.45 2.227-.882.955zm2.96 2.69l.467.425.875-.962-.46-.417-.882.955zM4.518 17.43L17.475 3.422l-.954-.882L3.564 16.548l.954.882z\" fill=\"#232323\" fill-rule=\"evenodd\"/></svg>"
-
-/***/ }),
-/* 506 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_view_observer_clickobserver__ = __webpack_require__(507);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_panel_balloon_contextualballoon__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg__ = __webpack_require__(508);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__eftouchengine__ = __webpack_require__(509);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_engine_src_view_attributeelement__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_view_emptyelement__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_view_text__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_engine_src_view_containerelement__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_widget_src_widget__ = __webpack_require__(159);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_widget_src_utils__ = __webpack_require__(75);
-
-
-
-// import EftouchFormView from './ui/eftouchformview';
-
-
-
-
-
-
-
-
-
-
-
-
-
-const EFTOUCH = 'eftouch';
-
-/**
- * The image plugin.
- *
- * Uses the {@link module:image/image/imageengine~ImageEngine}.
- *
- * @extends module:core/plugin~Plugin
- */
-class Eftouch extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__["a" /* default */] {
-
-  /**
-   * @inheritDoc
-   */
-  static get requires() {
-    return [ __WEBPACK_IMPORTED_MODULE_8__eftouchengine__["a" /* default */], __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_widget_src_widget__["a" /* default */] ];
-  }
-
-  static get pluginName() {
-    return 'Eftouch';
-  }
-
-  init() {
-    console.log("Eftouch plugin")
-    const editor = this.editor;
-    const doc = editor.document;
-    const viewDocument = editor.editing.view;
-    const schema = doc.schema;
-    const data = editor.data;
-    const editing = editor.editing;
-    const t = editor.t;
-
-    schema.registerItem( 'eftouch' );
-    schema.allow( { name: 'eftouch', inside: '$root' } );
-    // schema.allow( { name: '$block', inside: 'eftouch' } );
-    // schema.allow( { name: 'image', inside: 'eftouch' } );
-    schema.objects.add( 'eftouch' );
-
-    const command = editor.commands.get( 'eftouch' );
-    const keystroke = 'CTRL+E';
-
-    // Add eftouch button to feature components.
-    editor.ui.componentFactory.add( 'eftouch', locale => {
-      const view = new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_button_buttonview__["a" /* default */]( locale );
-
-      view.set( {
-        label: t( 'Eftouch' ),
-        icon: __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg___default.a,
-        keystroke,
-        tooltip: true
-      } );
-
-      view.bind( 'isOn', 'isEnabled' ).to( command, 'value', 'isEnabled' );
-
-      // Execute command.
-      this.listenTo( view, 'execute', () => {
-        const imageUrl = prompt( 'Sound URL' );
-        const modelItem = data.item;
-        // editor.data.addProp()
-
-        // const blocks = Array.from( doc.selection.getSelectedBlocks() )
-        //   // .filter( block => checkCanBecomeListItem( block, document.schema ) );
-        // const batch = doc.batch();
-        //
-        // for ( const element of blocks.reverse() ) {
-        //   console.log("element.name: " + element.name)
-        //   batch.setAttribute(element, 'imageUrl', imageUrl)
-        //     // .rename(element, 'eftouch');
-        // }
-        // const imageUrl = "hey"
-        const attrs = { 'intro-src': imageUrl, class: 'image'}
-        // const element = new ViewContainerElement( 'eftouch', attrs );
-        // const element = new ViewAttributeElement( 'eftouch', attrs );
-        // const element = new ViewAttributeElement( 'figure', attrs, new ViewEmptyElement( 'img' ) );
-        const element = new __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'eftouch' }, new __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_view_text__["a" /* default */]( 'widget' ) );
-
-        // Build converter from model to view for data and editing pipelines.
-        // buildModelConverter().for( data.modelToView, editing.modelToView )
-        Object(__WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( editing.modelToView )
-          .fromAttribute( EFTOUCH )
-          // .toElement( 'eftouch' );
-          // .toElement( element );
-          // .toElement( 'blockquote' );
-          .toElement( () => {
-            return Object(__WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_widget_src_utils__["d" /* toWidget */])( element );
-          });
-
-        // Build converter from view to model for data pipeline.
-        // .fromElement( 'eftouch' )
-        // .toAttribute( EFTOUCH, true );
-        Object(__WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__["a" /* default */])().for( data.viewToModel )
-          .fromElement( 'figure' )
-          .toElement( () => new __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'eftouch' ) );
-        editor.execute( 'eftouch' )
-      } );
-
-      return view;
-    } );
-  }
-
-
-  /**
-   * Helper method for initializing a button and linking it with an appropriate command.
-   *
-   * @private
-   * @param {String} commandName The name of the command.
-   * @param {Object} label The button label.
-   * @param {String} icon The source of the icon.
-   */
-  _addButton( commandName, label, icon ) {
-    const editor = this.editor;
-    const command = editor.commands.get( commandName );
-
-    editor.ui.componentFactory.add( commandName, locale => {
-      const buttonView = new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_button_buttonview__["a" /* default */]( locale );
-
-      buttonView.set( {
-        label,
-        icon,
-        tooltip: true
-      } );
-
-      // Bind button model to command.
-      buttonView.bind( 'isOn', 'isEnabled' ).to( command, 'value', 'isEnabled' );
-
-      // Execute command.
-      this.listenTo( buttonView, 'execute', () => editor.execute( commandName ) );
-
-      return buttonView;
-    } );
-  }
-
-  //
-  // _createForm() {
-  //   const editor = this.editor;
-  //   const formView = new LinkFormView( editor.locale );
-  //   const linkCommand = editor.commands.get( 'link' );
-  //   const unlinkCommand = editor.commands.get( 'unlink' );
-  //
-  //   formView.urlInputView.bind( 'value' ).to( linkCommand, 'value' );
-  //
-  //   // Form elements should be read-only when corresponding commands are disabled.
-  //   formView.urlInputView.bind( 'isReadOnly' ).to( linkCommand, 'isEnabled', value => !value );
-  //   formView.saveButtonView.bind( 'isEnabled' ).to( linkCommand );
-  //   formView.unlinkButtonView.bind( 'isEnabled' ).to( unlinkCommand );
-  //
-  //   // Execute link command after clicking on formView `Save` button.
-  //   this.listenTo( formView, 'submit', () => {
-  //     editor.execute( 'link', formView.urlInputView.inputView.element.value );
-  //     this._hidePanel( true );
-  //   } );
-  //
-  //   // Execute unlink command after clicking on formView `Unlink` button.
-  //   this.listenTo( formView, 'unlink', () => {
-  //     editor.execute( 'unlink' );
-  //     this._hidePanel( true );
-  //   } );
-  //
-  //   // Hide the panel after clicking on formView `Cancel` button.
-  //   this.listenTo( formView, 'cancel', () => this._hidePanel( true ) );
-  //
-  //   // Close the panel on esc key press when the form has focus.
-  //   formView.keystrokes.set( 'Esc', ( data, cancel ) => {
-  //     this._hidePanel( true );
-  //     cancel();
-  //   } );
-  //
-  //   return formView;
-  // }
-
-}
-/* unused harmony export default */
-
 
 /***/ }),
 /* 507 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__domeventobserver__ = __webpack_require__(73);
-/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
- */
-
-/**
- * @module engine/view/observer/clickobserver
- */
-
-
-
-/**
- * {@link module:engine/view/document~Document#event:click Click} event observer.
- *
- * Note that this observer is not available by default. To make it available it needs to be added to
- * {@link module:engine/view/document~Document}
- * by a {@link module:engine/view/document~Document#addObserver} method.
- *
- * @extends module:engine/view/observer/domeventobserver~DomEventObserver
- */
-class ClickObserver extends __WEBPACK_IMPORTED_MODULE_0__domeventobserver__["a" /* default */] {
-	constructor( document ) {
-		super( document );
-
-		this.domEventType = 'click';
-	}
-
-	onDomEvent( domEvent ) {
-		this.fire( domEvent.type, domEvent );
-	}
-}
-/* unused harmony export default */
-
-
-/**
- * Fired when one of the editables has been clicked.
- *
- * Introduced by {@link module:engine/view/observer/clickobserver~ClickObserver}.
- *
- * Note that this event is not available by default. To make it available
- * {@link module:engine/view/observer/clickobserver~ClickObserver} needs to be added
- * to {@link module:engine/view/document~Document} by a {@link module:engine/view/document~Document#addObserver} method.
- *
- * @see module:engine/view/observer/clickobserver~ClickObserver
- * @event module:engine/view/document~Document#event:click
- * @param {module:engine/view/observer/domeventdata~DomEventData} data Event data.
- */
-
-
-/***/ }),
-/* 508 */
-/***/ (function(module, exports) {
-
-module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.635 7.529l-6.252 6.474A2 2 0 0 0 6.26 16.78l6.252-6.473-.72-.695-6.251 6.474a1 1 0 0 1-1.439-1.39l6.252-6.473-.72-.695zm5.125.746c.115-.096.238-.21.369-.346 1.332-1.379 1.76-3.127.955-3.903-.805-.777-2.537-.29-3.868 1.09a4.63 4.63 0 0 0-.332.38l2.876 2.779zm-4.755-3.27l4.774 4.61-.662.685-4.774-4.61.662-.685z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
-
-/***/ }),
-/* 509 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_paragraph_src_paragraph__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_basic_styles_src_attributecommand__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_view_attributeelement__ = __webpack_require__(69);
-// import ListCommand from './listcommand';
-// import IndentCommand from './indentcommand';
-
-
-
-// import {
-//   cleanList,
-//   cleanListItem,
-//   modelViewInsertion,
-//   modelViewChangeType,
-//   modelViewMergeAfter,
-//   modelViewRemove,
-//   modelViewSplitOnInsert,
-//   modelViewChangeIndent,
-//   modelChangePostFixer,
-//   modelIndentPasteFixer,
-//   viewModelConverter,
-//   modelToViewPosition,
-//   viewToModelPosition
-// } from './converters';
-
-
-
-
-// import ViewContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
-
-
-const EFTOUCH = 'eftouch';
-
-class EftouchEngine extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__["a" /* default */] {
-
-  /**
-   * @inheritDoc
-   */
-  static get requires() {
-    return [ __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_paragraph_src_paragraph__["a" /* default */] ];
-  }
-
-  /**
-   * @inheritDoc
-   */
-  init() {
-    // const editor = this.editor;
-    //
-    // // Schema.
-    // const schema = editor.document.schema;
-    // schema.registerItem( 'listItem', '$block' );
-    // schema.allow( {
-    //   name: 'listItem',
-    //   inside: '$root',
-    //   // attributes: [ 'introSrc', 'name','type', 'indent' ]
-    //   attributes: [ 'type', 'indent' ]
-    // } );
-    // // schema.requireAttributes( 'listItem', [ 'introSrc', 'name','type', 'indent' ] );
-    // schema.requireAttributes( 'listItem', [ 'type', 'indent' ] );
-    //
-    // // Converters.
-    // const data = editor.data;
-    // const editing = editor.editing;
-    //
-    // this.editor.document.on( 'change', modelChangePostFixer( this.editor.document ), { priority: 'high' } );
-    //
-    // // Unbind all moved model elements before conversion happens. This is important for converters.
-    // // TODO: fix this when changes are converted on `changesDone`.
-    // this.editor.document.on( 'change', ( evt, type, changes ) => {
-    //   if ( type == 'move' ) {
-    //     for ( const item of changes.range.getItems() ) {
-    //       if ( item.is( 'listItem' ) ) {
-    //         editing.mapper.unbindModelElement( item );
-    //       }
-    //     }
-    //   }
-    // }, { priority: 'high' } );
-    //
-    // editing.mapper.registerViewToModelLength( 'li', getViewListItemLength );
-    // data.mapper.registerViewToModelLength( 'li', getViewListItemLength );
-    //
-    // editing.mapper.on( 'modelToViewPosition', modelToViewPosition );
-    // editing.mapper.on( 'viewToModelPosition', viewToModelPosition );
-    // data.mapper.on( 'modelToViewPosition', modelToViewPosition );
-    //
-    // editing.modelToView.on( 'insert', modelViewSplitOnInsert, { priority: 'high' } );
-    // editing.modelToView.on( 'insert:listItem', modelViewInsertion );
-    // data.modelToView.on( 'insert', modelViewSplitOnInsert, { priority: 'high' } );
-    // data.modelToView.on( 'insert:listItem', modelViewInsertion );
-    //
-    // // // Only change converter is needed. List item's type attribute is required, so it's adding is handled when
-    // // // list item is added and you cannot remove it.
-    // // editing.modelToView.on( 'changeAttribute:type:listItem', modelViewChangeType );
-    // // data.modelToView.on( 'changeAttribute:type:listItem', modelViewChangeType );
-    // //
-    // // editing.modelToView.on( 'remove:listItem', modelViewRemove );
-    // // editing.modelToView.on( 'remove', modelViewMergeAfter, { priority: 'low' } );
-    // // data.modelToView.on( 'remove:listItem', modelViewRemove );
-    // // data.modelToView.on( 'remove', modelViewMergeAfter, { priority: 'low' } );
-    // //
-    // // editing.modelToView.on( 'changeAttribute:indent:listItem', modelViewChangeIndent );
-    // // data.modelToView.on( 'changeAttribute:indent:listItem', modelViewChangeIndent );
-    // //
-    // // data.viewToModel.on( 'element:ul', cleanList, { priority: 'high' } );
-    // // data.viewToModel.on( 'element:ol', cleanList, { priority: 'high' } );
-    // // data.viewToModel.on( 'element:li', cleanListItem, { priority: 'high' } );
-    // // data.viewToModel.on( 'element:li', viewModelConverter );
-    // //
-    // // // Fix indentation of pasted items.
-    // // data.on( 'insertContent', modelIndentPasteFixer, { priority: 'high' } );
-    //
-    // // Register commands for numbered and bulleted list.
-    // editor.commands.add( 'numberedList', new ListCommand( editor, 'numbered' ) );
-    // // editor.commands.add( 'bulletedList', new ListCommand( editor, 'bulleted' ) );
-    // editor.commands.add( 'insertEftouch', new ListCommand( editor, 'bulleted' ) );
-    //
-    // // // Register commands for indenting.
-    // // editor.commands.add( 'indentList', new IndentCommand( editor, 'forward' ) );
-    // // editor.commands.add( 'outdentList', new IndentCommand( editor, 'backward' ) );
-
-    const editor = this.editor;
-    const data = editor.data;
-    const editing = editor.editing;
-
-    // Allow bold attribute on all inline nodes.
-    editor.document.schema.allow( { name: '$inline', attributes: EFTOUCH, inside: '$block' } );
-    // Temporary workaround. See https://github.com/ckeditor/ckeditor5/issues/477.
-    editor.document.schema.allow( { name: '$inline', attributes: EFTOUCH, inside: '$clipboardHolder' } );
-
-    // Build converter from model to view for data and editing pipelines.
-    const modelItem = data.item;
-    // const imageUrl = modelItem.getAttribute('imageUrl')
-    // const imageUrl = "hey"
-    // const attrs = { 'imageUrl': imageUrl}
-    // // const element = new ViewContainerElement( 'eftouch', attrs );
-    // const element = new ViewAttributeElement( 'eftouch', attrs );
-    //
-    // buildModelConverter().for( data.modelToView, editing.modelToView )
-    //   .fromAttribute( EFTOUCH )
-    //   // .toElement( 'eftouch' );
-    //   .toElement( element );
-
-    // // Build converter from view to model for data pipeline.
-    // buildViewConverter().for( data.viewToModel )
-    //   .fromElement( 'eftouch' )
-    //   // .fromAttribute( 'style', { 'font-weight': 'bold' } )
-    //   .toAttribute( EFTOUCH, true );
-
-    // Create bold command.
-    editor.commands.add( EFTOUCH, new __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_basic_styles_src_attributecommand__["a" /* default */]( editor, EFTOUCH ) );
-  }
-}
-/* harmony export (immutable) */ __webpack_exports__["a"] = EftouchEngine;
-
-
-function getViewListItemLength( element ) {
-  let length = 1;
-
-  for ( const child of element.getChildren() ) {
-    if ( child.name == 'ul' || child.name == 'ol' ) {
-      for ( const item of child.getChildren() ) {
-        length += getViewListItemLength( item );
-      }
-    }
-  }
-
-  return length;
-}
-
-
-/***/ }),
-/* 510 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_editor_classic_src_classiceditor__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_editor_classic_src_classiceditor__ = __webpack_require__(159);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_enter_src_enter__ = __webpack_require__(265);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_typing_src_typing__ = __webpack_require__(266);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_paragraph_src_paragraph__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_undo_src_undo__ = __webpack_require__(268);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_heading_src_heading__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_heading_src_heading__ = __webpack_require__(508);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_basic_styles_src_bold__ = __webpack_require__(270);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_basic_styles_src_italic__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_list_src_list__ = __webpack_require__(523);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_list_src_list__ = __webpack_require__(520);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_utils_src_dom_global__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_engine_src_model_range__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ckeditor_ckeditor5_engine_src_view_text__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ckeditor_ckeditor5_engine_src_view_text__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ckeditor_ckeditor5_widget_src_widget__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ckeditor_ckeditor5_widget_src_widget__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ckeditor_ckeditor5_widget_src_utils__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__eftouch_js__ = __webpack_require__(506);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ckeditor_ckeditor5_core_theme_icons_picker_svg__ = __webpack_require__(508);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__eftouch_js__ = __webpack_require__(528);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ckeditor_ckeditor5_core_theme_icons_picker_svg__ = __webpack_require__(275);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ckeditor_ckeditor5_core_theme_icons_picker_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__ckeditor_ckeditor5_core_theme_icons_picker_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ckeditor_ckeditor5_core_theme_icons_source_svg__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ckeditor_ckeditor5_core_theme_icons_source_svg__ = __webpack_require__(274);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ckeditor_ckeditor5_core_theme_icons_source_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__ckeditor_ckeditor5_core_theme_icons_source_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ckeditor_ckeditor5_basic_styles_src_attributecommand__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ckeditor_ckeditor5_basic_styles_src_attributecommand__ = __webpack_require__(112);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -61850,8 +61406,11 @@ class EftouchWidget extends __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_cor
     schema.allow( { name: '$inline', inside: 'acasi' } );
     schema.objects.add( 'acasi' );
 
-    // Build converter from model to view for editing pipeline.
-    Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( data.modelToView, editing.modelToView )
+    Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( data.modelToView )
+      .fromElement( 'acasi' )
+      .toElement( 'acasi');
+
+    Object(__WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( editing.modelToView )
       .fromElement( 'acasi' )
       .toElement( () => {
         const widgetElement = new __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'fancy-widget', contenteditable: 'true' }, new __WEBPACK_IMPORTED_MODULE_15__ckeditor_ckeditor5_engine_src_view_text__["a" /* default */]( 'ACASI' ) );
@@ -61881,12 +61440,14 @@ class EftouchWidget extends __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_cor
         const imageUrl = prompt( 'Sound URL' );
 
         editor.document.enqueueChanges( () => {
-          const imageUrl = 'babycat.jpg';
-          const imageElement = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'image', {
-            src: imageUrl
-          } );
-          const widgetElement = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]('figure', { class: 'fancy-widget' },imageElement)
-          editor.data.insertContent( widgetElement, editor.document.selection );
+          // const imageUrl = 'babycat.jpg';
+          // const imageElement = new ModelElement( 'image', {
+          //   src: imageUrl
+          // } );
+          // // const widgetElement = new ModelElement('figure', { class: 'fancy-widget' },imageElement)
+          // editor.data.insertContent( imageElement, editor.document.selection );
+          const acasi = new __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'acasi' );
+          editor.data.insertContent( acasi, editor.document.selection );
         } );
       });
       return view;
@@ -61899,18 +61460,18 @@ class EftouchWidget extends __WEBPACK_IMPORTED_MODULE_16__ckeditor_ckeditor5_cor
 
 
 /***/ }),
-/* 511 */
+/* 508 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_paragraph_src_paragraph__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__headingengine__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__headingengine__ = __webpack_require__(509);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_model__ = __webpack_require__(514);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_ui_src_dropdown_list_createlistdropdown__ = __webpack_require__(515);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_collection__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_ui_src_model__ = __webpack_require__(511);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_ui_src_dropdown_list_createlistdropdown__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_utils_src_collection__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_template__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_theme_scss__ = __webpack_require__(521);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_theme_scss__ = __webpack_require__(518);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__theme_theme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__theme_theme_scss__);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -62151,7 +61712,7 @@ function getCommandsBindingTargets( commands, attribute ) {
 
 
 /***/ }),
-/* 512 */
+/* 509 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62159,7 +61720,7 @@ function getCommandsBindingTargets( commands, attribute ) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_paragraph_src_paragraph__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__headingcommand__ = __webpack_require__(513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__headingcommand__ = __webpack_require__(510);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -62266,11 +61827,11 @@ class HeadingEngine extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core
 
 
 /***/ }),
-/* 513 */
+/* 510 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_first__ = __webpack_require__(61);
 /**
@@ -62376,7 +61937,7 @@ function checkCanBecomeHeading( block, heading, schema ) {
 
 
 /***/ }),
-/* 514 */
+/* 511 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62427,14 +61988,14 @@ Object(__WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_mix__["a" /* de
 
 
 /***/ }),
-/* 515 */
+/* 512 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createListDropdown;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_listview__ = __webpack_require__(516);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__list_listitemview__ = __webpack_require__(517);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createdropdown__ = __webpack_require__(518);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list_listview__ = __webpack_require__(513);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__list_listitemview__ = __webpack_require__(514);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createdropdown__ = __webpack_require__(515);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -62560,14 +62121,14 @@ function attachDocumentClickListener( dropdownView ) {
 
 
 /***/ }),
-/* 516 */
+/* 513 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__view__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__template__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_focustracker__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__focuscycler__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__focuscycler__ = __webpack_require__(156);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_utils_src_keystrokehandler__ = __webpack_require__(58);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -62691,7 +62252,7 @@ class ListView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */] {
 
 
 /***/ }),
-/* 517 */
+/* 514 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -62829,14 +62390,14 @@ class ListItemView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */
 
 
 /***/ }),
-/* 518 */
+/* 515 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = createDropdown;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_buttonview__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dropdownview__ = __webpack_require__(519);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dropdownpanelview__ = __webpack_require__(520);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dropdownview__ = __webpack_require__(516);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dropdownpanelview__ = __webpack_require__(517);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -62889,7 +62450,7 @@ function createDropdown( model, locale ) {
 
 
 /***/ }),
-/* 519 */
+/* 516 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63082,7 +62643,7 @@ class DropdownView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* default */
 
 
 /***/ }),
-/* 520 */
+/* 517 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -63162,13 +62723,13 @@ class DropdownPanelView extends __WEBPACK_IMPORTED_MODULE_0__view__["a" /* defau
 
 
 /***/ }),
-/* 521 */
+/* 518 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(522);
+var content = __webpack_require__(519);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -63193,7 +62754,7 @@ if(false) {
 }
 
 /***/ }),
-/* 522 */
+/* 519 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(42)(undefined);
@@ -63207,17 +62768,17 @@ exports.push([module.i, "/**\n * Default spacing value (\"unit\").\n *\n */\n/**
 
 
 /***/ }),
-/* 523 */
+/* 520 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__listengine__ = __webpack_require__(524);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__theme_icons_numberedlist_svg__ = __webpack_require__(529);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__listengine__ = __webpack_require__(521);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__theme_icons_numberedlist_svg__ = __webpack_require__(526);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__theme_icons_numberedlist_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__theme_icons_numberedlist_svg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_icons_bulletedlist_svg__ = __webpack_require__(530);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_icons_bulletedlist_svg__ = __webpack_require__(527);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__theme_icons_bulletedlist_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__theme_icons_bulletedlist_svg__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -63332,15 +62893,15 @@ class List extends __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_core_src_plug
 
 
 /***/ }),
-/* 524 */
+/* 521 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__listcommand__ = __webpack_require__(525);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__indentcommand__ = __webpack_require__(526);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__listcommand__ = __webpack_require__(522);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__indentcommand__ = __webpack_require__(523);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_paragraph_src_paragraph__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__converters__ = __webpack_require__(527);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__converters__ = __webpack_require__(524);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md.
@@ -63470,11 +63031,11 @@ function getViewListItemLength( element ) {
 
 
 /***/ }),
-/* 525 */
+/* 522 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_utils_src_first__ = __webpack_require__(61);
 /**
@@ -63801,11 +63362,11 @@ function checkCanBecomeListItem( block, schema ) {
 
 
 /***/ }),
-/* 526 */
+/* 523 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_command__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_utils_src_first__ = __webpack_require__(61);
 /**
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
@@ -64001,7 +63562,7 @@ function _seekListItem( item, seekForward ) {
 
 
 /***/ }),
-/* 527 */
+/* 524 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -64018,13 +63579,13 @@ function _seekListItem( item, seekForward ) {
 /* harmony export (immutable) */ __webpack_exports__["m"] = viewToModelPosition;
 /* harmony export (immutable) */ __webpack_exports__["c"] = modelChangePostFixer;
 /* harmony export (immutable) */ __webpack_exports__["d"] = modelIndentPasteFixer;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__viewlistitemelement__ = __webpack_require__(528);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__viewlistitemelement__ = __webpack_require__(525);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_model_documentfragment__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_model_position__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_model_writer__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_model_writer__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_view_containerelement__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_engine_src_view_position__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_engine_src_view_position__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_view_range__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ckeditor_ckeditor5_engine_src_view_treewalker__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_engine_src_view_writer__ = __webpack_require__(93);
@@ -65085,7 +64646,7 @@ function positionAfterUiElements( viewPosition ) {
 
 
 /***/ }),
-/* 528 */
+/* 525 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -65139,16 +64700,460 @@ function getFillerOffset() {
 
 
 /***/ }),
-/* 529 */
+/* 526 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 17h10v-1H7v1zM6 4v1h13V4H6zm1 6v1h11v-1H7zM2 2.5c0 .277.223.5.5.5H3v3.5a.499.499 0 1 0 1 0v-4c0-.277-.223-.5-.5-.5h-1c-.277 0-.5.223-.5.5zM2.5 8a.499.499 0 1 0 0 1H4v1H2.5c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h2a.499.499 0 1 0 0-1H3v-1h1.5a.46.46 0 0 0 .188-.031.45.45 0 0 0 .28-.281A.461.461 0 0 0 5 10.5v-2a.46.46 0 0 0-.031-.187.45.45 0 0 0-.282-.282.463.463 0 0 0-.125-.03H2.5V8zm2.352 10.853a.493.493 0 0 0 .148-.35v-4.005A.493.493 0 0 0 4.505 14h-2.01a.494.494 0 0 0-.495.5c0 .268.222.5.495.5H4v1H2.495a.494.494 0 0 0-.495.5c0 .268.222.5.495.5H4v1H2.495a.494.494 0 0 0-.495.5c0 .268.222.5.495.5h2.01a.49.49 0 0 0 .351-.146z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
 
 /***/ }),
-/* 530 */
+/* 527 */
 /***/ (function(module, exports) {
 
 module.exports = "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6 16v1h10v-1H6zM6 4v1h12V4H6zm0 6v1h11v-1H6zM1 4.5C1 3.672 1.666 3 2.5 3 3.328 3 4 3.666 4 4.5 4 5.328 3.334 6 2.5 6 1.672 6 1 5.334 1 4.5zm0 6C1 9.672 1.666 9 2.5 9c.828 0 1.5.666 1.5 1.5 0 .828-.666 1.5-1.5 1.5-.828 0-1.5-.666-1.5-1.5zm0 6c0-.828.666-1.5 1.5-1.5.828 0 1.5.666 1.5 1.5 0 .828-.666 1.5-1.5 1.5-.828 0-1.5-.666-1.5-1.5z\" fill=\"#454545\" fill-rule=\"evenodd\"/></svg>"
+
+/***/ }),
+/* 528 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_engine_src_view_observer_clickobserver__ = __webpack_require__(529);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_ui_src_panel_balloon_contextualballoon__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg__ = __webpack_require__(275);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_button_buttonview__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_model_element__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__eftouchengine__ = __webpack_require__(530);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ckeditor_ckeditor5_engine_src_view_attributeelement__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ckeditor_ckeditor5_engine_src_view_emptyelement__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_view_text__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_engine_src_view_containerelement__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_widget_src_widget__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_widget_src_utils__ = __webpack_require__(75);
+
+
+
+// import EftouchFormView from './ui/eftouchformview';
+
+
+
+
+
+
+
+
+
+
+
+
+
+const EFTOUCH = 'eftouch';
+
+/**
+ * The image plugin.
+ *
+ * Uses the {@link module:image/image/imageengine~ImageEngine}.
+ *
+ * @extends module:core/plugin~Plugin
+ */
+class Eftouch extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__["a" /* default */] {
+
+  /**
+   * @inheritDoc
+   */
+  static get requires() {
+    return [ __WEBPACK_IMPORTED_MODULE_8__eftouchengine__["a" /* default */], __WEBPACK_IMPORTED_MODULE_13__ckeditor_ckeditor5_widget_src_widget__["a" /* default */] ];
+  }
+
+  static get pluginName() {
+    return 'Eftouch';
+  }
+
+  init() {
+    console.log("Eftouch plugin")
+    const editor = this.editor;
+    const doc = editor.document;
+    const viewDocument = editor.editing.view;
+    const schema = doc.schema;
+    const data = editor.data;
+    const editing = editor.editing;
+    const t = editor.t;
+
+    schema.registerItem( 'eftouch' );
+    schema.allow( { name: 'eftouch', inside: '$root' } );
+    // schema.allow( { name: '$block', inside: 'eftouch' } );
+    // schema.allow( { name: 'image', inside: 'eftouch' } );
+    schema.objects.add( 'eftouch' );
+
+    const command = editor.commands.get( 'eftouch' );
+    const keystroke = 'CTRL+E';
+
+    // Add eftouch button to feature components.
+    editor.ui.componentFactory.add( 'eftouch', locale => {
+      const view = new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_button_buttonview__["a" /* default */]( locale );
+
+      view.set( {
+        label: t( 'Eftouch' ),
+        icon: __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_core_theme_icons_picker_svg___default.a,
+        keystroke,
+        tooltip: true
+      } );
+
+      view.bind( 'isOn', 'isEnabled' ).to( command, 'value', 'isEnabled' );
+
+      // Execute command.
+      this.listenTo( view, 'execute', () => {
+        const imageUrl = prompt( 'Sound URL' );
+        const modelItem = data.item;
+        // editor.data.addProp()
+
+        // const blocks = Array.from( doc.selection.getSelectedBlocks() )
+        //   // .filter( block => checkCanBecomeListItem( block, document.schema ) );
+        // const batch = doc.batch();
+        //
+        // for ( const element of blocks.reverse() ) {
+        //   console.log("element.name: " + element.name)
+        //   batch.setAttribute(element, 'imageUrl', imageUrl)
+        //     // .rename(element, 'eftouch');
+        // }
+        // const imageUrl = "hey"
+        const attrs = { 'intro-src': imageUrl, class: 'image'}
+        // const element = new ViewContainerElement( 'eftouch', attrs );
+        // const element = new ViewAttributeElement( 'eftouch', attrs );
+        // const element = new ViewAttributeElement( 'figure', attrs, new ViewEmptyElement( 'img' ) );
+        const element = new __WEBPACK_IMPORTED_MODULE_12__ckeditor_ckeditor5_engine_src_view_containerelement__["a" /* default */]( 'figure', { class: 'eftouch' }, new __WEBPACK_IMPORTED_MODULE_11__ckeditor_ckeditor5_engine_src_view_text__["a" /* default */]( 'widget' ) );
+
+        // Build converter from model to view for data and editing pipelines.
+        // buildModelConverter().for( data.modelToView, editing.modelToView )
+        Object(__WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__["a" /* default */])().for( editing.modelToView )
+          .fromAttribute( EFTOUCH )
+          // .toElement( 'eftouch' );
+          // .toElement( element );
+          // .toElement( 'blockquote' );
+          .toElement( () => {
+            return Object(__WEBPACK_IMPORTED_MODULE_14__ckeditor_ckeditor5_widget_src_utils__["d" /* toWidget */])( element );
+          });
+
+        // Build converter from view to model for data pipeline.
+        // .fromElement( 'eftouch' )
+        // .toAttribute( EFTOUCH, true );
+        Object(__WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__["a" /* default */])().for( data.viewToModel )
+          .fromElement( 'figure' )
+          .toElement( () => new __WEBPACK_IMPORTED_MODULE_7__ckeditor_ckeditor5_engine_src_model_element__["a" /* default */]( 'eftouch' ) );
+        editor.execute( 'eftouch' )
+      } );
+
+      return view;
+    } );
+  }
+
+
+  /**
+   * Helper method for initializing a button and linking it with an appropriate command.
+   *
+   * @private
+   * @param {String} commandName The name of the command.
+   * @param {Object} label The button label.
+   * @param {String} icon The source of the icon.
+   */
+  _addButton( commandName, label, icon ) {
+    const editor = this.editor;
+    const command = editor.commands.get( commandName );
+
+    editor.ui.componentFactory.add( commandName, locale => {
+      const buttonView = new __WEBPACK_IMPORTED_MODULE_6__ckeditor_ckeditor5_ui_src_button_buttonview__["a" /* default */]( locale );
+
+      buttonView.set( {
+        label,
+        icon,
+        tooltip: true
+      } );
+
+      // Bind button model to command.
+      buttonView.bind( 'isOn', 'isEnabled' ).to( command, 'value', 'isEnabled' );
+
+      // Execute command.
+      this.listenTo( buttonView, 'execute', () => editor.execute( commandName ) );
+
+      return buttonView;
+    } );
+  }
+
+  //
+  // _createForm() {
+  //   const editor = this.editor;
+  //   const formView = new LinkFormView( editor.locale );
+  //   const linkCommand = editor.commands.get( 'link' );
+  //   const unlinkCommand = editor.commands.get( 'unlink' );
+  //
+  //   formView.urlInputView.bind( 'value' ).to( linkCommand, 'value' );
+  //
+  //   // Form elements should be read-only when corresponding commands are disabled.
+  //   formView.urlInputView.bind( 'isReadOnly' ).to( linkCommand, 'isEnabled', value => !value );
+  //   formView.saveButtonView.bind( 'isEnabled' ).to( linkCommand );
+  //   formView.unlinkButtonView.bind( 'isEnabled' ).to( unlinkCommand );
+  //
+  //   // Execute link command after clicking on formView `Save` button.
+  //   this.listenTo( formView, 'submit', () => {
+  //     editor.execute( 'link', formView.urlInputView.inputView.element.value );
+  //     this._hidePanel( true );
+  //   } );
+  //
+  //   // Execute unlink command after clicking on formView `Unlink` button.
+  //   this.listenTo( formView, 'unlink', () => {
+  //     editor.execute( 'unlink' );
+  //     this._hidePanel( true );
+  //   } );
+  //
+  //   // Hide the panel after clicking on formView `Cancel` button.
+  //   this.listenTo( formView, 'cancel', () => this._hidePanel( true ) );
+  //
+  //   // Close the panel on esc key press when the form has focus.
+  //   formView.keystrokes.set( 'Esc', ( data, cancel ) => {
+  //     this._hidePanel( true );
+  //     cancel();
+  //   } );
+  //
+  //   return formView;
+  // }
+
+}
+/* unused harmony export default */
+
+
+/***/ }),
+/* 529 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__domeventobserver__ = __webpack_require__(73);
+/**
+ * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md.
+ */
+
+/**
+ * @module engine/view/observer/clickobserver
+ */
+
+
+
+/**
+ * {@link module:engine/view/document~Document#event:click Click} event observer.
+ *
+ * Note that this observer is not available by default. To make it available it needs to be added to
+ * {@link module:engine/view/document~Document}
+ * by a {@link module:engine/view/document~Document#addObserver} method.
+ *
+ * @extends module:engine/view/observer/domeventobserver~DomEventObserver
+ */
+class ClickObserver extends __WEBPACK_IMPORTED_MODULE_0__domeventobserver__["a" /* default */] {
+	constructor( document ) {
+		super( document );
+
+		this.domEventType = 'click';
+	}
+
+	onDomEvent( domEvent ) {
+		this.fire( domEvent.type, domEvent );
+	}
+}
+/* unused harmony export default */
+
+
+/**
+ * Fired when one of the editables has been clicked.
+ *
+ * Introduced by {@link module:engine/view/observer/clickobserver~ClickObserver}.
+ *
+ * Note that this event is not available by default. To make it available
+ * {@link module:engine/view/observer/clickobserver~ClickObserver} needs to be added
+ * to {@link module:engine/view/document~Document} by a {@link module:engine/view/document~Document#addObserver} method.
+ *
+ * @see module:engine/view/observer/clickobserver~ClickObserver
+ * @event module:engine/view/document~Document#event:click
+ * @param {module:engine/view/observer/domeventdata~DomEventData} data Event data.
+ */
+
+
+/***/ }),
+/* 530 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_paragraph_src_paragraph__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ckeditor_ckeditor5_engine_src_conversion_buildmodelconverter__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ckeditor_ckeditor5_engine_src_conversion_buildviewconverter__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_basic_styles_src_attributecommand__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ckeditor_ckeditor5_engine_src_view_attributeelement__ = __webpack_require__(69);
+// import ListCommand from './listcommand';
+// import IndentCommand from './indentcommand';
+
+
+
+// import {
+//   cleanList,
+//   cleanListItem,
+//   modelViewInsertion,
+//   modelViewChangeType,
+//   modelViewMergeAfter,
+//   modelViewRemove,
+//   modelViewSplitOnInsert,
+//   modelViewChangeIndent,
+//   modelChangePostFixer,
+//   modelIndentPasteFixer,
+//   viewModelConverter,
+//   modelToViewPosition,
+//   viewToModelPosition
+// } from './converters';
+
+
+
+
+// import ViewContainerElement from '@ckeditor/ckeditor5-engine/src/view/containerelement';
+
+
+const EFTOUCH = 'eftouch';
+
+class EftouchEngine extends __WEBPACK_IMPORTED_MODULE_0__ckeditor_ckeditor5_core_src_plugin__["a" /* default */] {
+
+  /**
+   * @inheritDoc
+   */
+  static get requires() {
+    return [ __WEBPACK_IMPORTED_MODULE_1__ckeditor_ckeditor5_paragraph_src_paragraph__["a" /* default */] ];
+  }
+
+  /**
+   * @inheritDoc
+   */
+  init() {
+    // const editor = this.editor;
+    //
+    // // Schema.
+    // const schema = editor.document.schema;
+    // schema.registerItem( 'listItem', '$block' );
+    // schema.allow( {
+    //   name: 'listItem',
+    //   inside: '$root',
+    //   // attributes: [ 'introSrc', 'name','type', 'indent' ]
+    //   attributes: [ 'type', 'indent' ]
+    // } );
+    // // schema.requireAttributes( 'listItem', [ 'introSrc', 'name','type', 'indent' ] );
+    // schema.requireAttributes( 'listItem', [ 'type', 'indent' ] );
+    //
+    // // Converters.
+    // const data = editor.data;
+    // const editing = editor.editing;
+    //
+    // this.editor.document.on( 'change', modelChangePostFixer( this.editor.document ), { priority: 'high' } );
+    //
+    // // Unbind all moved model elements before conversion happens. This is important for converters.
+    // // TODO: fix this when changes are converted on `changesDone`.
+    // this.editor.document.on( 'change', ( evt, type, changes ) => {
+    //   if ( type == 'move' ) {
+    //     for ( const item of changes.range.getItems() ) {
+    //       if ( item.is( 'listItem' ) ) {
+    //         editing.mapper.unbindModelElement( item );
+    //       }
+    //     }
+    //   }
+    // }, { priority: 'high' } );
+    //
+    // editing.mapper.registerViewToModelLength( 'li', getViewListItemLength );
+    // data.mapper.registerViewToModelLength( 'li', getViewListItemLength );
+    //
+    // editing.mapper.on( 'modelToViewPosition', modelToViewPosition );
+    // editing.mapper.on( 'viewToModelPosition', viewToModelPosition );
+    // data.mapper.on( 'modelToViewPosition', modelToViewPosition );
+    //
+    // editing.modelToView.on( 'insert', modelViewSplitOnInsert, { priority: 'high' } );
+    // editing.modelToView.on( 'insert:listItem', modelViewInsertion );
+    // data.modelToView.on( 'insert', modelViewSplitOnInsert, { priority: 'high' } );
+    // data.modelToView.on( 'insert:listItem', modelViewInsertion );
+    //
+    // // // Only change converter is needed. List item's type attribute is required, so it's adding is handled when
+    // // // list item is added and you cannot remove it.
+    // // editing.modelToView.on( 'changeAttribute:type:listItem', modelViewChangeType );
+    // // data.modelToView.on( 'changeAttribute:type:listItem', modelViewChangeType );
+    // //
+    // // editing.modelToView.on( 'remove:listItem', modelViewRemove );
+    // // editing.modelToView.on( 'remove', modelViewMergeAfter, { priority: 'low' } );
+    // // data.modelToView.on( 'remove:listItem', modelViewRemove );
+    // // data.modelToView.on( 'remove', modelViewMergeAfter, { priority: 'low' } );
+    // //
+    // // editing.modelToView.on( 'changeAttribute:indent:listItem', modelViewChangeIndent );
+    // // data.modelToView.on( 'changeAttribute:indent:listItem', modelViewChangeIndent );
+    // //
+    // // data.viewToModel.on( 'element:ul', cleanList, { priority: 'high' } );
+    // // data.viewToModel.on( 'element:ol', cleanList, { priority: 'high' } );
+    // // data.viewToModel.on( 'element:li', cleanListItem, { priority: 'high' } );
+    // // data.viewToModel.on( 'element:li', viewModelConverter );
+    // //
+    // // // Fix indentation of pasted items.
+    // // data.on( 'insertContent', modelIndentPasteFixer, { priority: 'high' } );
+    //
+    // // Register commands for numbered and bulleted list.
+    // editor.commands.add( 'numberedList', new ListCommand( editor, 'numbered' ) );
+    // // editor.commands.add( 'bulletedList', new ListCommand( editor, 'bulleted' ) );
+    // editor.commands.add( 'insertEftouch', new ListCommand( editor, 'bulleted' ) );
+    //
+    // // // Register commands for indenting.
+    // // editor.commands.add( 'indentList', new IndentCommand( editor, 'forward' ) );
+    // // editor.commands.add( 'outdentList', new IndentCommand( editor, 'backward' ) );
+
+    const editor = this.editor;
+    const data = editor.data;
+    const editing = editor.editing;
+
+    // Allow bold attribute on all inline nodes.
+    editor.document.schema.allow( { name: '$inline', attributes: EFTOUCH, inside: '$block' } );
+    // Temporary workaround. See https://github.com/ckeditor/ckeditor5/issues/477.
+    editor.document.schema.allow( { name: '$inline', attributes: EFTOUCH, inside: '$clipboardHolder' } );
+
+    // Build converter from model to view for data and editing pipelines.
+    const modelItem = data.item;
+    // const imageUrl = modelItem.getAttribute('imageUrl')
+    // const imageUrl = "hey"
+    // const attrs = { 'imageUrl': imageUrl}
+    // // const element = new ViewContainerElement( 'eftouch', attrs );
+    // const element = new ViewAttributeElement( 'eftouch', attrs );
+    //
+    // buildModelConverter().for( data.modelToView, editing.modelToView )
+    //   .fromAttribute( EFTOUCH )
+    //   // .toElement( 'eftouch' );
+    //   .toElement( element );
+
+    // // Build converter from view to model for data pipeline.
+    // buildViewConverter().for( data.viewToModel )
+    //   .fromElement( 'eftouch' )
+    //   // .fromAttribute( 'style', { 'font-weight': 'bold' } )
+    //   .toAttribute( EFTOUCH, true );
+
+    // Create bold command.
+    editor.commands.add( EFTOUCH, new __WEBPACK_IMPORTED_MODULE_4__ckeditor_ckeditor5_basic_styles_src_attributecommand__["a" /* default */]( editor, EFTOUCH ) );
+  }
+}
+/* harmony export (immutable) */ __webpack_exports__["a"] = EftouchEngine;
+
+
+function getViewListItemLength( element ) {
+  let length = 1;
+
+  for ( const child of element.getChildren() ) {
+    if ( child.name == 'ul' || child.name == 'ol' ) {
+      for ( const item of child.getChildren() ) {
+        length += getViewListItemLength( item );
+      }
+    }
+  }
+
+  return length;
+}
+
 
 /***/ })
 /******/ ]);
